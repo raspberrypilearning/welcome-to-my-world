@@ -1,7 +1,6 @@
 ## Your idea
 
-Use this step to plan your ... . You can plan by just thinking; tinkering; drawing or writing; or however you like! 
-
+Use this step to plan your virtual environment. 
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png)
 
 ### Why are you making ... ?

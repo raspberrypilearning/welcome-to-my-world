@@ -1,16 +1,19 @@
 ## Introduction
 
-You are going to create ... Your ... will need to meet the **project brief**.
+You are going to create a 2.5D game or what is sometimes called a first person view (FPV) game . Your game will need to meet the **project brief**.
 
-<mark>this particular boxout optional: maybe a good idea if first path</mark>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">project brief</span> describes what a project must do. It's a bit like being given a mission to complete.
+A <span style="color: #0faeb0">2.5D</span> games use tricks to make a two dimensional scene have the appearance of being three dimensional.
+</p>
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+A <span style="color: #0faeb0">FPV</span> games mimic a real 3D environment, so that you view the virtual world from the perspective of the playing character in the game.
 </p>
 
 You will:
-+ 
-+ 
-+ 
++ Make a 2.5D scene
++ Use `My Blocks`{:class='block3myblocks'} and `clones`{:class='block3events'} to generate the scene.
++ Understand how the size and coordinates of a sprite can effect its perspective
 
 --- no-print ---
 --- task ---
@@ -20,14 +23,14 @@ You will:
 
 ### Try it
 
-Description of what to do or think about when looking at the example.
+Try and drive the car. You can speed up and slow down using the pedals on the left. You can change the radio station and the volume of the music. You can even push the horn to warn animals that are crossing the road.
 
 </div>
 <div>
 
-**Light the way home**: [See inside](https://scratch.mit.edu/projects/499860786/editor){:target="_blank"}
+**Light the way home**: [See inside](https://scratch.mit.edu/projects/548228231/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499860786/?autostart=false" frameborder="0"></iframe>
+ <iframe src="https://scratch.mit.edu/projects/548228231/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
 </div>
@@ -59,7 +62,7 @@ Your ... could:
 
 --- task ---
 
-Think about ... as you investigate these example projects to get more ideas:
+Think about the type of 2.5D scene you would like to create as you investigate these example projects to get more ideas:
 
 **Tickle monster**: [See inside](https://scratch.mit.edu/projects/500189097/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
