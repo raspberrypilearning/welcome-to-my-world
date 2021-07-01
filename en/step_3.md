@@ -10,6 +10,17 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 **DISCUSS WITH CAITLYN ALL THE INGREDIENTS WE THINK WE WILL NEED FOR THIS STEP**
 
+[[[scratch-scroll-a-backdrop]]]
+[[[scratch-scroll-a-sprite]]]
+[[[scratch-tablet-friendly-control]]]
+[[[scratch-using-my-blocks]]]
+[[[scratch-my-blocks-inputs]]]
+[[[scratch-animate-a-sprites-costume]]]
+[[[scratch-music-extension]]]
+[[[scratch-create-clones]]]
+[[[scratch-random-clones]]]
+
+
 Step content... 
 Can use:
 **Test:**
