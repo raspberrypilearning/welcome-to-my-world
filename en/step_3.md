@@ -8,32 +8,51 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 --- task ---
 
-**DISCUSS WITH CAITLYN ALL THE INGREDIENTS WE THINK WE WILL NEED FOR THIS STEP**
+Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
 
 [[[scratch-scroll-a-backdrop]]]
+
+--- /task ---
+
+--- task ---
+
+Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects or motion when they are interacted with? Will they scroll across the screen?
+
 [[[scratch-scroll-a-sprite]]]
+
+[[[scratch-change-sprite-on-click]]]
+
 [[[scratch-tablet-friendly-control]]]
-[[[scratch-using-my-blocks]]]
-[[[scratch-my-blocks-inputs]]]
+
 [[[scratch-animate-a-sprites-costume]]]
-[[[scratch-music-extension]]]
+--- /task ---
+
+--- task ---
+
+Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
+
 [[[scratch-create-clones]]]
+
 [[[scratch-random-clones]]]
 
-
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+--- /task ---
 
 --- task ---
 
+Will there be a musical or sound effect aspect to your simulation? Maybe there's back ground noise, or a sprite plays a tune when it is clicked on?
+
+[[[scratch-music-extension]]]
+
+
+--- /task ---
+
 --- task ---
 
-You have built up some really useful skills. Here is a reminder to help you make your ... : 
+Think about the organisation of your blocks, and the inputs that might be needed. Can you use `myblocks`{:class='block3myblocks'} to **optimise** your project?
 
-<mark> Ingredients or collapses </mark>
+[[[scratch-using-my-blocks]]]
+
+[[[scratch-my-blocks-inputs]]]
 
 --- /task ---
 
@@ -42,7 +61,7 @@ You have built up some really useful skills. Here is a reminder to help you make
 **Test:** Show someone else your project and get their feedback. Do you want make any changes to your book? 
 
 --- /task ---
-
+ 
 --- task ---
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
