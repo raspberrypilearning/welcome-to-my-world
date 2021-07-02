@@ -48,6 +48,7 @@ Use a notes app or pen and paper, or both to plan ideas for your simulation. Try
 --- task ---
 
 This simulation is going to need quite a few graphics. How will you get the images you need to build your project? You could:
+
 1. Use the sprites and backdrops that already exist in Scratch
 2. Use the tools in Scratch to draw your own sprites and backdrops
 3. Download images from websites and then upload them to Scratch.
@@ -61,6 +62,7 @@ Here are some ingredients that you might find useful
 [[[scratch3-copy-parts-between-sprite-costumes]]]
 
 [[[scratch3-backdrops-and-sprites-using-shapes]]]
+
 --- /task ---
 
 --- save ---

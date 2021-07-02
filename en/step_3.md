@@ -10,7 +10,75 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
 
-[[[scratch-scroll-a-backdrop]]]
+--- collapse ---
+---
+title: Scroll a backdrop
+---
+
+Really you're going to scroll a sprite, the image having been copied from a backdrop.
+
+--- task ---
+
+Add a backdrop to your stage
+
+--- /task ---
+
+--- task ---
+
+Click on the Backdrops menu and then use the copy tool at the top, to copy all the images.
+
+![copy tool highlighted in the tool bar](images/copy-backdrop.png)
+
+--- /task ---
+
+--- task ---
+
+Create a new sprite by selecting to paint a new one.
+
+![paint new sprite tool selected](images/paint-new-sprite.png)
+
+Then in the costumes tab, use the paste tool to paste in the backdrop images.
+
+![paste tool highlighted in the tool bar](images/paste-backdrop.png)
+
+Now delete the old backdrop.
+
+--- /task ---
+
+--- task ---
+
+Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
+
+--- /task ---
+
+--- task ---
+
+The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
+
+```blocks3
+when flag clicked
+go to x: (0) y: (0)
+create a clone of (myself v)
+set [scroll_x v] to (0)
+forever
+if <(mouse x) > (200)> then
+change [scroll_x v] by (5)
+end
+if <(mouse x) < (-200)> then
+change [scroll_x v] by (-5)
+end
+go to x: ((scroll_x v) mod (480)) y: (0)
+
+when I start as a clone
+forever
+go to x: ((scroll_x v) mod (-480)) y: (0)
+
+--- /task ---
+
+
+
+--- /collapse ---
+
 
 --- /task ---
 
