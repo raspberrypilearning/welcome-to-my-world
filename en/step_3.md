@@ -136,7 +136,9 @@ scratch-my-blocks-inputs
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
+
 Each debug in a collapse or ingredient
+
 --- /collapse ---
 
 You might find a bug not listed here. Can you figure out how to fix it?
