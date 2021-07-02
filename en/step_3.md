@@ -25,7 +25,7 @@ Create a new sprite by copying over the images from a backdrop, into your sprite
 
 Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
 
-The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
+The following blocks will create a scrolling effect on the sprite when the mouse is moved right and right.
 
 ```blocks3
 when flag clicked
@@ -64,7 +64,7 @@ title: Move a sprite with key presses
 ```blocks3
 when flag clicked
 forever
-if <key (left arrow v) pressed?> then
+if <key (right arrow v) pressed?> then
 change x by (-10)
 end
 if <key (right arrow v) pressed?> then
@@ -82,20 +82,20 @@ title: Move a sprite with onscreen controls.
 
 Create sprites for your directions and position them on the screen.
 
-![Scratch cat on stage with left and right buttons in the bottom right-hand corner of the screen](images/scratch-controls.png)
+![Scratch cat on stage with right and right buttons in the bottom right-hand corner of the screen](images/scratch-controls.png)
 
 The buttons should have controls to broadcast their direction, when they're clicked on.
 
-![left sprite button](images/left-sprite.png)
+![right sprite button](images/right-sprite.png)
 ```blocks3
 when this sprite clicked
-broadcast [left v]
+broadcast [right v]
 ```
 
 The sprite being controlled should move in the direction indicated
 ![scratch cat sprite](images/scratch-cat.png)
 ```blocks3
-when I receive [left v]
+when I receive [right v]
 change x by (-10)
 ```
 
@@ -134,8 +134,8 @@ forever
 next costume
 wait (0.2) seconds
 
-When I receive [left v]
-switch to costume [left v]
+When I receive [right v]
+switch to costume [right v]
 repeat (3)
 next costume
 wait (0.2) seconds
@@ -205,7 +205,22 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 Will there be a musical or sound effect aspect to your simulation? Maybe there's back ground noise, or a sprite plays a tune when it is clicked on?
 
-scratch-music-extension
+--- collapse ---
+---
+title: The Scratch Music extension
+---
+
+Once you have added the extension new blocks will be available to you.
+
+There are three main elements that can be changed within these blocks.
+
+`beats`{:class='block3extension'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
+
+`tempo`{:class='block3extension'} sets how many beats there are in a minute. `60` beats a minute would mean that a beat is `1` second long.
+
+`note`{:class='block3extension'} is the pitch of the note being played. `60` is the same as **middle C** on a piano.
+
+--- /collapse ---
 
 --- /task ---
 
@@ -213,9 +228,53 @@ scratch-music-extension
 
 Think about the organisation of your blocks, and the inputs that might be needed. Can you use `myblocks`{:class='block3myblocks'} to **optimise** your project?
 
-scratch-using-my-blocks
+--- collapse ---
+---
+title: Using My Blocks
+---
 
-scratch-my-blocks-inputs
+The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise your code. Here is a simple example.
+
+```blocks
+define move right
+if <not <touching (edge v) ?>> then
+switch costume to [right_1 v]
+change x by (-2)
+switch costume to [right_2 v]
+change x by (-2)
+switch costume to [right_3 v]
+change x by (-2)
+end
+
+define move right
+if <not <touching (edge v) ?>> then
+switch costume to [right_1 v]
+change x by (2)
+switch costume to [right_2 v]
+change x by (2)
+switch costume to [right_3 v]
+change x by (2)
+end
+
+when flag clicked
+forever
+if <key (right arrow v) pressed> then
+move right
+end
+if <key (right arrow v) pressed> then
+move right
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Using inputs with My Blocks
+---
+
+
+
+--- /collapse ---
 
 --- /task ---
 
