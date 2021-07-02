@@ -10,8 +10,6 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
 
---- /task ---
-
 --- collapse ---
 ---
 title: Scroll a backdrop
@@ -48,17 +46,64 @@ forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
 ```
 
+**Tip**: Instead of using the mouse position, you could use clicking on a button or pressing a key change the `scroll_x`{:class='block3variables'} variable.
+
 --- /collapse ---
+
+--- /task ---
 
 --- task ---
 
-Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects or motion when they are interacted with? Will they scroll across the screen?
+Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
+
+--- collapse ---
+---
+title: Move a sprite with key presses
+---
+
+```blocks3
+when flag clicked
+forever
+if <key (left arrow v) pressed?> then
+change x by (-10)
+end
+if <key (right arrow v) pressed?> then
+change x by (10)
+end
+```
+
+--- /collapse ---
+
+
+--- collapse ---
+---
+title: Move a sprite with onscreen controls.
+---
+
+Create sprites for your directions and position them on the screen.
+
+![Scratch cat on stage with left and right buttons in the bottom right-hand corner of the screen](images/scratch-controls.png)
+
+The buttons should have controls to broadcast their direction, when they're clicked on.
+
+![left sprite button](images/left-sprite.png)
+```blocks3
+when this sprite clicked
+broadcast [left v]
+```
+
+The sprite being controlled should move in the direction indicated
+![scratch cat sprite](images/scratch-cat.png)
+```blocks3
+when I receive [left v]
+change x by (-10)
+```
+
+--- /collapse ---
 
 scratch-scroll-a-sprite
 
 scratch-change-sprite-on-click
-
-scratch-tablet-friendly-control
 
 scratch-animate-a-sprites-costume
 
