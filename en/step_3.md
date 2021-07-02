@@ -50,7 +50,6 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- /collapse ---
 
-
 --- task ---
 
 Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects or motion when they are interacted with? Will they scroll across the screen?
@@ -80,7 +79,6 @@ scratch-random-clones
 Will there be a musical or sound effect aspect to your simulation? Maybe there's back ground noise, or a sprite plays a tune when it is clicked on?
 
 scratch-music-extension
-
 
 --- /task ---
 
