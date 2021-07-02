@@ -272,7 +272,23 @@ move right
 title: Using inputs with My Blocks
 ---
 
+My Blocks take text and number inputs as well.
 
+```blocks
+define move (direction) (speed)
+if <(direction) = [left]> then
+change x by ((-1) * (speed))
+end
+if <(direction) = [right]> then
+change x by ((1) * (speed))
+
+when flag clicked
+if <(mouse x) < (-200)> then
+move [left] (speed)
+end
+if <(mouse x) > (+200)> then
+move [right] (speed)
+```
 
 --- /collapse ---
 
