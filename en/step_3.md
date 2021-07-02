@@ -101,11 +101,51 @@ change x by (-10)
 
 --- /collapse ---
 
-scratch-scroll-a-sprite
+--- collapse ---
+---
+title: "Change a sprite when it's clicked"
+---
 
-scratch-change-sprite-on-click
+You can change the appearance and orientation of a sprite whenever it is clicked. Here are some code examples.
 
-scratch-animate-a-sprites-costume
+```blocks3
+when this sprite clicked
+switch costume to [costume 2 v]
+
+when this sprite clicked
+change [color v] effect by (25)
+
+when this sprite clicked
+turn cw (30) degrees
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Animate a sprite with costumes
+---
+
+There are several ways to animate a sprite using it's costumes. Here are a few examples.
+
+```blocks3
+when flag clicked
+forever
+next costume
+wait (0.2) seconds
+
+When I receive [left v]
+switch to costume [left v]
+repeat (3)
+next costume
+wait (0.2) seconds
+
+When this sprite clicked
+repeat (3)
+next costume)
+```
+
+--- /collapse ---
 
 --- /task ---
 
@@ -113,9 +153,51 @@ scratch-animate-a-sprites-costume
 
 Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
 
-scratch-create-clones
+--- collapse ---
+---
+title: Create clones of a sprite
+---
+Here are a few ways to make clones and delete them after different events.
 
-scratch-random-clones
+```blocks3
+when flag clicked
+repeat (20)
+create clone of (myself v)
+
+when flag clicked
+forever
+if touching (mouse-pointer v)> then
+create clone of (myself v)
+
+when I start as clone
+forever
+if touching (edge v) then
+delete this clone
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Randomise your clones
+---
+
+When a clone is created, it may need instructions on how to move, but you might want the different clones to behave slightly differently. You can use `random`{:class='block3operators'} blocks to do this.
+
+```blocks3
+when I start as clone
+point in direction (pick random (0) to (359))
+forever
+move (10) steps
+wait (0.1)
+if on edge, bounce
+
+when I start as clone
+forever
+glide (pick random (1) to (10)) secs to (mouse-pointer v)
+```
+
+--- /collapse ---
 
 --- /task ---
 
