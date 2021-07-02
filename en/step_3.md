@@ -86,22 +86,23 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects or motion when they are interacted with? Will they scroll across the screen?
 
-[[[scratch-scroll-a-sprite]]]
+scratch-scroll-a-sprite
 
-[[[scratch-change-sprite-on-click]]]
+scratch-change-sprite-on-click
 
-[[[scratch-tablet-friendly-control]]]
+scratch-tablet-friendly-control
 
-[[[scratch-animate-a-sprites-costume]]]
+scratch-animate-a-sprites-costume
+
 --- /task ---
 
 --- task ---
 
 Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
 
-[[[scratch-create-clones]]]
+scratch-create-clones
 
-[[[scratch-random-clones]]]
+scratch-random-clones
 
 --- /task ---
 
@@ -109,7 +110,7 @@ Will any of your sprites need to clone themselves? Will they produce many copies
 
 Will there be a musical or sound effect aspect to your simulation? Maybe there's back ground noise, or a sprite plays a tune when it is clicked on?
 
-[[[scratch-music-extension]]]
+scratch-music-extension
 
 
 --- /task ---
@@ -118,9 +119,9 @@ Will there be a musical or sound effect aspect to your simulation? Maybe there's
 
 Think about the organisation of your blocks, and the inputs that might be needed. Can you use `myblocks`{:class='block3myblocks'} to **optimise** your project?
 
-[[[scratch-using-my-blocks]]]
+scratch-using-my-blocks
 
-[[[scratch-my-blocks-inputs]]]
+scratch-my-blocks-inputs
 
 --- /task ---
 
