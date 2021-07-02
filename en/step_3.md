@@ -6,3 +6,9 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 **Tip**: Remember to test your project each time you add something. It is much easier to find and fix bugs before you make more changes.
 
+--- task ---
+
+Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
+
+--- /task ---
+
