@@ -63,3 +63,13 @@ scratch-tablet-friendly-control
 scratch-animate-a-sprites-costume
 
 --- /task ---
+
+--- task ---
+
+Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
+
+scratch-create-clones
+
+scratch-random-clones
+
+--- /task ---
