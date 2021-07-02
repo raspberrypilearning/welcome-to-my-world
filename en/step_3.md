@@ -77,12 +77,8 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- /task ---
 
-
-
 --- /collapse ---
 
-
---- /task ---
 
 --- task ---
 
