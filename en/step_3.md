@@ -49,3 +49,17 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 ```
 
 --- /collapse ---
+
+--- task ---
+
+Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects or motion when they are interacted with? Will they scroll across the screen?
+
+scratch-scroll-a-sprite
+
+scratch-change-sprite-on-click
+
+scratch-tablet-friendly-control
+
+scratch-animate-a-sprites-costume
+
+--- /task ---
