@@ -46,6 +46,7 @@ go to x: ((scroll_x v) mod (480)) y: (0)
 when I start as a clone
 forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
+```
 
 --- /collapse ---
 
