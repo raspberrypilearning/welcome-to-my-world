@@ -10,6 +10,8 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
 
+--- /task ---
+
 --- collapse ---
 ---
 title: Scroll a backdrop
