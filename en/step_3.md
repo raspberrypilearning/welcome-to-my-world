@@ -73,3 +73,21 @@ scratch-create-clones
 scratch-random-clones
 
 --- /task ---
+
+--- task ---
+
+Will there be a musical or sound effect aspect to your simulation? Maybe there's back ground noise, or a sprite plays a tune when it is clicked on?
+
+scratch-music-extension
+
+--- /task ---
+
+--- task ---
+
+Think about the organisation of your blocks, and the inputs that might be needed. Can you use `myblocks`{:class='block3myblocks'} to **optimise** your project?
+
+scratch-using-my-blocks
+
+scratch-my-blocks-inputs
+
+--- /task ---
