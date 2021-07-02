@@ -91,3 +91,9 @@ scratch-using-my-blocks
 scratch-my-blocks-inputs
 
 --- /task ---
+
+--- task ---
+
+**Test:** Show someone else your project and get their feedback. Do you want make any changes to your book? 
+
+--- /task ---
