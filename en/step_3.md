@@ -19,41 +19,13 @@ title: Scroll a backdrop
 
 Really you're going to scroll a sprite, the image having been copied from a backdrop.
 
---- task ---
-
-Add a backdrop to your stage
-
---- /task ---
-
---- task ---
-
-Click on the Backdrops menu and then use the copy tool at the top, to copy all the images.
-
-![copy tool highlighted in the tool bar](images/copy-backdrop.png)
-
---- /task ---
-
---- task ---
-
-Create a new sprite by selecting to paint a new one.
+Create a new sprite by copying over the images from a backdrop, into your sprite.
 
 ![paint new sprite tool selected](images/paint-new-sprite.png)
-
-Then in the costumes tab, use the paste tool to paste in the backdrop images.
-
+![copy tool highlighted in the tool bar](images/copy-backdrop.png)
 ![paste tool highlighted in the tool bar](images/paste-backdrop.png)
 
-Now delete the old backdrop.
-
---- /task ---
-
---- task ---
-
 Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
-
---- /task ---
-
---- task ---
 
 The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
 
@@ -74,8 +46,6 @@ go to x: ((scroll_x v) mod (480)) y: (0)
 when I start as a clone
 forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
-
---- /task ---
 
 --- /collapse ---
 
