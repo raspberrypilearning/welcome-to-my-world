@@ -1,6 +1,6 @@
 ## Introduction
 
-You are going to create a 2.5D game or what is sometimes called a first person view (FPV) game . Your game will need to meet the **project brief**.
+You are going to create a 2.5D game or what is sometimes called a first person view (FPV) game. Your game will need to meet the **project brief**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">2.5D</span> games use tricks to make a two dimensional scene have the appearance of being three dimensional.
@@ -28,7 +28,7 @@ Try and drive the car. You can speed up and slow down using the pedals on the le
 </div>
 <div>
 
-**Light the way home**: [See inside](https://scratch.mit.edu/projects/548228231/editor){:target="_blank"}
+**Driving simulator**: [See inside](https://scratch.mit.edu/projects/548228231/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
  <iframe src="https://scratch.mit.edu/projects/548228231/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
@@ -42,18 +42,19 @@ Try and drive the car. You can speed up and slow down using the pedals on the le
 
 <div style="border-top: 15px solid #f3524f; background-color: whitesmoke; margin-bottom: 20px; padding: 10px;">
 
-### PROJECT BRIEF: Project title
+### PROJECT BRIEF: 2.5D simulation
 <hr style="border-top: 2px solid black;">
 
-Brief explanation of aims of project. 
+You need to create a 2.5D simulation, that the user can interact with. The simulation will be from a First Person View, so that the user appears to be looking through the screen at the environment you've created.
 
-Your ... should:
-+ ...
-+ ...
+Your simulation should:
++ Use scrolling sprites to give the appearance of movement.
++ Use clones to generate copies of sprites.
++ Use My Blocks to keep your code organised and/or allow the use of inputs.
 
-Your ... could:
-+ ...
-+ ...
+Your simulation could:
++ Have an educational theme, to try and teach the user a skill.
++ Use sounds or music to make the simulation appear more realistic.
 </div>
 
 --- no-print ---
