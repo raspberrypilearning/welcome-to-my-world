@@ -30,7 +30,7 @@ The following blocks will create a scrolling effect on the sprite when the mouse
 ```blocks3
 when flag clicked
 go to x: (0) y: (0)
-create a clone of (myself v)
+create clone of (myself v)
 set [scroll_x v] to (0)
 forever
 if <(mouse x) > (200)> then
@@ -135,14 +135,14 @@ next costume
 wait (0.2) seconds
 
 When I receive [right v]
-switch to costume [right v]
+switch costume to [right v]
 repeat (3)
 next costume
 wait (0.2) seconds
 
 When this sprite clicked
 repeat (3)
-next costume)
+next costume
 ```
 
 --- /collapse ---
@@ -166,12 +166,12 @@ create clone of (myself v)
 
 when flag clicked
 forever
-if touching (mouse-pointer v)> then
+if <touching (mouse-pointer v)> then
 create clone of (myself v)
 
-when I start as clone
+when I start as a clone
 forever
-if touching (edge v) then
+if <touching (edge v)> then
 delete this clone
 ```
 
@@ -185,14 +185,14 @@ title: Randomise your clones
 When a clone is created, it may need instructions on how to move, but you might want the different clones to behave slightly differently. You can use `random`{:class='block3operators'} blocks to do this.
 
 ```blocks3
-when I start as clone
+when I start as a clone
 point in direction (pick random (0) to (359))
 forever
 move (10) steps
-wait (0.1)
+wait (0.1) seconds
 if on edge, bounce
 
-when I start as clone
+when I start as a clone
 forever
 glide (pick random (1) to (10)) secs to (mouse-pointer v)
 ```
@@ -214,11 +214,11 @@ Once you have added the extension new blocks will be available to you.
 
 There are three main elements that can be changed within these blocks.
 
-`beats`{:class='block3extension'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
+`beats`{:class='block3custom'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
 
-`tempo`{:class='block3extension'} sets how many beats there are in a minute. `60` beats a minute would mean that a beat is `1` second long.
+`tempo`{:class='block3custom'} sets how many beats there are in a minute. `60` beats a minute would mean that a beat is `1` second long.
 
-`note`{:class='block3extension'} is the pitch of the note being played. `60` is the same as **middle C** on a piano.
+`note`{:class='block3custom'} is the pitch of the note being played. `60` is the same as **middle C** on a piano.
 
 --- /collapse ---
 
@@ -235,7 +235,7 @@ title: Using My Blocks
 
 The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise your code. Here is a simple example.
 
-```blocks
+```blocks3
 define move right
 if <not <touching (edge v) ?>> then
 switch costume to [right_1 v]
@@ -274,7 +274,7 @@ title: Using inputs with My Blocks
 
 My Blocks take text and number inputs as well.
 
-```blocks
+```blocks3
 define move (direction) (speed)
 if <(direction) = [left]> then
 change x by ((-1) * (speed))

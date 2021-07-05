@@ -3,7 +3,7 @@
 You are going to create a 2.5D game or what is sometimes called a first person view (FPV) game. Your game will need to meet the **project brief**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">2.5D</span> games use tricks to make a two dimensional scene have the appearance of being three dimensional.
+A <span style="color: #0faeb0">2.5D</span> game uses tricks to make a two dimensional scene have the appearance of being three dimensional.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
@@ -23,7 +23,7 @@ You will:
 
 ### Try it
 
-Try and drive the car. You can speed up and slow down using the pedals on the left. You can change the radio station and the volume of the music. You can even push the horn to warn animals that are crossing the road.
+Try and drive the car. You can speed up and slow down using the pedals on the right. You can change the radio station and the volume of the music. You can even push the horn to warn animals that are crossing the road.
 
 </div>
 <div>
@@ -65,9 +65,9 @@ Your simulation could:
 
 Think about the type of 2.5D scene you would like to create as you investigate these example projects to get more ideas:
 
-**Tickle monster**: [See inside](https://scratch.mit.edu/projects/500189097/editor){:target="_blank"}
+**Avoid the birds**: [See inside](https://scratch.mit.edu/projects/29800696/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/500189097/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/29800696/?autostart=false" frameborder="0"></iframe>
 </div>
 
 **Scratch blends in**: [See inside](https://scratch.mit.edu/projects/498968472/editor){:target="_blank"}
