@@ -48,7 +48,7 @@ Try and drive the car. You can speed up and slow down using the pedals on the ri
 You need to create a 2.5D simulation, that the user can interact with. The simulation will be from a First Person View, so that the user appears to be looking through the screen at the environment you've created.
 
 Your simulation should:
-+ Use scrolling sprites to give the appearance of movement.
++ Use different sized sprites to represent the distance of the object from the viewer.
 + Use clones to generate copies of sprites.
 + Use My Blocks to keep your code organised and/or allow the use of inputs.
 
