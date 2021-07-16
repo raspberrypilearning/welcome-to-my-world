@@ -26,13 +26,8 @@ You will:
 Try and drive the car. You can speed up and slow down using the pedals on the right. You can change the radio station and the volume of the music. You can even push the horn to warn animals that are crossing the road.
 
 </div>
-<div>
-
-**Driving simulator**: [See inside](https://scratch.mit.edu/projects/548228231/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
  <iframe src="https://scratch.mit.edu/projects/548228231/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
-
 </div>
 </div>
 
@@ -70,15 +65,15 @@ Think about the type of 2.5D scene you would like to create as you investigate t
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/29800696/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Scratch blends in**: [See inside](https://scratch.mit.edu/projects/498968472/editor){:target="_blank"}
+**Driving simulator**: [See inside](https://scratch.mit.edu/projects/548228231/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/498968472/?autostart=false" frameborder="0"></iframe>
-</div>
+ <iframe src="https://scratch.mit.edu/projects/548228231/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ </div>
 
-**A debugging story**: [See inside](https://scratch.mit.edu/projects/498960446/editor){:target="_blank"}
+**Animal Eyes**: [See inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
 Click on the character and object to choose the ones you want in the story, then click on the Stage to turn the page.
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/498960446/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/553701588/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
