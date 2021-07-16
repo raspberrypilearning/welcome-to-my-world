@@ -2,52 +2,74 @@
 
 Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
 
-Does your ... have:
+Does your simulation:
 
 --- task ---
-something
---- /task ---
---- task ---
-something
---- /task ---
 
+Use different sized sprites to represent the distance of the object from the viewer.
 
-Your ... could also have:
-
---- task ---
-something
---- /task ---
---- task ---
-something
---- /task ---
-
-
-Reflecting about how you made your ... will help you in your future projects:
-
---- task ---
-How did you get your ideas? <mark>free text answer, 3 characters possibly</mark>
 --- /task ---
 
 --- task ---
-What cool new thing(s) did you learn? <mark>free text answer, 3 characters possibly</mark>
+
+Use clones to generate copies of sprites.
+
 --- /task ---
 
 --- task ---
-<mark> some ideas, delete as needed </mark> Mistakes are the "portals of discovery" (James Joyce, Ulysses). 
-The Nobel Prize-winning physicist Niels Bohr said, “An expert is a person who has made all the mistakes that can be made”.
-Mistakes are powerful.
-Mistakes are empowering. 
 
-What mistakes did you make and how did they help you create your ... <mark>free text answer, 3 characters possibly</mark>
+Use My Blocks to keep your code organised and/or allow the use of inputs.
+
 --- /task ---
 
-### Now you are (the author of a digital book)!
+Your simulation could also:
+
+--- task ---
+
+Have an educational theme, to try and teach the user a skill.
+
+--- /task ---
+
+--- task ---
+
+Use sounds or music to make the simulation appear more realistic.
+
+--- /task ---
+
+
+Reflecting about how you made your simulation will help you in your future projects:
+
+--- task ---
+
+How did you get your ideas? 
+
+--- /task ---
+
+--- task ---
+
+What cool new thing(s) did you learn?
+
+--- /task ---
+
+--- task ---
+
+A famous inventor called Thomas Edison was very used to making mistakes. He said:
+> I have not failed. I've just found 10,000 ways that won't work.
+and
+> Many of life's failures are people who did not realize how close they were to success when they gave up.
+
+Mistakes and failure are temporary. Keep going until you succeed.
+
+What mistakes did you make and how did they help you create your simulation or make it better?
+--- /task ---
+
+### Now you are the author of a virtual reality simulation!
 
 Take a moment to celebrate what you have made.
 
 --- task ---
 
-Where will you take your new powers? What will you make next? <mark>free text answer, 3 characters possibly</mark>
+Where will you take your new powers? What will you make next?
 
 --- /task ---
 
