@@ -65,9 +65,9 @@ Think about the type of 2.5D scene you would like to create as you investigate t
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933656/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Driving simulator**: [See inside](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
+**Driving simulator**: [See inside](https://scratch.mit.edu/projects/548228231/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
- <iframe src="https://scratch.mit.edu/projects/555933656/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ <iframe src="https://scratch.mit.edu/projects/548228231/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
  </div>
 
 **Soundscape**: [See inside](https://scratch.mit.edu/projects/555933631/editor){:target="_blank"}
