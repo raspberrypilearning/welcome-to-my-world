@@ -403,10 +403,53 @@ wait (0.2) secs
 
 --- collapse ---
 ---
-title: Debug
+title: My clones don't appear
 ---
 
+Are your clones hidden? Make sure that when the clones are created the `show`{:class='block3looks'} is being used. Also make sure that you have them on the `front layer`{:class='block3looks'}.
 
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My sprite doesn't move off the screen correctly
+---
+
+If you want a sprite to cycle from one side of the screen to another, or vanish when it gets to one side of the screen, then you can check it's position and perform some action. You might need to check where the centre of your sprite is, on it's costume, to make sure this works properly. It's easisest to drag the sprite to the side of the screen, and then check it's `x`{:class='block3motion'} and `y`{:class='block3motion'} position.
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My Blocks are not working
+---
+
+Have you checked that you are using your new block somewhere in your code. You can `define`{:class='block3myblocks'} a new block, but then you need to use it for the code beneath it to actually run.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My clones aren't doing anything
+---
+
+Are you using the `when I start as clone`{:class='block3control'} block, to tell the clone what to do?
+
+Do you have any conditions that might stop the clones from working? For instance, are they supposed to move until they touch the edge of the screen? If a clone is created at the edge of the screen, then they won't do anything.
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My sprites are moving in the wrong direction
+---
+
+Check that you are using the `change x by`{:class='block3motion'} block to move the sprites left and right, and the `change y by`{:class='block3motion'} block to move them up and down.
+
+Check whether you are using positive and negative numbers correctly, to increase or decrease `x`{:class='block3motion'} and `y`{:class='block3motion'}.
 
 --- /collapse ---
 
