@@ -51,16 +51,20 @@ What cool new thing(s) did you learn?
 
 --- /task ---
 
---- task ---
 
 A famous inventor called Thomas Edison was very used to making mistakes. He said:
 > I have not failed. I've just found 10,000 ways that won't work.
+
 and
+
 > Many of life's failures are people who did not realize how close they were to success when they gave up.
 
 Mistakes and failure are temporary. Keep going until you succeed.
 
+--- task ---
+
 What mistakes did you make and how did they help you create your simulation or make it better?
+
 --- /task ---
 
 ### Now you are the author of a virtual reality simulation!
