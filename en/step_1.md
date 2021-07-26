@@ -1,6 +1,6 @@
 ## Introduction
 
-You are going to create a 2.5D game or what is sometimes called a first person view (FPV) game. Your game will need to meet the **project brief**.
+You are going to create a 2.5D scene or what is sometimes called a first person view (FPV) scene. Your game will need to meet the **project brief**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">2.5D</span> game uses tricks to make a two dimensional scene have the appearance of being three dimensional.
@@ -60,28 +60,25 @@ Your simulation could:
 
 Think about the type of 2.5D scene you would like to create as you investigate these example projects to get more ideas:
 
-**Avoid the birds**: [See inside](https://scratch.mit.edu/projects/29800696/editor){:target="_blank"}
+**Downpours**: [See inside](https://scratch.mit.edu/projects/29800696/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/29800696/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Driving simulator**: [See inside](https://scratch.mit.edu/projects/548228231/editor){:target="_blank"}
+**Driving simulator**: [See inside](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
- <iframe src="https://scratch.mit.edu/projects/548228231/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ <iframe src="https://scratch.mit.edu/projects/555933656/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
  </div>
 
-**Animal Eyes**: [See inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
+**Soundscape**: [See inside](https://scratch.mit.edu/projects/555933631/editor){:target="_blank"}
 Click on the character and object to choose the ones you want in the story, then click on the Stage to turn the page.
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/553701588/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933631/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /task ---
 
 --- /no-print ---
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
 
 

@@ -147,6 +147,22 @@ next costume
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Change the layer of a sprite
+---
+
+Sprites that you are using as backdrops need to be on the back layer. Sprites that you want in the foreground need to be on the top layer. You can set the layer of a sprite or it's clone.
+
+```blocks3
+when flag clicked
+go to [back v] layer
+
+when I start as a clone
+go to [front v] layer
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -199,6 +215,32 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Events to create a clone
+---
+
+Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite, everytime it is clicked upon.
+
+```blocks3
+when this sprite clicked
+create clone of [myself v]
+```
+
+You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse pointers location. Clones can appear in any location you like however, so you might like them to go to a specific sprite.
+
+```blocks3
+when flag clicked
+forever
+if <mouse down?> then
+create clone of [myself v]
+
+when I start as a clone
+go to x: (mouse x) y: (mouse y)
+```
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -222,7 +264,39 @@ There are three main elements that can be changed within these blocks.
 
 --- /collapse ---
 
+[[[generic-scratch-sound-from-library]]]
+
+[[[scratch3-record-sound]]]
+
+[[[scratch3-sound-effects]]]
+
+[[[scratch3-reverse-sound]]]
+
+[[[scratch3-crop-sound]]]
+
 --- /task ---
+
+--- task ---
+
+Will you need your sprites to keep repeating an action, until some condition has been met? You can use `repeat until`{:class='block3control'} blocks to do this.
+
+--- collapse ---
+---
+title: Using `repeat until`{:class='block3control'} blocks
+---
+
+Here is a set of blocks that will keep a sprite moving, until it's `y`{:class='block3motion'} position reaches `-250`.
+
+```blocks3
+when flag clicked
+repeat until <(y position) < [-250]>
+change y by (-10)
+```
+
+--- /collapse ---
+
+--- /task ---
+
 
 --- task ---
 
@@ -230,7 +304,7 @@ Think about the organisation of your blocks, and the inputs that might be needed
 
 --- collapse ---
 ---
-title: Using My Blocks
+title: Use My Blocks to organise code
 ---
 
 The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise your code. Here is a simple example.
@@ -239,21 +313,21 @@ The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise
 define move right
 if <not <touching (edge v) ?>> then
 switch costume to [right_1 v]
-change x by (-2)
+change x by (2)
 switch costume to [right_2 v]
-change x by (-2)
+change x by (2)
 switch costume to [right_3 v]
-change x by (-2)
+change x by (2)
 end
 
-define move right
+define move left
 if <not <touching (edge v) ?>> then
-switch costume to [right_1 v]
-change x by (2)
-switch costume to [right_2 v]
-change x by (2)
-switch costume to [right_3 v]
-change x by (2)
+switch costume to [left_1 v]
+change x by (-2)
+switch costume to [left_2 v]
+change x by (-2)
+switch costume to [left_3 v]
+change x by (-2)
 end
 
 when flag clicked
@@ -261,8 +335,8 @@ forever
 if <key (right arrow v) pressed> then
 move right
 end
-if <key (right arrow v) pressed> then
-move right
+if <key (left arrow v) pressed> then
+move left
 ```
 
 --- /collapse ---
@@ -293,6 +367,29 @@ move [right] (speed)
 --- /collapse ---
 
 --- /task ---
+
+--- task ---
+
+Key to most 2.5D scenes, is changing the size of a sprite, to give the impression that it is further away.
+
+--- collapse ---
+---
+title: Changing sprite sizes relative to position
+---
+
+The following blocks will make a sprite smaller, as it moves up the screen, and therefore appear further away
+
+```blocks
+when flag clicked
+forever
+change y by (10)
+change size by (-3)
+wait (0.2) secs
+
+--- /collapse ---
+
+--- /task ---
+
 
 --- task ---
 

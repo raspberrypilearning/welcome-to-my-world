@@ -10,9 +10,9 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 Think about the simulation you want to create, and how the user will interact with the project.
 
 It could be:
-- A nature simulation
-- A room in a house
-- A vehicle simulator
+- A nature simulation with on screen controls to move around the scene.
+- A room in a house where different sprites, such as a TV, can be clicked to make them work.
+- A vehicle simulator with a steering wheel, pedals and a gearstick.
 
 
 --- /task ---
@@ -56,8 +56,6 @@ This simulation is going to need quite a few graphics. How will you get the imag
 Here are some ingredients that you might find useful
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
-
-[[[scratch3-backdrops-and-sprites-using-shapes]]]
 
 [[[scratch3-copy-parts-between-sprite-costumes]]]
 
