@@ -60,9 +60,9 @@ Your simulation could:
 
 Think about the type of 2.5D scene you would like to create as you investigate these example projects to get more ideas:
 
-**Downpours**: [See inside](https://scratch.mit.edu/projects/29800696/editor){:target="_blank"}
+**Downpours**: [See inside](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/29800696/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933656/?autostart=false" frameborder="0"></iframe>
 </div>
 
 **Driving simulator**: [See inside](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}

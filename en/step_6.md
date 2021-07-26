@@ -67,7 +67,7 @@ What mistakes did you make and how did they help you create your simulation or m
 
 --- /task ---
 
-### Now you are the author of a virtual reality simulation!
+### Now you are the author of a Welcome to my world!
 
 Take a moment to celebrate what you have made.
 
