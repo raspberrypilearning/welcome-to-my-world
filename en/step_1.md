@@ -3,16 +3,16 @@
 You are going to create a 2.5D scene or what is sometimes called a first person view (FPV) scene. Your game will need to meet the **project brief**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">2.5D</span> game uses tricks to make a two dimensional scene have the appearance of being three dimensional.
+A <span style="color: #0faeb0">2.5D</span> game uses tricks to make a two-dimensional scene have the appearance of being three dimensional.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">FPV</span> games mimic a real 3D environment, so that you view the virtual world from the perspective of the playing character in the game.
+A <span style="color: #0faeb0">FPV</span> game mimics a real 3D environment, so that you view the virtual world from the perspective of the playing character in the game.
 </p>
 
 You will:
 + Make a 2.5D scene
-+ Use `My Blocks`{:class='block3myblocks'} and `clones`{:class='block3events'} to generate the scene.
++ Use `My Blocks`{:class='block3myblocks'} and `clones`{:class='block3events'} to generate the scene
 + Understand how the size and coordinates of a sprite can effect its perspective
 
 --- no-print ---
@@ -40,16 +40,16 @@ Try and drive the car. You can speed up and slow down using the pedals on the ri
 ### PROJECT BRIEF: 2.5D simulation
 <hr style="border-top: 2px solid black;">
 
-You need to create a 2.5D simulation, that the user can interact with. The simulation will be from a First Person View, so that the user appears to be looking through the screen at the environment you've created.
+You need to create a 2.5D simulation that the user can interact with. The simulation will be from a first person view, so that the user appears to be looking through the screen at the environment you've created.
 
 Your simulation should:
-+ Use different sized sprites to represent the distance of the object from the viewer.
-+ Use clones to generate copies of sprites.
-+ Use My Blocks to keep your code organised and/or allow the use of inputs.
++ Use different sized sprites to represent the distance of the object from the viewer
++ Use clones to generate copies of sprites
++ Use `My Blocks`{:class='block3myblocks'} to keep your code organised and/or allow the use of inputs
 
 Your simulation could:
-+ Have an educational theme, to try and teach the user a skill.
-+ Use sounds or music to make the simulation appear more realistic.
++ Have an educational theme, to try and teach the user a skill
++ Use sounds or music to make the simulation appear more realistic
 </div>
 
 --- no-print ---
@@ -60,17 +60,17 @@ Your simulation could:
 
 Think about the type of 2.5D scene you would like to create as you investigate these example projects to get more ideas:
 
-**Downpours**: [See inside](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
+**Downpours:** [See inside](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933656/?autostart=false" frameborder="0"></iframe>
 </div>
 
-**Animal eyes**: [See inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
+**Animal eyes:** [See inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
  <iframe src="https://scratch.mit.edu/projects/553701588/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
  </div>
 
-**Soundscape**: [See inside](https://scratch.mit.edu/projects/555933631/editor){:target="_blank"}
+**Soundscape:** [See inside](https://scratch.mit.edu/projects/555933631/editor){:target="_blank"}
 Click on the character and object to choose the ones you want in the story, then click on the Stage to turn the page.
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933631/?autostart=false" frameborder="0"></iframe>
