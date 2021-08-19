@@ -2,7 +2,7 @@
 
 Now it's time to make your simulation. Start with thinking about the background to your simulation. Will it scroll, or will it be static?
 
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png)
+![Image, gif, or video showing what they will achieve by the end of the step.](images/image.png)
 
 **Tip**: Remember to test your project each time you add something. It is much easier to find and fix bugs before you make more changes.
 
@@ -15,17 +15,17 @@ Choose a backdrop to use for your simulation. The backdrop could remain still, o
 title: Scroll a backdrop
 ---
 
-Really you're going to scroll a sprite, the image having been copied from a backdrop.
+Really, you're going to scroll a sprite, which you have created by copying a backdrop.
 
-Create a new sprite by copying over the images from a backdrop, into your sprite.
+Create a new sprite by copying the images from a backdrop, into your sprite.
 
-![paint new sprite tool selected](images/paint-new-sprite.png)
-![copy tool highlighted in the tool bar](images/copy-backdrop.png)
-![paste tool highlighted in the tool bar](images/paste-backdrop.png)
+![Paint new sprite tool selected.](images/paint-new-sprite.png)
+![Copy tool highlighted in the tool bar.](images/copy-backdrop.png)
+![Paste tool highlighted in the tool bar.](images/paste-backdrop.png)
 
 Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
 
-The following blocks will create a scrolling effect on the sprite when the mouse is moved right and right.
+The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
 
 ```blocks3
 when flag clicked
@@ -46,7 +46,7 @@ forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
 ```
 
-**Tip**: Instead of using the mouse position, you could use clicking on a button or pressing a key change the `scroll_x`{:class='block3variables'} variable.
+**Tip:** Instead of using the mouse position, you could use clicking on a button or pressing a key to change the `scroll_x`{:class='block3variables'} variable.
 
 --- /collapse ---
 
@@ -54,7 +54,7 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- task ---
 
-Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
+Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects, or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
 
 --- collapse ---
 ---
@@ -64,7 +64,7 @@ title: Move a sprite with key presses
 ```blocks3
 when flag clicked
 forever
-if <key (right arrow v) pressed?> then
+if <key (left arrow v) pressed?> then
 change x by (-10)
 end
 if <key (right arrow v) pressed?> then
@@ -77,25 +77,25 @@ end
 
 --- collapse ---
 ---
-title: Move a sprite with onscreen controls.
+title: Move a sprite with on-screen controls
 ---
 
 Create sprites for your directions and position them on the screen.
 
-![Scratch cat on stage with right and right buttons in the bottom right-hand corner of the screen](images/scratch-controls.png)
+![Scratch cat on the Stage with right and left buttons in the bottom right-hand corner of the screen.](images/scratch-controls.png)
 
 The buttons should have controls to broadcast their direction, when they're clicked on.
 
-![right sprite button](images/right-sprite.png)
+![Right sprite button.](images/right-sprite.png)
 ```blocks3
 when this sprite clicked
 broadcast [right v]
 ```
 
-The sprite being controlled should move in the direction indicated
-![scratch cat sprite](images/scratch-cat.png)
+The sprite being controlled should move in the direction indicated.
+![Scratch Cat sprite.](images/scratch-cat.png)
 ```blocks3
-when I receive [right v]
+when I receive [left v]
 change x by (-10)
 ```
 
@@ -103,7 +103,7 @@ change x by (-10)
 
 --- collapse ---
 ---
-title: "Change a sprite when it's clicked"
+title: Change a sprite when it's clicked
 ---
 
 You can change the appearance and orientation of a sprite whenever it is clicked. Here are some code examples.
@@ -126,7 +126,7 @@ turn cw (30) degrees
 title: Animate a sprite with costumes
 ---
 
-There are several ways to animate a sprite using it's costumes. Here are a few examples.
+There are several ways to animate a sprite using its costumes. Here are a few examples.
 
 ```blocks3
 when flag clicked
@@ -152,7 +152,7 @@ next costume
 title: Change the layer of a sprite
 ---
 
-Sprites that you are using as backdrops need to be on the back layer. Sprites that you want in the foreground need to be on the top layer. You can set the layer of a sprite or it's clone.
+Sprites that you are using as backdrops need to be on the back layer. Sprites that you want in the foreground need to be on the top layer. You can set the layer of a sprite or its clone.
 
 ```blocks3
 when flag clicked
@@ -160,6 +160,7 @@ go to [back v] layer
 
 when I start as a clone
 go to [front v] layer
+```
 
 --- /collapse ---
 
@@ -220,14 +221,14 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 title: Events to create a clone
 ---
 
-Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite, everytime it is clicked upon.
+Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite everytime it is clicked upon.
 
 ```blocks3
 when this sprite clicked
 create clone of [myself v]
 ```
 
-You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse pointers location. Clones can appear in any location you like however, so you might like them to go to a specific sprite.
+You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse-pointer's location. Clones can appear in any location you like, so you might like them to go to a specific sprite.
 
 ```blocks3
 when flag clicked
@@ -245,22 +246,22 @@ go to x: (mouse x) y: (mouse y)
 
 --- task ---
 
-Will there be a musical or sound effect aspect to your simulation? Maybe there's back ground noise, or a sprite plays a tune when it is clicked on?
+Will there be a musical or sound effect aspect to your simulation? Maybe there's background noise, or a sprite plays a tune when it is clicked?
 
 --- collapse ---
 ---
-title: The Scratch Music extension
+title: The Scratch music extension
 ---
 
-Once you have added the extension new blocks will be available to you.
+Once you have added the extension, new blocks will be available to you.
 
 There are three main elements that can be changed within these blocks.
 
-`beats`{:class='block3custom'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
+- `beats`{:class='block3custom'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
 
-`tempo`{:class='block3custom'} sets how many beats there are in a minute. `60` beats a minute would mean that a beat is `1` second long.
+- `tempo`{:class='block3custom'} sets how many beats there are in a minute: `60` beats a minute would mean that a beat is `1` second long.
 
-`note`{:class='block3custom'} is the pitch of the note being played. `60` is the same as **middle C** on a piano.
+- `note`{:class='block3custom'} is the pitch of the note being played: `60` is the same as **middle C** on a piano.
 
 --- /collapse ---
 
@@ -278,14 +279,14 @@ There are three main elements that can be changed within these blocks.
 
 --- task ---
 
-Will you need your sprites to keep repeating an action, until some condition has been met? You can use `repeat until`{:class='block3control'} blocks to do this.
+Do you want your sprites to keep repeating an action, until some condition has been met? You can use `repeat until`{:class='block3control'} blocks to do this.
 
 --- collapse ---
 ---
 title: Using `repeat until`{:class='block3control'} blocks
 ---
 
-Here is a set of blocks that will keep a sprite moving, until it's `y`{:class='block3motion'} position reaches `-250`.
+Here is a set of blocks that will keep a sprite moving, until its `y`{:class='block3motion'} position reaches `-250`.
 
 ```blocks3
 when flag clicked
@@ -300,7 +301,7 @@ change y by (-10)
 
 --- task ---
 
-Think about the organisation of your blocks, and the inputs that might be needed. Can you use `myblocks`{:class='block3myblocks'} to **optimise** your project?
+Think about the organisation of your blocks, and the inputs that might be needed. Can you use `My Blocks`{:class='block3myblocks'} to **optimise** your project?
 
 --- collapse ---
 ---
@@ -346,7 +347,7 @@ move left
 title: Using inputs with My Blocks
 ---
 
-My Blocks take text and number inputs as well.
+`My Blocks`{:class='block3myblocks'} take text and number inputs as well.
 
 ```blocks3
 define move (direction) (speed)
@@ -370,14 +371,14 @@ move [right] (speed)
 
 --- task ---
 
-Key to most 2.5D scenes, is changing the size of a sprite, to give the impression that it is further away.
+The key to most 2.5D scenes is changing the size of a sprite to give the impression that it is further away.
 
 --- collapse ---
 ---
 title: Changing sprite sizes relative to position
 ---
 
-The following blocks will make a sprite smaller, as it moves up the screen, and therefore appear further away
+The following blocks will make a sprite smaller as it moves up the screen, and therefore appear further away.
 
 ```blocks
 when flag clicked
@@ -385,6 +386,7 @@ forever
 change y by (10)
 change size by (-3)
 wait (0.2) secs
+```
 
 --- /collapse ---
 
@@ -393,7 +395,7 @@ wait (0.2) secs
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your book? 
+**Test:** Show someone else your project and get their feedback. Do you want make any changes to your scene? 
 
 --- /task ---
 
@@ -406,7 +408,7 @@ wait (0.2) secs
 title: My clones don't appear
 ---
 
-Are your clones hidden? Make sure that when the clones are created the `show`{:class='block3looks'} is being used. Also make sure that you have them on the `front layer`{:class='block3looks'}.
+Are your clones hidden? Make sure that when the clones are created, the `show`{:class='block3looks'} option is used. Also make sure that you have them on the `front layer`{:class='block3looks'}.
 
 
 --- /collapse ---
@@ -416,7 +418,7 @@ Are your clones hidden? Make sure that when the clones are created the `show`{:c
 title: My sprite doesn't move off the screen correctly
 ---
 
-If you want a sprite to cycle from one side of the screen to another, or vanish when it gets to one side of the screen, then you can check it's position and perform some action. You might need to check where the centre of your sprite is, on it's costume, to make sure this works properly. It's easisest to drag the sprite to the side of the screen, and then check it's `x`{:class='block3motion'} and `y`{:class='block3motion'} position.
+If you want a sprite to cycle from one side of the screen to another, or vanish when it gets to one side of the screen, then you can check its position and perform some action. You might need to check where the centre of your sprite is, on its costume, to make sure this works properly. It's easisest to drag the sprite to the side of the screen, and then check its `x`{:class='block3motion'} and `y`{:class='block3motion'} positions.
 
 
 --- /collapse ---
