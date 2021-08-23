@@ -13,7 +13,7 @@ A <span style="color: #0faeb0">FPV</span> game mimics a real 3D environment, so 
 You will:
 + Make a 2.5D scene
 + Use `My Blocks`{:class='block3myblocks'} and `clones`{:class='block3events'} to generate the scene
-+ Understand how the size and coordinates of a sprite can effect its perspective
++ Understand how the size and coordinates of a sprite can affect its perspective
 
 --- no-print ---
 --- task ---
