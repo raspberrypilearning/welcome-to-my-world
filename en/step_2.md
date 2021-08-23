@@ -3,7 +3,7 @@
 Use this step to plan your virtual environment. 
 ![Image, gif, or video showing what they will achieve by the end of the step.](images/image.png)
 
-### Why are you making...?
+### What will you make?
 
 --- task ---
 
