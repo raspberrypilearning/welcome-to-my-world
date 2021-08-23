@@ -15,9 +15,9 @@ Choose a backdrop to use for your simulation. The backdrop could remain still, o
 title: Scroll a backdrop
 ---
 
-Really, you're going to scroll a sprite, which you have created by copying a backdrop.
+Rather than scrolling the backdrop, in fact, you're going to scroll a sprite, which you have created by copying a backdrop.
 
-Create a new sprite by copying the images from a backdrop, into your sprite.
+Create a new sprite by copying the images from a backdrop, and adding them into your sprite.
 
 ![Paint new sprite tool selected.](images/paint-new-sprite.png)
 ![Copy tool highlighted in the tool bar.](images/copy-backdrop.png)
@@ -54,7 +54,7 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- task ---
 
-Think about the sprites you will use for your simulation. Will some of them be still in the scene, will they change costumes, effects, or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
+Think about the sprites you will use for your simulation. Will some of them remain still in the scene, will they change costumes, effects, or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
 
 --- collapse ---
 ---
@@ -221,7 +221,7 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 title: Events to create a clone
 ---
 
-Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite everytime it is clicked upon.
+Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite every time it is clicked upon.
 
 ```blocks3
 when this sprite clicked
