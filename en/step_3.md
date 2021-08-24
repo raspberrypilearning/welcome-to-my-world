@@ -228,7 +228,7 @@ when this sprite clicked
 create clone of [myself v]
 ```
 
-You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse-pointer's location. Clones can appear in any location you like, so you might like them to go to a specific sprite.
+You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse-pointer's location. Clones can appear in any location you like, so you might like them to go to a specific sprite or position.
 
 ```blocks3
 when flag clicked
@@ -361,7 +361,7 @@ when flag clicked
 if <(mouse x) < (-200)> then
 move [left] (speed)
 end
-if <(mouse x) > (+200)> then
+if <(mouse x) > (200)> then
 move [right] (speed)
 ```
 
