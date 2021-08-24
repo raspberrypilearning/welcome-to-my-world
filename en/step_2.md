@@ -1,18 +1,18 @@
 ## Your idea
 
 Use this step to plan your virtual environment. 
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png)
+![Image, gif, or video showing what they will achieve by the end of the step.](images/image.png)
 
-### Why are you making ... ?
+### What will you make?
 
 --- task ---
 
 Think about the simulation you want to create, and how the user will interact with the project.
 
 It could be:
-- A nature simulation with on screen controls to move around the scene.
-- A room in a house where different sprites, such as a TV, can be clicked to make them work.
-- A vehicle simulator with a steering wheel, pedals and a gearstick.
+- A nature simulation with on-screen controls to move around the scene
+- A room in a house where different sprites, such as a TV, can be clicked to make them work
+- A vehicle simulator with a steering wheel, pedals, and a gearstick
 
 
 --- /task ---
@@ -37,7 +37,7 @@ Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scrat
 title: Working offline
 ---
 
-To set up Scratch for offline use visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
+To set up Scratch for offline use, visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
 
 --- /collapse ---
 
@@ -51,9 +51,9 @@ This simulation is going to need quite a few graphics. How will you get the imag
 
 1. Use the sprites and backdrops that already exist in Scratch
 2. Use the tools in Scratch to draw your own sprites and backdrops
-3. Download images from websites and then upload them to Scratch.
+3. Download images from websites and then upload them to Scratch
 
-Here are some ingredients that you might find useful
+Here are some ingredients that you might find useful:
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
