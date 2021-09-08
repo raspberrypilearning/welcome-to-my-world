@@ -2,7 +2,7 @@
 
 Now it's time to make your simulation. Start with thinking about the background to your simulation. Will it scroll, or will it be static?
 
-![Image, gif, or video showing what they will achieve by the end of the step.](images/image.png)
+![Example world projects.](images/step.png)
 
 **Tip**: Remember to test your project each time you add something. It is much easier to find and fix bugs before you make more changes.
 
@@ -86,10 +86,10 @@ Create sprites for your directions and position them on the screen.
 
 The buttons should have controls to broadcast their direction, when they're clicked on.
 
-![Right sprite button.](images/right-sprite.png)
+![Left sprite button.](images/left-sprite.png)
 ```blocks3
 when this sprite clicked
-broadcast [right v]
+broadcast [left v]
 ```
 
 The sprite being controlled should move in the direction indicated.
@@ -283,7 +283,7 @@ Do you want your sprites to keep repeating an action, until some condition has b
 
 --- collapse ---
 ---
-title: Using `repeat until`{:class='block3control'} blocks
+title: Using repeat until blocks
 ---
 
 Here is a set of blocks that will keep a sprite moving, until its `y`{:class='block3motion'} position reaches `-250`.
@@ -380,7 +380,7 @@ title: Changing sprite sizes relative to position
 
 The following blocks will make a sprite smaller as it moves up the screen, and therefore appear further away.
 
-```blocks
+```blocks3
 when flag clicked
 forever
 change y by (10)

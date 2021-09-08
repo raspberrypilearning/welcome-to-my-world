@@ -1,7 +1,7 @@
 ## Your idea
 
 Use this step to plan your virtual environment. 
-![Image, gif, or video showing what they will achieve by the end of the step.](images/image.png)
+![Example world projects.](images/step.png)
 
 ### What will you make?
 
