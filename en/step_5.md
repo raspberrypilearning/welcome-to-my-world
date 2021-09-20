@@ -15,7 +15,7 @@ Each example project in the [Introduction](.) has a **See inside** link for you 
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/553701588/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Take a look at some projects created by community members in the Raspberry Pi Foundation’s studio of Welcome to my world Community Projects [See inside](https://scratch.mit.edu/studios/29092393/){:target="_blank"}.
+Take a look at some projects created by community members in the Raspberry Pi Foundation’s studio of Welcome to my world Community Projects [See inside](https://scratch.mit.edu/studios/30320352){:target="_blank"}.
 
 
 --- save ---
