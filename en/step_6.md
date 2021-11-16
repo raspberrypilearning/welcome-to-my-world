@@ -1,81 +1,22 @@
-## Reflect
+## Upgrade your project
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
+If you have time, you can upgrade your project. You might already have ideas about how to add more or you might want to go back to the first step and look at other projects again for more inspiration.
 
-Does your simulation:
+You could:
+- Add more sprites to your project
+- Add extra sound effects or music
+- Change backdrops so that the simulation can switch to different scenes
 
---- task ---
-
-Use different sized sprites to represent the distance of the object from the viewer.
-
---- /task ---
-
---- task ---
-
-Use clones to generate copies of sprites.
-
---- /task ---
-
---- task ---
-
-Use My Blocks to keep your code organised and/or allow the use of inputs.
-
---- /task ---
-
-Your simulation could also:
-
---- task ---
-
-Have an educational theme, to try and teach the user a skill.
-
---- /task ---
-
---- task ---
-
-Use sounds or music to make the simulation appear more realistic.
-
---- /task ---
+Each example project in the [Introduction](.) has a **See inside** link for you to open the project in Scratch and look at the code to get ideas and see how they work.
 
 
-Reflecting about how you made your simulation will help you in your future projects:
+**Animal eyes**: [See inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
+<div class="scratch-preview" style="margin-left: 15px;">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/553701588/?autostart=false" frameborder="0"></iframe>
+</div>
 
---- task ---
-
-How did you get your ideas? 
-
---- /task ---
-
---- task ---
-
-What cool new thing(s) did you learn?
-
---- /task ---
+Take a look at some projects created by community members in the Raspberry Pi Foundation’s studio of Welcome to my world Community Projects [See inside](https://scratch.mit.edu/studios/30320352){:target="_blank"}.
 
 
-A famous inventor called Thomas Edison was very used to making mistakes. He said:
-> I have not failed. I've just found 10,000 ways that won't work.
-
-and
-
-> Many of life's failures are people who did not realize how close they were to success when they gave up.
-
-Mistakes and failure are temporary. Keep going until you succeed.
-
---- task ---
-
-What mistakes did you make and how did they help you create your simulation or make it better?
-
---- /task ---
-
-### Now you are the author of a Welcome to my world!
-
-Take a moment to celebrate what you have made.
-
---- task ---
-
-Where will you take your new powers? What will you make next?
-
---- /task ---
-
-![scratch cat in at party hat](images/reflect.png)
+--- save ---
 
