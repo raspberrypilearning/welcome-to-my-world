@@ -1,28 +1,28 @@
 ---
-title: Welcome to my world
+title: Bienvenue dans mon monde
 hero_image: images/banner.png
-description: Build a 2.5D world to explore and interact with.
+description: Construire un monde 2.5D pour explorer et interagir avec.
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
-    title: Your idea
+    title: Ton idée
   - 
-    title: Build and test
+    title: Construire et tester
     completion:
       - engaged
       - internal
   - 
-    title: Reflect
+    title: Checklist
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: Share
+    title: Partager
   - 
-    title: What next?
+    title: Et ensuite ?
