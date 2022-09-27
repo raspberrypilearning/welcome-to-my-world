@@ -1,9 +1,9 @@
-## What next?
+## Wat nu?
 
-You have reached the end of the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) path!
+Je hebt het einde van het [Verder met Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pad bereikt!
 
-Now you can bring all your ideas to life in Scratch. Try using Scratch to make more cool stuff. If you need a reminder of what you have learnt, you can go to the [Scratch guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
+Nu kun je al je ideeën tot leven brengen in Scratch. Probeer Scratch te gebruiken om meer coole dingen te maken. Als je een herinnering nodig hebt aan wat je hebt geleerd, kun je naar de [Scratch gids](https://projects.raspberrypi.org/en/projects/getting-started-scratch) gaan.
 
 [[[scratch-coolest-projects]]]
 
-Or, you can explore our [other Scratch projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) and try them out.
+Of je kunt onze [andere Scratch-projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) verkennen en ze uitproberen.
