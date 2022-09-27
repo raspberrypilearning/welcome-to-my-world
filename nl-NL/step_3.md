@@ -1,29 +1,29 @@
-## Build and test
+## Bouw en test
 
-Now it's time to make your simulation. Start with thinking about the background to your simulation. Will it scroll, or will it be static?
+Nu is het tijd om je simulatie te maken. Begin met nadenken over de achtergrond van je simulatie. Zal het bewegen of zal het statisch zijn?
 
-![Example world projects.](images/step.png)
+![Voorbeelden van wereldprojecten.](images/step.png)
 
-**Tip**: Remember to test your project each time you add something. It is much easier to find and fix bugs before you make more changes.
+**Tip**: Vergeet niet om je project elke keer te testen wanneer je iets toevoegt. Het is veel gemakkelijker om bugs te vinden en op te lossen voordat je meer wijzigingen aanbrengt.
 
 --- task ---
 
-Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
+Kies een achtergrond die je wilt gebruiken voor je simulatie. De achtergrond kan statisch blijven, of je zou hem kunnen laten bewegen.
 
 --- collapse ---
 ---
-title: Scroll a backdrop
+title: Laat een achtergrond bewegen
 ---
 
-Rather than scrolling the backdrop, in fact, you're going to scroll a sprite, which you have created by copying a backdrop.
+In plaats van de achtergrond te laten bwegen, ga je in feite een sprite laten bewegen, die je hebt gemaakt door een achtergrond te kopiëren.
 
-Create a new sprite by copying the images from a backdrop, and adding them into your sprite.
+Maak een nieuwe sprite door de afbeeldingen vanaf een achtergrond te kopiëren en toe te voegen aan je sprite.
 
-![Paint new sprite tool selected.](images/paint-new-sprite.png) ![Copy tool highlighted in the tool bar.](images/copy-backdrop.png) ![Paste tool highlighted in the tool bar.](images/paste-backdrop.png)
+![Teken een nieuw sprite-gereedschap geselecteerd.](images/paint-new-sprite.png) ![Het kopieer gereedschap dat is gemarkeerd in de werkbalk.](images/copy-backdrop.png) ![Het plak gereedschap dat is gemarkeerd in de werkbalk.](images/paste-backdrop.png)
 
-Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
+Maak een nieuwe `variabele`{:class='block3variables'} met de naam `beweeg_x`{:class='block3variables'}.
 
-The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
+De volgende blokken zullen een beweeg-effect op de sprite maken wanneer de muis naar links en rechts wordt bewogen.
 
 ```blocks3
 when flag clicked
@@ -44,7 +44,7 @@ forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
 ```
 
-**Tip:** Instead of using the mouse position, you could use clicking on a button or pressing a key to change the `scroll_x`{:class='block3variables'} variable.
+**Tip:** In plaats van de muispositie te gebruiken, kun je op een knop klikken of op een toets drukken om de `beweeg_x`{:class='block3variables'} variabele te wijzigen.
 
 --- /collapse ---
 
@@ -52,11 +52,11 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- task ---
 
-Think about the sprites you will use for your simulation. Will some of them remain still in the scene, will they change costumes, effects, or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
+Denk aan de sprites die je gaat gebruiken voor je simulatie. Zullen sommigen van hen niet bewegen in de scène, zal hun uiterlijk, effect of beweging veranderen wanneer ze worden gebruikt? Schuiven ze over het scherm? Hoe worden ze bestuurd als ze bewegen?
 
 --- collapse ---
 ---
-title: Move a sprite with key presses
+Title: Beweeg een sprite met een druk op een toets
 ---
 
 ```blocks3
@@ -75,22 +75,22 @@ end
 
 --- collapse ---
 ---
-title: Move a sprite with on-screen controls
+title: Verplaats een sprite met besturingselementen op het scherm
 ---
 
-Create sprites for your directions and position them on the screen.
+Maak sprites voor je richtingen en plaats ze op het scherm.
 
-![Scratch cat on the Stage with right and left buttons in the bottom right-hand corner of the screen.](images/scratch-controls.png)
+![Scratch kat op het speelveld met de rechter- en linkerknop in de rechterbenedenhoek van het scherm.](images/scratch-controls.png)
 
-The buttons should have controls to broadcast their direction, when they're clicked on.
+De knoppen zouden besturing moeten hebben om hun richting uit te zenden wanneer ze worden aangeklikt.
 
-![Left sprite button.](images/left-sprite.png)
+![Linker sprite knop.](images/left-sprite.png)
 ```blocks3
 when this sprite clicked
 broadcast [left v]
 ```
 
-The sprite being controlled should move in the direction indicated. ![Scratch Cat sprite.](images/scratch-cat.png)
+De sprite die wordt bestuurd moet in de aangegeven richting bewegen. ![De Scratch kat-sprite.](images/scratch-cat.png)
 ```blocks3
 when I receive [left v]
 change x by (-10)
@@ -100,10 +100,10 @@ change x by (-10)
 
 --- collapse ---
 ---
-title: Change a sprite when it's clicked
+Title: Wijzig een sprite wanneer erop wordt geklikt
 ---
 
-You can change the appearance and orientation of a sprite whenever it is clicked. Here are some code examples.
+Je kunt het uiterlijk en de oriëntatie van een sprite veranderen wanneer er op wordt geklikt. Hier zijn enkele codevoorbeelden.
 
 ```blocks3
 when this sprite clicked
@@ -120,10 +120,10 @@ turn cw (30) degrees
 
 --- collapse ---
 ---
-title: Animate a sprite with costumes
+title: Animeer een sprite met uiterlijken
 ---
 
-There are several ways to animate a sprite using its costumes. Here are a few examples.
+Er zijn verschillende manieren om een sprite te animeren met behulp van uiterlijken. Hier zijn een paar voorbeelden.
 
 ```blocks3
 when flag clicked
@@ -146,10 +146,10 @@ next costume
 
 --- collapse ---
 ---
-title: Change the layer of a sprite
+Title: Verander de laag van een sprite
 ---
 
-Sprites that you are using as backdrops need to be on the back layer. Sprites that you want in the foreground need to be on the top layer. You can set the layer of a sprite or its clone.
+Sprites die je gebruikt als achtergrond moeten op de achterlaag staan. Sprites die je op de voorgrond wilt hebben, moeten op de bovenste laag staan. Je kunt de laag van een sprite of de kloon instellen.
 
 ```blocks3
 when flag clicked
@@ -165,13 +165,13 @@ go to [front v] layer
 
 --- task ---
 
-Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
+Zullen je sprites zichzelf moeten klonen? Zullen ze veel kopieën maken die verschillende acties uitvoeren wanneer ze beginnen?
 
 --- collapse ---
 ---
-title: Create clones of a sprite
+Title: Maak klonen van een sprite
 ---
-Here are a few ways to make clones and delete them after different events.
+Hier zijn een paar manieren om klonen te maken en ze te verwijderen na verschillende gebeurtenissen.
 
 ```blocks3
 when flag clicked
@@ -193,10 +193,10 @@ delete this clone
 
 --- collapse ---
 ---
-title: Randomise your clones
+Title: Maak je klonen willekeurig
 ---
 
-When a clone is created, it may need instructions on how to move, but you might want the different clones to behave slightly differently. You can use `random`{:class='block3operators'} blocks to do this.
+Wanneer een kloon wordt gemaakt, kan hij instructies nodig hebben over hoe te bewegen, en dit zou je zelfs per kloon verschillend kunnen instellen. Je kunt `willekeurig getal`{:class='block3operators'} blokken gebruiken om dit te doen.
 
 ```blocks3
 when I start as a clone
@@ -215,17 +215,17 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- collapse ---
 ---
-title: Events to create a clone
+title: Gebeurtenissen om een kloon te maken
 ---
 
-Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite every time it is clicked upon.
+Klonen kunnen worden gemaakt met veel verschillende `gebeurtenissen`{:class='block3events'}. De blokken hieronder zullen een kloon van een sprite maken elke keer dat er op wordt geklikt.
 
 ```blocks3
 when this sprite clicked
 create clone of [myself v]
 ```
 
-You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse-pointer's location. Clones can appear in any location you like, so you might like them to go to a specific sprite or position.
+Je kunt ook klonen maken zodra er met de muis wordt geklikt, en de kloon op de plek van de muisaanwijzer tevoorschijn laten komen. Klonen kunnen op elke gewenste locatie worden weergegeven, dus je zou ze naar een specifieke sprite of positie kunnen laten gaan.
 
 ```blocks3
 when flag clicked
@@ -243,22 +243,22 @@ go to x: (mouse x) y: (mouse y)
 
 --- task ---
 
-Will there be a musical or sound effect aspect to your simulation? Maybe there's background noise, or a sprite plays a tune when it is clicked?
+Zal er een muziek- of geluidseffect-aspect in je simulatie zijn? Misschien is er achtergrondgeluid, of speelt een sprite een melodie af wanneer er op wordt geklikt?
 
 --- collapse ---
 ---
-title: The Scratch music extension
+Title: De Scratch-muziekextensie
 ---
 
-Once you have added the extension, new blocks will be available to you.
+Zodra je de extensie hebt toegevoegd, zijn er nieuwe blokken beschikbaar.
 
-There are three main elements that can be changed within these blocks.
+Er zijn drie belangrijke elementen die binnen deze blokken kunnen worden veranderd.
 
-- `beats`{:class='block3custom'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
+- `beats`{:class='block3custom'} zijn een tijdseenheid die wordt gebruikt in muziek. Een beat kan een seconde lang of een kwart seconde lang zijn. Het is aan jou.
 
-- `tempo`{:class='block3custom'} sets how many beats there are in a minute: `60` beats a minute would mean that a beat is `1` second long.
+- `tempo`{:class='block3custom'} stelt in hoeveel slagen er in een minuut zijn: `60` slagen per minuut zou betekenen dat een hartslag `1` seconde lang is.
 
-- `note`{:class='block3custom'} is the pitch of the note being played: `60` is the same as **middle C** on a piano.
+- `noot`{:class='block3custom'} is de toonhoogte van de toon die wordt afgespeeld: `60` is hetzelfde als **centrale C** op een piano.
 
 --- /collapse ---
 
@@ -276,14 +276,14 @@ There are three main elements that can be changed within these blocks.
 
 --- task ---
 
-Do you want your sprites to keep repeating an action, until some condition has been met? You can use `repeat until`{:class='block3control'} blocks to do this.
+Wil je dat je sprites een actie blijven herhalen, totdat aan een voorwaarde is voldaan? Je kunt `herhaal tot`{:class='block3control'} blokken gebruiken om dit te doen.
 
 --- collapse ---
 ---
-title: Using repeat until blocks
+title: Gebruik herhaal tot blokken
 ---
 
-Here is a set of blocks that will keep a sprite moving, until its `y`{:class='block3motion'} position reaches `-250`.
+Hier is een reeks blokken die een sprite in beweging houdt, totdat de `y`{:class='block3motion'} positie `-250` bereikt.
 
 ```blocks3
 when flag clicked
@@ -298,14 +298,14 @@ change y by (-10)
 
 --- task ---
 
-Think about the organisation of your blocks, and the inputs that might be needed. Can you use `My Blocks`{:class='block3myblocks'} to **optimise** your project?
+Denk aan de structuur van je blokken, en de input die nodig zou kunnen zijn. Kun je `Mijn blokken`{:class='block3myblocks'} gebruiken om je project **te optimaliseren**?
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: Gebruik Mijn blokken om code te organiseren
 ---
 
-The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise your code. Here is a simple example.
+De eenvoudigste manier om `Mijn blokken`{:class='block3myblocks'} te gebruiken is om je code te helpen organiseren. Hier is een eenvoudig voorbeeld.
 
 ```blocks3
 define move right
@@ -341,10 +341,10 @@ move left
 
 --- collapse ---
 ---
-title: Using inputs with My Blocks
+title: Invoer gebruiken met Mijn blokken
 ---
 
-`My Blocks`{:class='block3myblocks'} take text and number inputs as well.
+In `Mijn blokken`{:class='block3myblocks'} kun je tekst en cijfers invoeren.
 
 ```blocks3
 define move (direction) (speed)
@@ -368,14 +368,14 @@ move [right] (speed)
 
 --- task ---
 
-The key to most 2.5D scenes is changing the size of a sprite to give the impression that it is further away.
+Het belangrijkste van de meeste 2.5D scènes is het veranderen van de grootte van een sprite om de indruk te geven dat het verder weg is.
 
 --- collapse ---
 ---
-title: Changing sprite sizes relative to position
+title: De grootte van de sprite wijzigen ten opzichte van de positie
 ---
 
-The following blocks will make a sprite smaller as it moves up the screen, and therefore appear further away.
+De volgende blokken maken een sprite kleiner als deze omhoog beweegt, en lijken daarom verder weg.
 
 ```blocks3
 when flag clicked
@@ -392,69 +392,69 @@ wait (0.2) secs
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your scene?
+**Test:** Laat iemand anders je project zien en ontvang hun feedback. Wil je wijzigingen aanbrengen in je scène?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Fouten oplossen:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 --- collapse ---
 ---
-title: My clones don't appear
+title: Mijn klonen verschijnen niet
 ---
 
-Are your clones hidden? Make sure that when the clones are created, the `show`{:class='block3looks'} option is used. Also make sure that you have them on the `front layer`{:class='block3looks'}.
+Zijn je klonen verborgen? Zorg ervoor dat wanneer de klonen worden gemaakt, de `verschijn`{:class='block3looks'} optie wordt gebruikt. Zorg er ook voor dat je ze op de `voorgrond`{:class='block3looks'} hebt.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprite doesn't move off the screen correctly
+title: Mijn sprite beweegt niet goed van het scherm af
 ---
 
-If you want a sprite to cycle from one side of the screen to another, or vanish when it gets to one side of the screen, then you can check its position and perform some action. You might need to check where the centre of your sprite is, on its costume, to make sure this works properly. It's easisest to drag the sprite to the side of the screen, and then check its `x`{:class='block3motion'} and `y`{:class='block3motion'} positions.
+Als je wilt dat een sprite van de ene kant van het scherm naar de andere gaat, of verdwijnt wanneer het naar de ene kant van het scherm gaat, dan kun je de positie ervan controleren en wat actie uitvoeren. Controleer waar het centrum van je sprite is, op het uiterlijk, om ervoor te zorgen dat dit goed werkt. Het is het makkelijkst om de sprite naar de zijkant van het scherm te slepen en vervolgens de `x`{:class='block3motion'} en `y`{:class='block3motion'} posities te controleren.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Blocks are not working
+Title: Mijn blokken werken niet
 ---
 
-Have you checked that you are using your new block somewhere in your code. You can `define`{:class='block3myblocks'} a new block, but then you need to use it for the code beneath it to actually run.
+Heb je gecontroleerd of je je nieuwe blok ergens in je code gebruikt. Je kunt een nieuw blok `definiëren`{:class='block3myblocks'}, maar dan moet je het gebruiken om de code eronder daadwerkelijk uit te voeren.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My clones aren't doing anything
+Title: Mijn klonen doen niets
 ---
 
-Are you using the `when I start as clone`{:class='block3control'} block, to tell the clone what to do?
+Gebruik je het `wanneer ik als kloon start`{:class='block3control'} blok, om de kloon te vertellen wat hij moet doen?
 
-Do you have any conditions that might stop the clones from working? For instance, are they supposed to move until they touch the edge of the screen? If a clone is created at the edge of the screen, then they won't do anything.
+Heb je voorwaarden die de klonen zouden kunnen tegenhouden? Moeten ze bijvoorbeeld bewegen totdat ze de rand van het scherm raken? Als er een kloon wordt gemaakt aan de rand van het scherm, dan doen ze niets.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprites are moving in the wrong direction
+title: Mijn sprites bewegen in de verkeerde richting
 ---
 
-Check that you are using the `change x by`{:class='block3motion'} block to move the sprites left and right, and the `change y by`{:class='block3motion'} block to move them up and down.
+Controleer of je het `verander x met`{:class='block3motion'} blok gebruikt om de sprites naar links en rechts te verplaatsen, en het `verander y met`{:class='block3motion'} blok om ze omhoog en omlaag te bewegen.
 
-Check whether you are using positive and negative numbers correctly, to increase or decrease `x`{:class='block3motion'} and `y`{:class='block3motion'}.
+Controleer of je positieve en negatieve getallen correct gebruikt om `x`{:class='block3motion'} en `y`{:class='block3motion'} te verhogen of te verlagen.
 
 --- /collapse ---
 
-You might find a bug not listed here. Can you figure out how to fix it?
+Mogelijk vind je een fout die hier niet wordt vermeld. Kun je erachter komen hoe je het kunt oplossen?
 
-We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
+We horen graag over je fouten en hoe je ze hebt opgelost. Gebruik de feedback knop onderaan deze pagina als je een andere fout in je project hebt gevonden.
 
 --- /task ---
 
