@@ -1,21 +1,21 @@
-## Share
+## Partager
 
-Now is the time to share your creation with your audience.
+Maintenant, il est temps de partager ta creation avec ton public.
 
-If you have a Scratch account, you can share your project through Scratch. Check with an adult first. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+Si tu as un compte Scratch, tu peux partager ton projet via Scratch. Vérifie d'abord avec un adulte. Tu peux envoyer un lien à des personnes que tu connais, et toute la communauté Scratch pourra trouver ton projet et l'essayer.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how much fun you had.
+Pourquoi ne pas inviter tes amis à créer un projet ? Fais-leur savoir à quel point tu t'es amusé.
 
-If you have a Scratch account, and have shared your project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Report and ignore any comments that are unhelpful or irrelevant.
+Si tu as un compte Scratch et que tu as partagé ton projet, garde un œil sur les commentaires que d'autres pourraient faire sur ta création. Les réactions et commentaires te donnent un excellent moyen de réfléchir à ton travail. Signale et ignore les commentaires inutiles ou non pertinents.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire others with your project by submitting it to our Scratch studio!
+Inspire d'autres personnes avec ton projet en le soumettant à notre studio Scratch !
 
-To share your 2.5D scene with others who are doing the 'Welcome to my world' project, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Pour partager ta scène 2.5D avec d'autres personnes qui réalisent le projet « Bienvenue dans mon monde », remplis [ce formulaire.](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
