@@ -1,4 +1,4 @@
-## You will make
+## Tu feras
 
 Tu vas créer une scène 2.5D ou ce que l'on appelle parfois une scène vue à la première personne (ou en anglais First Person View (FPV)). Ton jeu devra respecter la **fiche de projet**.
 
@@ -17,14 +17,14 @@ Tu vas :
 
 --- no-print ---
 
-### Play ▶️
+### Joue ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">
 
-Try and drive the car. Tu peux accélérer et ralentir en utilisant les pédales de droite. Tu peux changer la station de radio et le volume de la musique. Tu peux même klaxonner pour avertir les animaux qui traversent la route.
+Essaie et conduis la voiture. Tu peux accélérer et ralentir en utilisant les pédales de droite. Tu peux changer la station de radio et le volume de la musique. Tu peux même klaxonner pour avertir les animaux qui traversent la route.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -55,7 +55,7 @@ Ta simulation pourrait :
 
 --- no-print ---
 
-### Get ideas 💭
+### Trouve l'inspiration 💭
 
 --- task ---
 
