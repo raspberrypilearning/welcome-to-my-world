@@ -1,29 +1,29 @@
-## Build and test
+## Construire et tester
 
-Now it's time to make your simulation. Start with thinking about the background to your simulation. Will it scroll, or will it be static?
+Maintenant, il est temps de créer ta simulation. Commence par réfléchir à l'arrière-plan de ta simulation. Va-t-il défiler ou sera-t-il statique ?
 
-![Example world projects.](images/step.png)
+![Exemples de projets.](images/step.png)
 
-**Tip**: Remember to test your project each time you add something. It is much easier to find and fix bugs before you make more changes.
+**Astuce ** : N'oublie pas de tester ton projet à chaque fois que tu ajoutes quelque chose. Il est beaucoup plus facile de trouver et de corriger les bogues avant d'apporter d'autres modifications.
 
 --- task ---
 
-Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
+Choisis un arrière-plan à utiliser pour ta simulation. L'arrière-plan pourrait rester immobile ou tu pourrais le faire défiler.
 
 --- collapse ---
 ---
-title: Scroll a backdrop
+title : Faire défiler un arrière-plan
 ---
 
-Rather than scrolling the backdrop, in fact, you're going to scroll a sprite, which you have created by copying a backdrop.
+Plutôt que de faire défiler l'arrière-plan, en fait, tu vas faire défiler un sprite, que tu as créé en copiant un arrière-plan.
 
-Create a new sprite by copying the images from a backdrop, and adding them into your sprite.
+Crée un nouveau sprite en copiant les images d'un arrière-plan et en les ajoutant à ton sprite.
 
-![Paint new sprite tool selected.](images/paint-new-sprite.png) ![Copy tool highlighted in the tool bar.](images/copy-backdrop.png) ![Paste tool highlighted in the tool bar.](images/paste-backdrop.png)
+![Outil Peindre un nouveau sprite sélectionné.](images/paint-new-sprite.png) ![Outil Copier en surbrillance dans la barre d'outils.](images/copy-backdrop.png) ![Outil Coller en surbrillance dans la barre d'outils.](images/paste-backdrop.png)
 
-Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
+Crée une nouvelle `variable`{:class="block3variables"} appelée `défiler_x`{:class="block3variables'}.
 
-The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
+Les blocs suivants créeront un effet de défilement sur le sprite lorsque la souris est déplacée vers la gauche et vers la droite.
 
 ```blocks3
 when flag clicked
@@ -44,7 +44,7 @@ forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
 ```
 
-**Tip:** Instead of using the mouse position, you could use clicking on a button or pressing a key to change the `scroll_x`{:class='block3variables'} variable.
+**Astuce :** Au lieu d'utiliser la position de la souris, tu peux cliquer sur un bouton ou appuyer sur une touche pour modifier la variable `défiler_x`{:class='block3variables'}.
 
 --- /collapse ---
 
@@ -52,11 +52,11 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- task ---
 
-Think about the sprites you will use for your simulation. Will some of them remain still in the scene, will they change costumes, effects, or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
+Pense aux sprites que tu vas utiliser pour ta simulation. Certains d'entre eux resteront-ils immobiles dans la scène, changeront-ils de costumes, d'effets ou de mouvement lorsque quelqu'un interagit avec eux ? Vont-ils défiler sur l'écran ? Comment seront-ils contrôlés s'ils bougent ?
 
 --- collapse ---
 ---
-title: Move a sprite with key presses
+title : Déplacer un sprite en appuyant sur les touches
 ---
 
 ```blocks3
@@ -75,22 +75,22 @@ end
 
 --- collapse ---
 ---
-title: Move a sprite with on-screen controls
+title : Déplacer un sprite avec les commandes à l'écran
 ---
 
-Create sprites for your directions and position them on the screen.
+Crée des sprites pour tes directions et positionne-les sur l'écran.
 
-![Scratch cat on the Stage with right and left buttons in the bottom right-hand corner of the screen.](images/scratch-controls.png)
+![Le chat Scratch sur la scène avec les boutons droite et gauche dans le coin inférieur droit de l'écran.](images/scratch-controls.png)
 
-The buttons should have controls to broadcast their direction, when they're clicked on.
+Les boutons doivent avoir des commandes pour transmettre les directions lorsqu'ils sont cliqués.
 
-![Left sprite button.](images/left-sprite.png)
+![Bouton sprite gauche.](images/left-sprite.png)
 ```blocks3
 when this sprite clicked
 broadcast [left v]
 ```
 
-The sprite being controlled should move in the direction indicated. ![Scratch Cat sprite.](images/scratch-cat.png)
+Le sprite contrôlé doit se déplacer dans la direction indiquée. ![Le sprite chat Scratch .](images/scratch-cat.png)
 ```blocks3
 when I receive [left v]
 change x by (-10)
@@ -100,10 +100,10 @@ change x by (-10)
 
 --- collapse ---
 ---
-title: Change a sprite when it's clicked
+title : Changer un sprite lorsqu'il est cliqué
 ---
 
-You can change the appearance and orientation of a sprite whenever it is clicked. Here are some code examples.
+Tu peux modifier l'apparence et l'orientation d'un sprite chaque fois que tu cliques dessus. Voici quelques exemples de code.
 
 ```blocks3
 when this sprite clicked
@@ -120,10 +120,10 @@ turn cw (30) degrees
 
 --- collapse ---
 ---
-title: Animate a sprite with costumes
+title : Animer un sprite avec des costumes
 ---
 
-There are several ways to animate a sprite using its costumes. Here are a few examples.
+Il existe plusieurs manières d'animer un sprite en utilisant ses costumes. Voici quelques exemples .
 
 ```blocks3
 when flag clicked
@@ -146,10 +146,10 @@ next costume
 
 --- collapse ---
 ---
-title: Change the layer of a sprite
+title : Changer le plan d'un sprite
 ---
 
-Sprites that you are using as backdrops need to be on the back layer. Sprites that you want in the foreground need to be on the top layer. You can set the layer of a sprite or its clone.
+Les sprites que tu utilises comme arrière-plan doivent se trouver sur le plan arrière. Les sprites que tu veux au premier plan doivent être sur le plan avant. Tu peux définir le plan d'un sprite ou de son clone.
 
 ```blocks3
 when flag clicked
@@ -165,13 +165,13 @@ go to [front v] layer
 
 --- task ---
 
-Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
+Certains de tes sprites auront-ils besoin de se cloner ? Vont-ils produire de nombreuses copies qui effectuent différentes actions lorsqu'ils démarrent ?
 
 --- collapse ---
 ---
-title: Create clones of a sprite
+title: Créer des clones d'un sprite
 ---
-Here are a few ways to make clones and delete them after different events.
+Voici quelques façons de créer des clones et de les supprimer après différents événements.
 
 ```blocks3
 when flag clicked
@@ -193,10 +193,10 @@ delete this clone
 
 --- collapse ---
 ---
-title: Randomise your clones
+title: Randomise tes clones
 ---
 
-When a clone is created, it may need instructions on how to move, but you might want the different clones to behave slightly differently. You can use `random`{:class='block3operators'} blocks to do this.
+Lorsqu'un clone est créé, il peut avoir besoin d'instructions sur la façon de se déplacer, mais tu souhaiteras peut-être que les différents clones se comportent légèrement différemment. You can use `random`{:class='block3operators'} blocks to do this.
 
 ```blocks3
 when I start as a clone
@@ -215,17 +215,17 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- collapse ---
 ---
-title: Events to create a clone
+title : Événements pour créer un clone
 ---
 
-Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite every time it is clicked upon.
+Les clones peuvent être créés avec de nombreux `événements`{:class='block3events'} différents. Les blocs ci-dessous vont créer un clone d'un sprite à chaque fois qu'on clique dessus.
 
 ```blocks3
 when this sprite clicked
 create clone of [myself v]
 ```
 
-You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse-pointer's location. Clones can appear in any location you like, so you might like them to go to a specific sprite or position.
+Tu peux également créer des clones chaque fois que tu cliques sur la souris et faire apparaître le clone à l'emplacement du pointeur de la souris. Les clones peuvent apparaître à n'importe quel endroit de ton choix, et donc tu voudras peut-être qu'ils aillent vers un sprite ou une position spécifique.
 
 ```blocks3
 when flag clicked
@@ -243,22 +243,22 @@ go to x: (mouse x) y: (mouse y)
 
 --- task ---
 
-Will there be a musical or sound effect aspect to your simulation? Maybe there's background noise, or a sprite plays a tune when it is clicked?
+Y aura-t-il un aspect musical ou sonore dans ta simulation ? Peut-être y a-t-il un bruit de fond, ou un sprite joue-t-il une mélodie quand on clique dessus ?
 
 --- collapse ---
 ---
-title: The Scratch music extension
+title: L'extension musicale Scratch
 ---
 
-Once you have added the extension, new blocks will be available to you.
+Une fois que tu as ajouté l'extension, tu pourras accéder de nouveaux blocs.
 
-There are three main elements that can be changed within these blocks.
+Trois éléments principaux peuvent être modifiés dans ces blocs.
 
-- `beats`{:class='block3custom'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
+- `battements`{:class='block3custom'} est une unité de temps utilisée en musique. Un battement peut durer une seconde ou un quart de seconde. C'est toi qui décides.
 
-- `tempo`{:class='block3custom'} sets how many beats there are in a minute: `60` beats a minute would mean that a beat is `1` second long.
+- `tempo`{:class='block3custom'} définit le nombre de battements qu'il y a dans une minute : `60` battements par minute signifieraient qu'un battement dure `1` secondes.
 
-- `note`{:class='block3custom'} is the pitch of the note being played: `60` is the same as **middle C** on a piano.
+- `note`{:class='block3custom'} est la hauteur de la note jouée : `60` équivaut à **do moyen** sur un piano.
 
 --- /collapse ---
 
@@ -276,14 +276,14 @@ There are three main elements that can be changed within these blocks.
 
 --- task ---
 
-Do you want your sprites to keep repeating an action, until some condition has been met? You can use `repeat until`{:class='block3control'} blocks to do this.
+Veux-tu que tes sprites continuent à répéter une action jusqu'à ce qu'une condition soit remplie ? Pour cela, tu peux utiliser des blocs `répéter jusqu'à ce que`{:class='block3control'}.
 
 --- collapse ---
 ---
-title: Using repeat until blocks
+title : Utiliser les blocs répéter jusqu'à ce que
 ---
 
-Here is a set of blocks that will keep a sprite moving, until its `y`{:class='block3motion'} position reaches `-250`.
+Voici un ensemble de blocs qui maintiendront un sprite en mouvement, jusqu'à ce que sa position `y`{:class='block3motion'} atteigne `-250`.
 
 ```blocks3
 when flag clicked
@@ -298,14 +298,14 @@ change y by (-10)
 
 --- task ---
 
-Think about the organisation of your blocks, and the inputs that might be needed. Can you use `My Blocks`{:class='block3myblocks'} to **optimise** your project?
+Pense à l'organisation de tes blocs et aux données d'entrée qui pourraient être nécessaires. Peux-tu utiliser `Mes Blocks`{:class='block3myblocks'} pour **améliorer** ton projet ?
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: Utiliser Mes blocs pour organiser le code
 ---
 
-The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise your code. Here is a simple example.
+La façon la plus simple d'utiliser `Mes Blocs`{:class="block3myblocks"} est d'aider à organiser ton code. Voici un exemple simple.
 
 ```blocks3
 define move right
@@ -341,10 +341,10 @@ move left
 
 --- collapse ---
 ---
-title: Using inputs with My Blocks
+title : Utiliser des données d’entrée avec Mes blocs
 ---
 
-`My Blocks`{:class='block3myblocks'} take text and number inputs as well.
+`Mes blocs`{:class='block3myblocks'} acceptent également des données d’entrée de texte et de chiffres.
 
 ```blocks3
 define move (direction) (speed)
@@ -368,14 +368,14 @@ move [right] (speed)
 
 --- task ---
 
-The key to most 2.5D scenes is changing the size of a sprite to give the impression that it is further away.
+Le secret de la plupart des scènes 2.5D est de changer la taille d'un sprite pour donner l'impression qu'il est plus éloigné.
 
 --- collapse ---
 ---
-title: Changing sprite sizes relative to position
+title : Changer la taille des sprites en fonction de la position
 ---
 
-The following blocks will make a sprite smaller as it moves up the screen, and therefore appear further away.
+Les blocs suivants rendront un sprite plus petit à mesure qu'il se déplace vers le haut de l'écran, et donc le fera apparaître plus loin.
 
 ```blocks3
 when flag clicked
@@ -392,69 +392,69 @@ wait (0.2) secs
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your scene?
+**Test :** Montre ton projet à quelqu'un et demande-lui son avis. Souhaites-tu apporter des modifications à ta scène ?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 ---
-title: My clones don't appear
+title: Mes clones n'apparaissent pas
 ---
 
-Are your clones hidden? Make sure that when the clones are created, the `show`{:class='block3looks'} option is used. Also make sure that you have them on the `front layer`{:class='block3looks'}.
+Tes clones sont-ils cachés ? Assure-toi que lorsque les clones sont créés, l'option `montrer`{:class='block3looks'} est utilisée. Assure-toi également que tu les as sur l'`avant plan`{:class='block3looks'}.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprite doesn't move off the screen correctly
+title : Mon sprite ne sort pas correctement de l'écran
 ---
 
-If you want a sprite to cycle from one side of the screen to another, or vanish when it gets to one side of the screen, then you can check its position and perform some action. You might need to check where the centre of your sprite is, on its costume, to make sure this works properly. It's easisest to drag the sprite to the side of the screen, and then check its `x`{:class='block3motion'} and `y`{:class='block3motion'} positions.
+Si tu veux qu'un sprite passe d'un côté à l'autre de l'écran, ou disparaisse lorsqu'il arrive d'un côté de l'écran, tu peux vérifier sa position et effectuer une action. Tu devras peut-être vérifier où se trouve le centre de ton sprite, sur son costume, pour t'assurer que cela fonctionne correctement. Il est plus facile de faire glisser le sprite sur le côté de l'écran, puis de vérifier ses positions `x`{:class='block3motion'} et `y`{:class='block3motion'}.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Blocks are not working
+title : Mes blocs ne fonctionnent pas
 ---
 
-Have you checked that you are using your new block somewhere in your code. You can `define`{:class='block3myblocks'} a new block, but then you need to use it for the code beneath it to actually run.
+As-tu vérifié que tu utilises ton nouveau bloc quelque part dans ton code. Tu peux `définir`{:class='block3myblocks'} un nouveau bloc, mais tu dois ensuite l'utiliser pour que le code en dessous s'exécute réellement.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My clones aren't doing anything
+title : Mes clones ne font rien
 ---
 
-Are you using the `when I start as clone`{:class='block3control'} block, to tell the clone what to do?
+Utilise-tu le bloc `quand je commence comme un clone`{:class='block3control'}, pour dire au clone quoi faire ?
 
-Do you have any conditions that might stop the clones from working? For instance, are they supposed to move until they touch the edge of the screen? If a clone is created at the edge of the screen, then they won't do anything.
+As-tu des conditions qui pourraient empêcher les clones de fonctionner ? Par exemple, sont-ils censés bouger jusqu'à ce qu'ils touchent le bord de l'écran ? Si un clone est créé au bord de l'écran, il ne fera rien.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprites are moving in the wrong direction
+title: Mes sprites pointent dans la mauvaise direction
 ---
 
-Check that you are using the `change x by`{:class='block3motion'} block to move the sprites left and right, and the `change y by`{:class='block3motion'} block to move them up and down.
+Vérifie que tu utilises le bloc `ajouter à x`{:class='block3motion'} pour déplacer les sprites vers la gauche et la droite, et le bloc `ajouter à y`{:class='block3motion'} pour les déplacer vers le haut et le bas.
 
-Check whether you are using positive and negative numbers correctly, to increase or decrease `x`{:class='block3motion'} and `y`{:class='block3motion'}.
+Vérifie que tu utilises correctement les nombres positifs et négatifs, pour augmenter ou diminuer `x`{:class='block3motion'} et `y`{:class='block3motion'}.
 
 --- /collapse ---
 
-You might find a bug not listed here. Can you figure out how to fix it?
+Tu pourrais trouver un bogue qui n'est pas répertorié ici. Peux-tu trouver comment le réparer ?
 
-We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
+Nous aimons avoir des nouvelles de tes bogues et de la façon dont tu les as corrigés. Utilise le bouton de commentaires au bas de cette page si tu as trouvé un bogue différent dans ton projet.
 
 --- /task ---
 
