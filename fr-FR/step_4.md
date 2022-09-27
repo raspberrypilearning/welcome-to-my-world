@@ -1,4 +1,4 @@
-## Checklist
+## Liste de contrôle
 
 As-tu bien respecté la **fiche de projet** ? Réfléchis à ton projet et parcours la liste de contrôle ci-dessous et coche celles qui s'appliquent à ton projet.
 
