@@ -1,21 +1,21 @@
-## Share
+## Deel
 
-Now is the time to share your creation with your audience.
+Nu is het tijd om je creatie met je publiek te delen.
 
-If you have a Scratch account, you can share your project through Scratch. Check with an adult first. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+Als je een Scratch-account hebt, kun je je project delen via Scratch. Vraag het eerst aan een volwassene. Je kunt een link sturen naar mensen die je kent, en de hele Scratch-gemeenschap zal je project kunnen vinden en uitproberen.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how much fun you had.
+Waarom nodig je je vrienden niet uit om een project te maken? Laat ze weten hoeveel plezier je hebt gehad.
 
-If you have a Scratch account, and have shared your project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Report and ignore any comments that are unhelpful or irrelevant.
+Als je een Scratch-account hebt en je project hebt gedeeld, hou dan een oogje in het zeil voor opmerkingen die anderen kunnen maken over je creatie. Feedback is een geweldige manier om te reflecteren op je werk. Negeer alle opmerkingen die nutteloos of irrelevant zijn.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire others with your project by submitting it to our Scratch studio!
+Inspireer anderen met je project door het naar onze Scratch-studio te sturen!
 
-To share your 2.5D scene with others who are doing the 'Welcome to my world' project, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Om je 2.5D-scene te delen met anderen die het 'Welkom in mijn wereld' project doen, vul je [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
 
 --- /task ---
