@@ -1,29 +1,29 @@
-scroll_x
+defiler_x
 
-left
+gauche
 
 costume 2
 
-right
+droite
 
-move right
+déplacer vers la droite
 
-right_1
+droite_1
 
-right_2
+droite_2
 
-right_3
+droite_3
 
-move left
+déplacer vers la gauche
 
-left_1
+gauche_1
 
-left_2
+gauche_2
 
-left_3
+gauche_3
 
-move
+déplacement
 
 direction
 
-speed
+vitesse
