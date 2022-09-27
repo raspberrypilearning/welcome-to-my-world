@@ -1,29 +1,29 @@
-scroll_x
+beweeg_x
 
-left
+links
 
-costume 2
+uiterlijk2
 
-right
+rechts
 
-move right
+ga naar rechts
 
-right_1
+rechts_1
 
-right_2
+rechts_2
 
-right_3
+rechts_3
 
-move left
+ga naar links
 
-left_1
+links_1
 
-left_2
+links_2
 
-left_3
+links_3
 
-move
+beweeg
 
-direction
+richting
 
-speed
+snelheid
