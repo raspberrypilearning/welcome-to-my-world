@@ -1,58 +1,58 @@
-## Your idea
+## Ton idée
 
-Use this step to plan your virtual environment. ![Example world projects.](images/step.png)
+Utilise cette étape pour planifier ton environnement virtuel. ![Exemples de projets.](images/step.png)
 
-### What will you make?
+### Que vas-tu faire?
 
 --- task ---
 
-Think about the simulation you want to create, and how the user will interact with the project.
+Pense à la simulation que tu souhaites créer et à la manière dont l'utilisateur interagira avec le projet.
 
-It could be:
-- A nature simulation with on-screen controls to move around the scene
-- A room in a house where different sprites, such as a TV, can be clicked to make them work
-- A vehicle simulator with a steering wheel, pedals, and a gearstick
+Ça pourrait être :
+- Une simulation de la nature avec des commandes à l'écran pour se déplacer dans la scène
+- Une pièce dans une maison où différents sprites, comme un téléviseur, peuvent être cliqués pour les faire fonctionner
+- Un simulateur de véhicule avec un volant, des pédales et un levier de vitesse
 
 
 --- /task ---
 
-### Who is it for?
+### C'est pour qui ?
 
 --- task ---
 
-Think about who you will make your simulation for (your **audience**). Is it an educational simulation to teach people? Is it a game for entertainment? Maybe it's a series of puzzles that need to be solved.
+Pense à qui tu destines ta simulation (**ton public**). Est-ce une simulation pédagogique pour enseigner quelque chose aux gens ? Est-ce un jeu de divertissement ? C'est peut-être une série d'énigmes à résoudre.
 
 --- /task ---
 
-### Get started
+### Commencer
 
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Ouvre un [nouveau projet Scratch](http://rpf.io/scratch-new){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 --- collapse ---
 ---
-title: Working offline
+title: Travailler hors ligne
 ---
 
-To set up Scratch for offline use, visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
+Pour configurer Scratch pour une utilisation hors ligne, consulte [notre guide Scratch](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
 
 --- /collapse ---
 
-Use a notes app or pen and paper, or both to plan ideas for your simulation. Try to jot down as many ideas as you can, and discuss them with a friend. Then pick the idea that you like the most.
+Utilise une application de notes ou un stylo et du papier, ou les deux, pour planifier des idées pour ta simulation. Essaie de noter autant d'idées que possible et discute-les avec un ami. Ensuite, choisis l'idée qui te plaît le plus.
 
 --- /task ---
 
 --- task ---
 
-This simulation is going to need quite a few graphics. How will you get the images you need to build your project? You could:
+Cette simulation va nécessiter pas mal de graphiques. Comment obtiendras-tu les images dont tu as besoin pour construire ton projet ? Tu pourrais :
 
-1. Use the sprites and backdrops that already exist in Scratch
-2. Use the tools in Scratch to draw your own sprites and backdrops
-3. Download images from websites and then upload them to Scratch
+1. Utiliser les sprites et décors qui existent déjà dans Scratch
+2. Utiliser les outils de Scratch pour dessiner tes propres sprites et arrière-plans
+3. Télécharger des images de sites Web, puis les télécharger sur Scratch
 
-Here are some ingredients that you might find useful:
+Voici quelques ingrédients qui pourraient t'être utiles :
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
