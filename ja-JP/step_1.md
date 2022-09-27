@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 You are going to create a 2.5D scene or what is sometimes called a first person view (FPV) scene. Your game will need to meet the **project brief**.
 
@@ -15,12 +15,14 @@ You will:
 + Use `My Blocks`{:class='block3myblocks'} and `clones`{:class='block3events'} to generate the scene
 + Understand how the size and coordinates of a sprite can affect its perspective
 
---- no-print --- --- task ---
+--- no-print ---
+
+### Play ▶️
+
+--- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">
-
-### Try it
 
 Try and drive the car. You can speed up and slow down using the pedals on the right. You can change the radio station and the volume of the music. You can even push the horn to warn animals that are crossing the road.
 
@@ -53,7 +55,7 @@ Your simulation could:
 
 --- no-print ---
 
-### Get inspiration
+### Get ideas 💭
 
 --- task ---
 
