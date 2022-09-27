@@ -1,81 +1,81 @@
-## Reflect
+## Checklist
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
+As-tu bien respecté la **fiche de projet** ? Réfléchis à ton projet et parcours la liste de contrôle ci-dessous et coche celles qui s'appliquent à ton projet.
 
-Does your simulation:
+Est-ce que ta simulation :
 
 --- task ---
 
-Use different sized sprites to represent the distance of the object from the viewer.
+Utilise des sprites de tailles différentes pour représenter la distance entre l'objet et le spectateur.
 
 --- /task ---
 
 --- task ---
 
-Use clones to generate copies of sprites.
+Utilise des clones pour générer des copies de sprites.
 
 --- /task ---
 
 --- task ---
 
-Use My Blocks to keep your code organised and/or allow the use of inputs.
+Utilise Mes blocs pour garder ton code organisé et/ou permettre l'utilisation de données d'entrée.
 
 --- /task ---
 
-Your simulation could also:
+Ta simulation pourrait également :
 
 --- task ---
 
-Have an educational theme, to try and teach the user a skill.
-
---- /task ---
-
---- task ---
-
-Use sounds or music to make the simulation appear more realistic.
-
---- /task ---
-
-
-Reflecting about how you made your simulation will help you in your future projects:
-
---- task ---
-
-How did you get your ideas?
+Avoir un thème éducatif, pour essayer d'enseigner une compétence à l'utilisateur.
 
 --- /task ---
 
 --- task ---
 
-What cool new thing(s) did you learn?
+Utiliser des sons ou de la musique pour rendre la simulation plus réaliste.
 
 --- /task ---
 
 
-A famous inventor called Thomas Edison was very used to making mistakes. He said:
-> I have not failed. I've just found 10,000 ways that won't work.
-
-and
-
-> Many of life's failures are people who did not realize how close they were to success when they gave up.
-
-Mistakes and failure are temporary. Keep going until you succeed.
+Réfléchir à la façon dont tu as créé ta simulation t'aidera dans tes prochains projets :
 
 --- task ---
 
-What mistakes did you make and how did they help you create your simulation or make it better?
+Comment as-tu eu tes idées ?
 
 --- /task ---
-
-### Now you are the author of a Welcome to my world!
-
-Take a moment to celebrate what you have made.
 
 --- task ---
 
-Where will you take your new powers? What will you make next?
+Quelle(s) nouvelle(s) chose(s) cool as-tu apprise(s) ?
 
 --- /task ---
 
-![scratch cat in at party hat](images/reflect.png)
+
+Un célèbre inventeur du nom de Thomas Edison était très habitué à faire des erreurs. Il a dit:
+> Je n'ai pas échoué. J'ai simplement trouvé 10 000 moyens qui ne fonctionnent pas.
+
+et
+
+> Beaucoup d'échecs dans la vie proviennent de personnes qui n’ont pas réalisé à quel point elles étaient proches du succès lorsqu’elles ont abandonné.
+
+Les erreurs et les échecs sont temporaires. Continue jusqu'à ce que tu réussisses.
+
+--- task ---
+
+Quelles erreurs as-tu commises et comment t'ont-elles aidé à créer ta simulation ou à l'améliorer ?
+
+--- /task ---
+
+### Tu es maintenant l'auteur de Bienvenue dans mon monde !
+
+Prends un moment pour célébrer ce que tu as fait.
+
+--- task ---
+
+Comment vas-tu utiliser tes nouveaux pouvoirs ? Que feras-tu ensuite ?
+
+--- /task ---
+
+![Chat Scratch avec un chapeau de fête](images/reflect.png)
 
