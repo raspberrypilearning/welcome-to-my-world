@@ -8,7 +8,7 @@ copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Tu feras
   - 
     title: Ton idée
   - 
@@ -17,7 +17,7 @@ steps:
       - engaged
       - internal
   - 
-    title: Checklist
+    title: Liste de contrôle
     completion:
       - external
   - 
