@@ -1,58 +1,58 @@
-## Your idea
+## Jouw idee
 
-Use this step to plan your virtual environment. ![Example world projects.](images/step.png)
+Gebruik deze stap om je virtuele omgeving te plannen. ![Voorbeelden van wereldprojecten.](images/step.png)
 
-### What will you make?
+### Wat ga je maken?
 
 --- task ---
 
-Think about the simulation you want to create, and how the user will interact with the project.
+Denk na over de simulatie die je wilt maken en hoe de gebruiker met het project zal communiceren.
 
-It could be:
-- A nature simulation with on-screen controls to move around the scene
-- A room in a house where different sprites, such as a TV, can be clicked to make them work
-- A vehicle simulator with a steering wheel, pedals, and a gearstick
+Dat kan zijn:
+- Een natuursimulatie met bedieningselementen op het scherm om door de scène te bewegen
+- Een kamer in een huis waar verschillende sprites, zoals een tv, kunnen worden aangeklikt om ze te laten werken
+- Een voertuigsimulator met een stuur, pedalen en een versnellingspook
 
 
 --- /task ---
 
-### Who is it for?
+### Voor wie is het?
 
 --- task ---
 
-Think about who you will make your simulation for (your **audience**). Is it an educational simulation to teach people? Is it a game for entertainment? Maybe it's a series of puzzles that need to be solved.
+Bedenk voor wie je de simulatie gaat maken (je **publiek**). Is het een educatieve simulatie om mensen te onderwijzen? Is het een spel voor entertainment? Misschien is het een reeks puzzels die moeten worden opgelost.
 
 --- /task ---
 
-### Get started
+### Aan de slag
 
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Open een [nieuw Scratch-project](http://rpf.io/scratch-new){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 --- collapse ---
 ---
-title: Working offline
+title: Offline werken
 ---
 
-To set up Scratch for offline use, visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
+Ga naar [onze scratch gids](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} om Scratch in te stellen voor offline gebruik.
 
 --- /collapse ---
 
-Use a notes app or pen and paper, or both to plan ideas for your simulation. Try to jot down as many ideas as you can, and discuss them with a friend. Then pick the idea that you like the most.
+Gebruik een Notes-app of pen en papier, of beide om ideeën voor je simulatie te plannen. Probeer zoveel mogelijk ideeën te bedenken en bespreek ze met een vriend. Kies dan het idee dat je het meest bevalt.
 
 --- /task ---
 
 --- task ---
 
-This simulation is going to need quite a few graphics. How will you get the images you need to build your project? You could:
+Deze simulatie zal heel wat graphics nodig hebben. Hoe krijg je de afbeeldingen die je nodig hebt om je project te bouwen? Je kunt:
 
-1. Use the sprites and backdrops that already exist in Scratch
-2. Use the tools in Scratch to draw your own sprites and backdrops
-3. Download images from websites and then upload them to Scratch
+1. Gebruik de sprites en achtergronden die al in Scratch bestaan
+2. Gebruik de tools in Scratch om je eigen sprites en achtergronden te tekenen
+3. Download afbeeldingen van websites en upload ze naar Scratch
 
-Here are some ingredients that you might find useful:
+Hier zijn enkele ingrediënten die je nuttig zou kunnen vinden:
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
