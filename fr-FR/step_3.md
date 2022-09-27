@@ -196,7 +196,7 @@ delete this clone
 title: Randomise tes clones
 ---
 
-Lorsqu'un clone est créé, il peut avoir besoin d'instructions sur la façon de se déplacer, mais tu souhaiteras peut-être que les différents clones se comportent légèrement différemment. You can use `random`{:class='block3operators'} blocks to do this.
+Lorsqu'un clone est créé, il peut avoir besoin d'instructions sur la façon de se déplacer, mais tu souhaiteras peut-être que les différents clones se comportent légèrement différemment. Pour cela, tu peux utiliser des blocs ` aléatoires`{:class='block3operators'}.
 
 ```blocks3
 when I start as a clone
