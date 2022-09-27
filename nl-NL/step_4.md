@@ -1,81 +1,81 @@
-## Reflect
+## Checklist
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
+Voldoet je project aan de **projectbeschrijving**? Denk na over je project en doorloop de onderstaande checklist en vink af wat van toepassing is op je project.
 
-Does your simulation:
+Doet je simulatie:
 
 --- task ---
 
-Use different sized sprites to represent the distance of the object from the viewer.
+Gebruik sprites van verschillende grootte om de afstand van het object tot de kijker weer te geven.
 
 --- /task ---
 
 --- task ---
 
-Use clones to generate copies of sprites.
+Gebruik klonen om kopieën van sprites te genereren.
 
 --- /task ---
 
 --- task ---
 
-Use My Blocks to keep your code organised and/or allow the use of inputs.
+Gebruik Mijn blokken om je code georganiseerd te houden en/of het gebruik van invoer toe te staan.
 
 --- /task ---
 
-Your simulation could also:
+Je simulatie kan ook:
 
 --- task ---
 
-Have an educational theme, to try and teach the user a skill.
-
---- /task ---
-
---- task ---
-
-Use sounds or music to make the simulation appear more realistic.
-
---- /task ---
-
-
-Reflecting about how you made your simulation will help you in your future projects:
-
---- task ---
-
-How did you get your ideas?
+Een educatief thema hebben, om de gebruiker een vaardigheid te leren.
 
 --- /task ---
 
 --- task ---
 
-What cool new thing(s) did you learn?
+Geluiden of muziek gebruiken om de simulatie realistischer te maken.
 
 --- /task ---
 
 
-A famous inventor called Thomas Edison was very used to making mistakes. He said:
-> I have not failed. I've just found 10,000 ways that won't work.
-
-and
-
-> Many of life's failures are people who did not realize how close they were to success when they gave up.
-
-Mistakes and failure are temporary. Keep going until you succeed.
+Nadenken over hoe je je simulatie hebt gemaakt, zal je helpen in je toekomstige projecten:
 
 --- task ---
 
-What mistakes did you make and how did they help you create your simulation or make it better?
+Hoe ben je aan je ideeën gekomen?
 
 --- /task ---
-
-### Now you are the author of a Welcome to my world!
-
-Take a moment to celebrate what you have made.
 
 --- task ---
 
-Where will you take your new powers? What will you make next?
+Welke coole nieuwe dingen heb je geleerd?
 
 --- /task ---
 
-![scratch cat in at party hat](images/reflect.png)
+
+Een beroemde uitvinder genaamd Thomas Edison was erg gewend aan het maken van fouten. Hij zei:
+> Ik ben niet mislukt. Ik heb net 10,000 manieren gevonden die niet werken.
+
+en
+
+> Veel van de mislukkingen van het leven zijn mensen die niet wisten hoe dicht ze bij succes waren toen ze opgaven.
+
+Fouten en falen zijn tijdelijk. Blijf doorgaan totdat je slaagt.
+
+--- task ---
+
+Welke fouten heb je gemaakt en hoe hebben ze je geholpen om je simulatie te maken of het beter te maken?
+
+--- /task ---
+
+### Nu ben je de auteur van een Welkom in mijn wereld!
+
+Neem even de tijd om dit te vieren.
+
+--- task ---
+
+Waar ga je met je nieuwe kennis doen? Wat ga je hierna maken?
+
+--- /task ---
+
+![Scratch kat met een feesthoedje](images/reflect.png)
 
