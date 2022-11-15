@@ -1,4 +1,4 @@
-## You will make
+## Je gaat maken
 
 Je gaat een 2.5D-scène maken of wat soms een first person view (FPV)-scène wordt genoemd. Je spel moet voldoen aan de **projectsamenvatting**.
 
@@ -17,14 +17,14 @@ Je gaat:
 
 --- no-print ---
 
-### Play ▶️
+### Afspelen ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">
 
-Try and drive the car. Je kunt versnellen en vertragen met behulp van de pedalen aan de rechterkant. Je kunt het radiostation en het volume van de muziek wijzigen. Je kunt zelfs toeteren om dieren te waarschuwen die de weg oversteken.
+Probeer de auto te besturen. Je kunt versnellen en vertragen met behulp van de pedalen aan de rechterkant. Je kunt het radiostation en het volume van de muziek wijzigen. Je kunt zelfs toeteren om dieren te waarschuwen die de weg oversteken.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -55,7 +55,7 @@ Je simulatie zou:
 
 --- no-print ---
 
-### Get ideas 💭
+### Doe inspiratie op 💭
 
 --- task ---
 
