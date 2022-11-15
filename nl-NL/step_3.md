@@ -431,7 +431,7 @@ Heb je gecontroleerd of je je nieuwe blok ergens in je code gebruikt. Je kunt ee
 
 --- collapse ---
 ---
-Title: Mijn klonen doen niets
+title: Mijn klonen doen niets
 ---
 
 Gebruik je het `wanneer ik als kloon start`{:class='block3control'} blok, om de kloon te vertellen wat hij moet doen?
