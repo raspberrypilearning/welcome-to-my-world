@@ -1,0 +1,28 @@
+---
+title: Welcome to my world
+hero_image: images/banner.png
+description: Build a 2.5D world to explore and interact with.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - 
+    title: You will make
+  - 
+    title: Your idea
+  - 
+    title: Build and test
+    completion:
+      - engaged
+      - internal
+  - 
+    title: Checklist
+    completion:
+      - external
+  - 
+    title: Upgrade your project
+  - 
+    title: Share
+  - 
+    title: What next?
