@@ -1,0 +1,29 @@
+beweeg_x
+
+links
+
+uiterlijk2
+
+rechts
+
+ga naar rechts
+
+rechts_1
+
+rechts_2
+
+rechts_3
+
+ga naar links
+
+links_1
+
+links_2
+
+links_3
+
+beweeg
+
+richting
+
+snelheid
