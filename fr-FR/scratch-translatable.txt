@@ -1,0 +1,29 @@
+defiler_x
+
+gauche
+
+costume 2
+
+droite
+
+déplacer vers la droite
+
+droite_1
+
+droite_2
+
+droite_3
+
+déplacer vers la gauche
+
+gauche_1
+
+gauche_2
+
+gauche_3
+
+déplacement
+
+direction
+
+vitesse

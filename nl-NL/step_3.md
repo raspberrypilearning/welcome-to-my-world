@@ -262,7 +262,7 @@ Er zijn drie belangrijke elementen die binnen deze blokken kunnen worden verande
 
 --- /collapse ---
 
-[[[generic-scratch-sound-from-library]]]
+[[[generic-scratch3-sound-from-library]]]
 
 [[[scratch3-record-sound]]]
 
