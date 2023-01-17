@@ -48,9 +48,9 @@ Gebruik een Notes-app of pen en papier, of beide om ideeën voor je simulatie te
 
 Deze simulatie zal heel wat graphics nodig hebben. Hoe krijg je de afbeeldingen die je nodig hebt om je project te bouwen? Je kunt:
 
-1. Gebruik de sprites en achtergronden die al in Scratch bestaan
-2. Gebruik de tools in Scratch om je eigen sprites en achtergronden te tekenen
-3. Download afbeeldingen van websites en upload ze naar Scratch
+1. De sprites en achtergronden gebruiken die al in Scratch bestaan
+2. De tools in Scratch gebruiken om je eigen sprites en achtergronden te tekenen
+3. Afbeeldingen van websites downloaden en naar Scratch uploaden
 
 Hier zijn enkele ingrediënten die je nuttig zou kunnen vinden:
 
