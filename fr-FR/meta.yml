@@ -1,0 +1,21 @@
+---
+title: Bienvenue dans mon monde
+hero_image: images/banner.png
+description: Construire un monde 2.5D pour explorer et interagir avec.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Tu feras
+  - title: Ton idée
+  - title: Construire et tester
+    completion:
+      - engaged
+      - internal
+  - title: Liste de contrôle
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Partager
+  - title: Et ensuite ?
