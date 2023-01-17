@@ -3,9 +3,9 @@
 Als je tijd hebt, kun je jouw project verbeteren. Je hebt misschien al ideeën over hoe je meer kunt toevoegen of je wilt teruggaan naar de eerste stap en andere projecten opnieuw bekijken voor meer inspiratie.
 
 Je kunt:
-- Voeg meer sprites toe aan je project
-- Voeg extra geluidseffecten of muziek toe
-- Verander achtergronden zodat de simulatie naar verschillende scènes kan schakelen
+- Meer sprites toe voegen aan je project
+- Extra geluidseffecten of muziek toevoegen
+- Achtergronden veranderen zodat de simulatie naar verschillende scènes kan schakelen
 
 Elk voorbeeldproject in de [Inleiding](.) heeft een **Bekijk van binnen** link om het project in Scratch te openen en de code te bekijken om ideeën te krijgen en te zien hoe ze werken.
 
