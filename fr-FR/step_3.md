@@ -21,7 +21,7 @@ Crée un nouveau sprite en copiant les images d'un arrière-plan et en les ajout
 
 ![Outil Peindre un nouveau sprite sélectionné.](images/paint-new-sprite.png) ![Outil Copier en surbrillance dans la barre d'outils.](images/copy-backdrop.png) ![Outil Coller en surbrillance dans la barre d'outils.](images/paste-backdrop.png)
 
-Crée une nouvelle `variable`{:class="block3variables"} appelée `défiler_x`{:class="block3variables'}.
+Crée une nouvelle `variable`{:class="block3variables"} appelée `défiler_x`{:class="block3variables"}.
 
 Les blocs suivants créeront un effet de défilement sur le sprite lorsque la souris est déplacée vers la gauche et vers la droite.
 
@@ -264,7 +264,7 @@ Trois éléments principaux peuvent être modifiés dans ces blocs.
 
 --- /collapse ---
 
-[[[generic-scratch-sound-from-library]]]
+[[[generic-scratch3-sound-from-library]]]
 
 [[[scratch3-record-sound]]]
 
@@ -358,10 +358,10 @@ change x by ((1) * (vitesse))
 
 when flag clicked
 if <(mouse x) < (-200)> then
-move [gauche] (vitesse)
+déplacement [gauche] (vitesse)
 end
 if <(mouse x) > (200)> then
-move [droite] (vitesse)
+déplacement [droite] (vitesse)
 ```
 
 --- /collapse ---
