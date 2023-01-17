@@ -15,7 +15,7 @@ Kies een achtergrond die je wilt gebruiken voor je simulatie. De achtergrond kan
 title: Laat een achtergrond bewegen
 ---
 
-In plaats van de achtergrond te laten bwegen, ga je in feite een sprite laten bewegen, die je hebt gemaakt door een achtergrond te kopiëren.
+In plaats van de achtergrond te laten bewegen, ga je in feite een sprite laten bewegen, die je hebt gemaakt door een achtergrond te kopiëren.
 
 Maak een nieuwe sprite door de afbeeldingen vanaf een achtergrond te kopiëren en toe te voegen aan je sprite.
 
