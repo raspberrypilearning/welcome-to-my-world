@@ -61,22 +61,19 @@ Ta simulation pourrait :
 
 Réfléchis au type de scène 2.5D que tu aimerais créer en examinant ces exemples de projets pour avoir plus d'idées :
 
-**Averses :** [Voir à l'intérieur](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
-Clique sur G pour marcher à gauche et sur D pour marcher à droite. Que se passe-t-il quand il pleut ? Ou si tu marches dans une flaque d'eau?
+****
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933656/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
-**Yeux d'animaux :** [Voir à l'intérieur](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
-Tu regardes l'environnement à travers les yeux d'un écureuil. Lorsque tu vois quelque chose, clique dessus. Que se passe-t-il lorsque tu cliques sur un insecte, un rocher ou un gland ?
+****
 <div class="scratch-preview" style="margin-left: 15px;">
- <iframe src="https://scratch.mit.edu/projects/553701588/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ <iframe src="" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
  </div>
 
-**Paysage sonore** : [Voir à l'intérieur](https://scratch.mit.edu/projects/555933631/editor){:target="_blank"}
-Clique sur le personnage et l'objet pour choisir ceux que tu veux utiliser dans l'histoire, puis clique sur la scène pour tourner la page.
+****
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933631/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 --- /task ---
