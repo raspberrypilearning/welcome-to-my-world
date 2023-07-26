@@ -61,22 +61,19 @@ Je simulatie zou:
 
 Denk aan het type 2.5D scene dat je wilt maken terwijl je deze voorbeeldprojecten onderzoekt om meer ideeën te krijgen:
 
-**Downpours:** [Bekijk van binnen](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
-Klik op L om naar links te lopen en op R om naar rechts te lopen. Wat gebeurt er als er regen is? Of als je in een plas stapt?
+****
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933656/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
-**Animal Eyes:** [See Inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
-Je kijkt naar de omgeving door de ogen van een eekhoorn. Wanneer je iets ziet, klik je erop. Wat gebeurt er als je op een insect, een steen of een eikel klikt?
+****
 <div class="scratch-preview" style="margin-left: 15px;">
- <iframe src="https://scratch.mit.edu/projects/553701588/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ <iframe src="" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
  </div>
 
-**Soundscape:** [Bekijk van binnen](https://scratch.mit.edu/projects/555933631/editor){:target="_blank"}
-Klik op het personage en het object om de gewenste persoon in het verhaal te kiezen en klik vervolgens op het speelveld om de pagina om te slaan.
+****
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933631/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 --- /task ---
