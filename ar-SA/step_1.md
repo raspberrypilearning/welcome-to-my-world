@@ -1,30 +1,30 @@
-## You will make
+## سوف تصنع
 
-You are going to create a 2.5D scene or what is sometimes called a first person view (FPV) scene. Your game will need to meet the **project brief**.
+ستقوم بإنشاء مشهد 2.5D أو ما يسمى أحيانا بمشهد عرض الشخص الأول (FPV). ستحتاج لعبتك إلى أن تعرض **ملخص المشروع**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">2.5D</span> game uses tricks to make a two-dimensional scene have the appearance of being three dimensional.
+تستخدم لعبة <span style="color: #0faeb0"> 2.5D </span> الحيل لجعل مشهد ثنائي الأبعاد يبدو بمظهر ثلاثي الأبعاد.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">FPV</span> game mimics a real 3D environment, so that you view the virtual world from the perspective of the playing character in the game.
+تحاكي لعبة <span style="color: #0faeb0"> FPV </span> بيئة حقيقية ثلاثية الأبعاد، بحيث يمكنك مشاهدة العالم الافتراضي من منظور شخصية اللاعب في اللعبة.
 </p>
 
-You will:
-+ Make a 2.5D scene
-+ Use `My Blocks`{:class='block3myblocks'} and `clones`{:class='block3events'} to generate the scene
-+ Understand how the size and coordinates of a sprite can affect its perspective
+سوف تقوم بما يلي:
++ إنشاء مشهد 2.5D
++ استخدم ` My Blocks ` {:class='block3myblocks'} و `clones`{:class='block3events'} لإنشاء المشهد
++ افهم كيف يمكن أن يؤثر حجم وإحداثيات الكائن على منظوره
 
 --- no-print ---
 
-### Play ▶️
+### تشغيل ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">
 
-Try and drive the car. You can speed up and slow down using the pedals on the right. You can change the radio station and the volume of the music. You can even push the horn to warn animals that are crossing the road.
+حاول قيادة السيارة. يمكنك الإسراع والإبطاء باستخدام الدواسات على اليمين. يمكنك تغيير محطة الراديو ومستوى صوت الموسيقى. يمكنك حتى الضغط على البوق لتحذير الحيوانات التي تعبر الطريق.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -38,45 +38,41 @@ Try and drive the car. You can speed up and slow down using the pedals on the ri
 
 <div style="border-top: 15px solid #f3524f; background-color: whitesmoke; margin-bottom: 20px; padding: 10px;">
 
-### PROJECT BRIEF: 2.5D simulation
-<hr style="border-top: 2px solid black;">
+ملخص المشروع: محاكاة 2.5D 
+<hr style="border-top: 2px solid black;"> 
+تحتاج إلى إنشاء محاكاة 2.5D التي يمكن للمستخدم التفاعل معها. ستكون المحاكاة من منظور الشخص الأول ، بحيث يبدو أن المستخدم ينظر من خلال الشاشة إلى البيئة التي أنشأتها.
 
-You need to create a 2.5D simulation that the user can interact with. The simulation will be from a first person view, so that the user appears to be looking through the screen at the environment you've created.
+يجب أن تكون المحاكاة الخاصة بك: 
++ استخدم كائنات بأحجام مختلفة لتمثيل مسافة الكائن من المشاهد.
++ استخدم النسخ لتوليد نسخ من الكائنات.
++ استخدام لبناتي {:class='block3myblocks'} للحفاظ على تنظيم التعليمات البرمجية و / أو السماح بإستخدام المدخلات.
 
-Your simulation should:
-+ Use different sized sprites to represent the distance of the object from the viewer
-+ Use clones to generate copies of sprites
-+ Use `My Blocks`{:class='block3myblocks'} to keep your code organised and/or allow the use of inputs
-
-Your simulation could:
-+ Have an educational theme, to try and teach the user a skill
-+ Use sounds or music to make the simulation appear more realistic
+يمكن للمحاكاة الخاصة بك أن: 
++ لديها موضوع تعليمي ، لمحاولة تعليم المستخدم مهارة
++ استخدم الأصوات أو الموسيقى لجعل المحاكاة تبدو أكثر واقعية
 </div>
 
 --- no-print ---
 
-### Get ideas 💭
+### احصل على أفكار 💭
 
 --- task ---
 
-Think about the type of 2.5D scene you would like to create as you investigate these example projects to get more ideas:
+فكر في نوع مشهد الـ 2.5D الذي ترغب في إنشائه واستكشاف هذه الأمثله من المشاريع للحصول على المزيد من الأفكار:
 
-**Downpours:** [See inside](https://scratch.mit.edu/projects/555933656/editor){:target="_blank"}
-click L to walk left and R to walk right. What happens when there is rain? or if you step in a puddle?
+****
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933656/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
-**Animal eyes:** [See inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
-You are looking at the enviornment through the eyes of a squirrel. When you see something click on it. What happens when you click on a bug, a rock, or an acorn?
+****
 <div class="scratch-preview" style="margin-left: 15px;">
- <iframe src="https://scratch.mit.edu/projects/553701588/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ <iframe src="" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
  </div>
 
-**Soundscape:** [See inside](https://scratch.mit.edu/projects/555933631/editor){:target="_blank"}
-Click on the character and object to choose the ones you want in the story, then click on the Stage to turn the page.
+****
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/555933631/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
 </div>
 
 --- /task ---
