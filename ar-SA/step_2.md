@@ -1,58 +1,58 @@
-## Your idea
+## فكرتك
 
-Use this step to plan your virtual environment. ![Example world projects.](images/step.png)
+استخدم هذه الخطوة لتخطيط بيئتك الافتراضية. ![مثال على المشاريع العالمية.](images/step.png)
 
-### What will you make?
+### ماذا ستفعل؟
 
 --- task ---
 
-Think about the simulation you want to create, and how the user will interact with the project.
+فكر في المحكاة التي تريد صنعها، وكيف سيتفاعل المستخدم مع المشروع.
 
-It could be:
-- A nature simulation with on-screen controls to move around the scene
-- A room in a house where different sprites, such as a TV, can be clicked to make them work
-- A vehicle simulator with a steering wheel, pedals, and a gearstick
+من الممكن أن تكون:
+- محاكاة الطبيعة مع شاشة تحكم لتحرك في جميع أنحاء المشهد
+- غرفة في المنزل حيث يوجد كائنات مختلفة، يمكنك النقر عليها لتعمل، مثل التلفاز
+- جهاز محاكاة للسيارة مزود بعجلة قيادة ودواسات للبانزين والبريك و gearstick
 
 
 --- /task ---
 
-### Who is it for?
+### لمن هذا؟
 
 --- task ---
 
-Think about who you will make your simulation for (your **audience**). Is it an educational simulation to teach people? Is it a game for entertainment? Maybe it's a series of puzzles that need to be solved.
+فكر فمن ستصنع له المحاكاة الخاصة بك (**جمهورك**). هل هي محاكاة تعليمية لتعليم الناس؟ هل هي لُعبة لترفيه؟ أو ربما هيا سلسلة من الألغاز تحتاج إلى حل.
 
 --- /task ---
 
-### Get started
+### البدء
 
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+افتح [مشروع Scratch جديد](http://rpf.io/scratch-new){: target = "_ blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 --- collapse ---
 ---
-title: Working offline
+title: العمل دون اتصال
 ---
 
-To set up Scratch for offline use, visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
+لإعداد Scratch للاستخدام دون الاتصال بالانترنت، قم بزيارة [دليل سكراتش Scratch](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
 
 --- /collapse ---
 
-Use a notes app or pen and paper, or both to plan ideas for your simulation. Try to jot down as many ideas as you can, and discuss them with a friend. Then pick the idea that you like the most.
+استخدم تطبيق ملاحظات أو ورقة وقلم، أو كليهما لتخطيط أفكارك للمحاكاة. حاول تدوين أكبر عدد ممكن من الأفكار، ومناقشتها مع صديق. ثم اختر أكثر فكرة تعجبك.
 
 --- /task ---
 
 --- task ---
 
-This simulation is going to need quite a few graphics. How will you get the images you need to build your project? You could:
+ستحتاج هذه المحاكاة إلى عدد ليس بقليل من الرسومات. كيف يمكنك الحصول على الصورة التي تحتاجها لإنشاء مشروعك؟ يمكنك:
 
-1. Use the sprites and backdrops that already exist in Scratch
-2. Use the tools in Scratch to draw your own sprites and backdrops
-3. Download images from websites and then upload them to Scratch
+1. استخدم الكائنات والخلفيات الموجودة في سكراتش
+2. استخدم الأدوات في سكراتش لرسم الكائنات والخلفيات الخاصة بك
+3. قم بتنزيل الصور من المواقع ثم قم بتحميلها إلى سكراتش
 
-Here are some ingredients that you might find useful:
+فيما يلي بعض المكونات التي قد تجدها مفيدة:
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
