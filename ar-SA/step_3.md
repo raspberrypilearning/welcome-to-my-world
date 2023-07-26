@@ -1,29 +1,29 @@
-## Build and test
+## البناء والاختبار
 
-Now it's time to make your simulation. Start with thinking about the background to your simulation. Will it scroll, or will it be static?
+الآن حان وقت إنشاء المحاكاة الخاصة بك. ابدأ بالتفكير في خلفية المحاكاة الخاصة بك. هل ستكون متحركة أم ثابتة؟
 
 ![Example world projects.](images/step.png)
 
-**Tip**: Remember to test your project each time you add something. It is much easier to find and fix bugs before you make more changes.
+**نصيحة**: تذكر أن تختبر مشروعك في كل مرة تضيف شيئا. من السهل جدًا العثور على الأخطاء وإصلاحها قبل إجراء المزيد من التغييرات.
 
 --- task ---
 
-Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
+اختر خلفية لاستخدامها في المحاكاة الخاصة بك. يمكن أن تكون الخلفية ثابتة، أو يمكنك جعلها متحركة.
 
 --- collapse ---
 ---
-title: Scroll a backdrop
+title: تحريك الخلفية
 ---
 
-Rather than scrolling the backdrop, in fact, you're going to scroll a sprite, which you have created by copying a backdrop.
+بدلا من تحريك الخلفية، في الواقع، ستقوم بتحريك الكائن الذي قمت بإنشائه عن طريق نسخ الخلفية.
 
-Create a new sprite by copying the images from a backdrop, and adding them into your sprite.
+قم بإنشاء كائن عن طريق نسخ الصور في الخلفية، ثم قم بإضافتها إلى الكائن الخاص بك.
 
 ![Paint new sprite tool selected.](images/paint-new-sprite.png) ![Copy tool highlighted in the tool bar.](images/copy-backdrop.png) ![Paste tool highlighted in the tool bar.](images/paste-backdrop.png)
 
-Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
+قم بإنشاء `متغير` جديد {:class='block3variables'} يدعى `scroll_x`{:class='block3variables'}.
 
-The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
+التعليمات البرمجية التالية ستقوم بإنشاء تأثير التحريك على الكائن عندما تقوم بتحريك الفأرة ( الماوس) يميناً ويساراً.
 
 ```blocks3
 when flag clicked
@@ -44,7 +44,7 @@ forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
 ```
 
-**Tip:** Instead of using the mouse position, you could use clicking on a button or pressing a key to change the `scroll_x`{:class='block3variables'} variable.
+**نصيحة** بدلا من استخدام موضع الفأرة، يمكنك استخدام النقر على الأزرار أو الضغط على المفتاح لتغيير المتغير `scroll_x`{:class='block3variables'}.
 
 --- /collapse ---
 
@@ -52,11 +52,11 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- task ---
 
-Think about the sprites you will use for your simulation. Will some of them remain still in the scene, will they change costumes, effects, or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
+فكر في الكائنات التي ستستخدمها في المحاكاة الخاصة بك. هل سيبقى بعضها في المشهد، هل ستتغير الأزياء أو التأثيرات أو الحركة عند التفاعل معها؟ هل سيقومون بالتحرك عبر الشاشة؟ كيف سيتم السيطرة عليهم إذا تحركوا؟
 
 --- collapse ---
 ---
-title: Move a sprite with key presses
+title: تحريك كائن بضغطة مفتاح
 ---
 
 ```blocks3
@@ -75,14 +75,14 @@ end
 
 --- collapse ---
 ---
-title: Move a sprite with on-screen controls
+title: انقل كائنًا باستخدام عناصر التحكم على الشاشة
 ---
 
-Create sprites for your directions and position them on the screen.
+قم بإنشاء كائنات متحركة و ضعها على الشاشة.
 
 ![Scratch cat on the Stage with right and left buttons in the bottom right-hand corner of the screen.](images/scratch-controls.png)
 
-The buttons should have controls to broadcast their direction, when they're clicked on.
+يجب أن تحتوي الأزرار على عناصر تحكم لبث اتجاهها عند النقر فوقها.
 
 ![Left sprite button.](images/left-sprite.png)
 ```blocks3
@@ -90,7 +90,7 @@ when this sprite clicked
 broadcast [left v]
 ```
 
-The sprite being controlled should move in the direction indicated. ![Scratch Cat sprite.](images/scratch-cat.png)
+يجب أن يتحرك الكائن الذي يتم التحكم فيه في الاتجاه المشار إليه. ![Scratch Cat sprite.](images/scratch-cat.png)
 ```blocks3
 when I receive [left v]
 change x by (-10)
@@ -100,10 +100,10 @@ change x by (-10)
 
 --- collapse ---
 ---
-title: Change a sprite when it's clicked
+title: تغيير الكائن عند النقر فوقه
 ---
 
-You can change the appearance and orientation of a sprite whenever it is clicked. Here are some code examples.
+يمكنك تغيير مظهر واتجاه الكائن عند النقر فوقه. فيما يلي بعض الأمثلة على التعليمات البرمجية.
 
 ```blocks3
 when this sprite clicked
@@ -120,10 +120,10 @@ turn cw (30) degrees
 
 --- collapse ---
 ---
-title: Animate a sprite with costumes
+title: تحريك كائن بأستخدام الازياء
 ---
 
-There are several ways to animate a sprite using its costumes. Here are a few examples.
+هناك عدة طرق لتحريك كائن ما باستخدام الأزياء الخاصة به. فيما يلي بعض الأمثلة على التعليمات البرمجية.
 
 ```blocks3
 when flag clicked
@@ -146,10 +146,10 @@ next costume
 
 --- collapse ---
 ---
-title: Change the layer of a sprite
+title: قم بتغيير طبقة الكائن
 ---
 
-Sprites that you are using as backdrops need to be on the back layer. Sprites that you want in the foreground need to be on the top layer. You can set the layer of a sprite or its clone.
+يجب أن تكون الكائنات التي تستخدمها كخلفيات على الطبقة الخلفية. يجب أن تكون الكائنات المتحركة التي تريدها في المقدمة في الطبقة العليا. يمكنك تعيين طبقة الكائن أو استنساخه.
 
 ```blocks3
 when flag clicked
@@ -165,13 +165,13 @@ go to [front v] layer
 
 --- task ---
 
-Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
+هل سيحتاج أي من الكائنات المتحركة الخاصة بك إلى استنساخ نفسها؟ هل سينتجون العديد من النسخ التي تؤدي حركات مختلفة عندما يبدأون؟
 
 --- collapse ---
 ---
-title: Create clones of a sprite
+title: إنشاء نسخ من كائن ما
 ---
-Here are a few ways to make clones and delete them after different events.
+فيما يلي بعض الطرق لإنشاء نسخ وحذفها بعد أحداث مختلفة.
 
 ```blocks3
 when flag clicked
@@ -193,10 +193,10 @@ delete this clone
 
 --- collapse ---
 ---
-title: Randomise your clones
+title: قم بترتيب النسخ العشوائية الخاصة بك
 ---
 
-When a clone is created, it may need instructions on how to move, but you might want the different clones to behave slightly differently. You can use `random`{:class='block3operators'} blocks to do this.
+عندما يتم إنشاء نسخة ، قد تحتاج إلى تعليمات حول كيفية التحرك ، ولكن قد ترغب في أن تتصرف الكائنات المستنسخة المختلفة بشكل مختلف قليلاً. يمكنك استخدام كتلة `random` {: class = 'block3operators'} للقيام بذلك.
 
 ```blocks3
 when I start as a clone
@@ -215,17 +215,17 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- collapse ---
 ---
-title: Events to create a clone
+title: أحداث لإنشاء نسخة
 ---
 
-Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite every time it is clicked upon.
+يمكن إنشاء النسخ باستخدام العديد من الأحداث `events`{: class = 'block3events'}. ستنشئ الكتل البرمجية أدناه نسخة من كائن ما في كل مرة يتم النقر عليها.
 
 ```blocks3
 when this sprite clicked
 create clone of [myself v]
 ```
 
-You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse-pointer's location. Clones can appear in any location you like, so you might like them to go to a specific sprite or position.
+يمكنك إنشاء نسخ كلما تم النقر فوق الماوس أيضًا ، وجعل الاستنساخ يظهر في موقع مؤشر الماوس. يمكن أن تظهر الكائنات المستنسخة في أي مكان تريده ، لذلك قد ترغب في نقلها إلى كائن أو موقع معين.
 
 ```blocks3
 when flag clicked
@@ -243,22 +243,22 @@ go to x: (mouse x) y: (mouse y)
 
 --- task ---
 
-Will there be a musical or sound effect aspect to your simulation? Maybe there's background noise, or a sprite plays a tune when it is clicked?
+هل سيكون هناك تأثير موسيقي أو صوتي على محاكاتك؟ ربما يكون هناك ضوضاء في الخلفية ، أو يعزف كائن ما لحنًا عند النقر عليه؟
 
 --- collapse ---
 ---
-title: The Scratch music extension
+title: أضافة سكراتش الموسيقية
 ---
 
-Once you have added the extension, new blocks will be available to you.
+بمجرد إضافة الاضافة (الملحق) ، ستكون كتل جديدة متاحة لك.
 
-There are three main elements that can be changed within these blocks.
+هناك ثلاثة عناصر رئيسية يمكن تغييرها داخل هذه الكتل.
 
-- `beats`{:class='block3custom'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
+- `beats `{: class = 'block3custom'} هي وحدة زمنية مستخدمة في الموسيقى. يمكن أن تكون النبضة الموسيقية بطول ثانية أو ربع ثانية. الأمر يعود إليك.
 
-- `tempo`{:class='block3custom'} sets how many beats there are in a minute: `60` beats a minute would mean that a beat is `1` second long.
+- `tempo `{: class = 'block3custom'} يحدد عدد النبضات في الدقيقة: `60` نبضة في الدقيقة تعني أن كل نبضة في `1` ثانية.
 
-- `note`{:class='block3custom'} is the pitch of the note being played: `60` is the same as **middle C** on a piano.
+- `note`{: class = 'block3custom'} هي درجة نغمة النغمة التي يتم عزفها: `60` هي نفس درجة **وسط C** على البيانو.
 
 --- /collapse ---
 
@@ -276,14 +276,14 @@ There are three main elements that can be changed within these blocks.
 
 --- task ---
 
-Do you want your sprites to keep repeating an action, until some condition has been met? You can use `repeat until`{:class='block3control'} blocks to do this.
+هل تريد أن تستمر كائناتك في تكرار إجراء ما ، حتى يتم استيفاء بعض الشروط؟ يمكنك استخدام كتلة ` repeat until `{: class = 'block3control'} للقيام بذلك.
 
 --- collapse ---
 ---
-title: Using repeat until blocks
+title: استخدام كتل كرر حتى (repeat until)
 ---
 
-Here is a set of blocks that will keep a sprite moving, until its `y`{:class='block3motion'} position reaches `-250`.
+فيما يلي مجموعة من الكتل التي ستحافظ على حركة الكائن ، حتى يصل موضعه `y`{: class = 'block3motion'} إلى `-250`.
 
 ```blocks3
 when flag clicked
@@ -298,14 +298,14 @@ change y by (-10)
 
 --- task ---
 
-Think about the organisation of your blocks, and the inputs that might be needed. Can you use `My Blocks`{:class='block3myblocks'} to **optimise** your project?
+فكر في تنظيم الكتل الخاصة بك ، والمدخلات التي قد تحتاجها. يمكنك استخدام `My Blocks`{: class = "block3myblocks"} لتنظيم **optimise** مشروعك؟
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: استخدم كتلتي (My Blocks) لتنظيم الشفرة البرمجية
 ---
 
-The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise your code. Here is a simple example.
+إن أبسط طريقة لاستخدام `My Blocks`{: class = "block3myblocks"} هي المساعدة في تنظيم الشفرة البرمجية الخاصة بك. اليك مثال بسيط.
 
 ```blocks3
 define move right
@@ -341,10 +341,10 @@ move left
 
 --- collapse ---
 ---
-title: Using inputs with My Blocks
+title: استخدام المدخلات مع My Blocks
 ---
 
-`My Blocks`{:class='block3myblocks'} take text and number inputs as well.
+`My Blocks`{: class = 'block3myblocks'} تأخذ مدخلات النص والأرقام أيضًا.
 
 ```blocks3
 define move (direction) (speed)
@@ -368,14 +368,14 @@ move [right] (speed)
 
 --- task ---
 
-The key to most 2.5D scenes is changing the size of a sprite to give the impression that it is further away.
+المفتاح لمعظم مشاهد 2.5D هو تغيير حجم الكائن لإعطاء الانطباع بأنه بعيد.
 
 --- collapse ---
 ---
-title: Changing sprite sizes relative to position
+title: تغيير أحجام الكائنات بالنسبة للموقع
 ---
 
-The following blocks will make a sprite smaller as it moves up the screen, and therefore appear further away.
+ستعمل الكتل التالية على تصغير الكائن كلما تحرك للأعلى على الشاشة ، وبالتالي يظهر بعيدًا.
 
 ```blocks3
 when flag clicked
@@ -392,69 +392,69 @@ wait (0.2) secs
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your scene?
+**اختبار:** اعرض مشروعك على شخص آخر واحصل على ملاحظاته. هل تريد إجراء أي تغييرات على الشكل الخاص بك؟
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**تصحيح:** قد تجد بعض الأخطاء في مشروعك والتي تحتاج إلى إصلاحها. فيما يلي بعض الأخطاء الشائعة.
 
 --- collapse ---
 ---
-title: My clones don't appear
+title: كائناتي المستنسخة لا تظهر 
 ---
 
-Are your clones hidden? Make sure that when the clones are created, the `show`{:class='block3looks'} option is used. Also make sure that you have them on the `front layer`{:class='block3looks'}.
+هل كائناتك المستنسخة مختفية؟ تأكد من أنه عند إنشاء النسخ ، يتم استخدام الخيار `show`{: class = 'block3looks'}. تأكد أيضًا من وجودهم في الطبقة الأمامية ``{: class = 'block3looks'}.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprite doesn't move off the screen correctly
+العنوان: لا يتحرك الكائن الخاص بي خارج الشاشة بشكل صحيح
 ---
 
-If you want a sprite to cycle from one side of the screen to another, or vanish when it gets to one side of the screen, then you can check its position and perform some action. You might need to check where the centre of your sprite is, on its costume, to make sure this works properly. It's easisest to drag the sprite to the side of the screen, and then check its `x`{:class='block3motion'} and `y`{:class='block3motion'} positions.
+إذا كنت تريد أن يتنقل كائن ما من جانب إلى آخر من الشاشة ، أو يختفي عندما يصل إلى جانب واحد من الشاشة ، فيمكنك التحقق من موضعه وتنفيذ بعض الإجراءات. قد تحتاج إلى التحقق من مكان مركز الكائن الخاص بك ، من خلال زيه ، للتأكد من أن هذا يعمل بشكل صحيح. من الأسهل سحب الكائن إلى جانب الشاشة ، ثم التحقق من وضعي `×`{: class = 'block3motion'} و `y`{: class = 'block3motion'}.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Blocks are not working
+title: كتلتي لا تعمل
 ---
 
-Have you checked that you are using your new block somewhere in your code. You can `define`{:class='block3myblocks'} a new block, but then you need to use it for the code beneath it to actually run.
+هل تحققت من أنك تستخدم الكتلة الجديدة في مكان ما في التعليمات البرمجية الخاصة بك. يمكنك `define`{: class = 'block3myblocks'} كتلة جديدة ، ولكن بعد ذلك تحتاج إلى استخدامها للتعليمة البرمجية الموجودة تحتها ليتم تشغيلها بالفعل.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My clones aren't doing anything
+title: كائناتي المستنسخة لا تفعل أي شيء
 ---
 
-Are you using the `when I start as clone`{:class='block3control'} block, to tell the clone what to do?
+هل تستخدم كتلة `when I start as clone`{: class = 'block3control'} ، لإخبار المستنسخ بما يجب فعله؟
 
-Do you have any conditions that might stop the clones from working? For instance, are they supposed to move until they touch the edge of the screen? If a clone is created at the edge of the screen, then they won't do anything.
+هل لديك أي شروط قد تمنع الكائنات المستنسخة من العمل؟ على سبيل المثال ، هل من المفترض أن يتحركوا حتى يلمسوا حافة الشاشة؟ إذا تم إنشاء نسخة على حافة الشاشة ، فلن يفعلوا أي شيء.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprites are moving in the wrong direction
+title: الكائن الخاص بي يتحرك بالاتجاه الخاطئ
 ---
 
-Check that you are using the `change x by`{:class='block3motion'} block to move the sprites left and right, and the `change y by`{:class='block3motion'} block to move them up and down.
+تأكد من أنك تستخدم كتلة `change x by `{: class = 'block3motion'} لتحريك الكائن يمينًا ويسارًا ، و كتلة `change y by `{: class = 'block3motion'} لتحريكها لأعلى ولأسفل .
 
-Check whether you are using positive and negative numbers correctly, to increase or decrease `x`{:class='block3motion'} and `y`{:class='block3motion'}.
+تحقق مما إذا كنت تستخدم الأرقام الموجبة والسالبة بشكل صحيح ، لزيادة أو إنقاص `×`{: class = 'block3motion'} و `y`{: class = 'block3motion'}.
 
 --- /collapse ---
 
-You might find a bug not listed here. Can you figure out how to fix it?
+قد تجد خطأ غير مدرج هنا. هل يمكنك معرفة كيفية إصلاحه؟
 
-We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
+نحن نحب أن نسمع عن أخطائك وكيفية إصلاحها. استخدم زر التعليقات في أسفل هذه الصفحة إذا وجدت خطأ مختلفًا في مشروعك.
 
 --- /task ---
 
