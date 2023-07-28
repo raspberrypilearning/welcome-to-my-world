@@ -44,9 +44,9 @@ Probeer de auto te besturen. Je kunt versnellen en vertragen met behulp van de p
 Je moet een 2.5D simulatie maken waarmee de gebruiker kan communiceren. De simulatie komt uit een first person-weergave, zodat de gebruiker door het scherm lijkt te kijken naar de omgeving die je hebt gemaakt.
 
 Je simulatie moet:
-+ gebruik sprites van verschillende grootte om de afstand van het object tot de viewer weer te geven
-+ gebruik klonen om kopieën van sprites te genereren
-+ gebruik 'Mijn blokken'{:class='block3myblocks'} om je code georganiseerd te houden en/of het gebruik van invoer toe te staan
++ sprites van verschillende grootte gebruiken om de afstand van het object tot de viewer weer te geven
++ klonen gebruiken om kopieën van sprites te genereren
++ 'Mijn blokken'{:class='block3myblocks'} gebruiken om je code georganiseerd te houden en/of het gebruik van invoer toe te staan
 
 Je simulatie zou:
 + een educatief thema kunnen hebben, om de gebruiker een vaardigheid te leren
