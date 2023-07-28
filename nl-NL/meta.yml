@@ -2,6 +2,8 @@
 title: Welkom in mijn wereld
 hero_image: images/banner.png
 description: Bouw een 2.5D wereld om mee te verkennen en te communiceren.
+meta_title: Scratch-programmeerprojecten voor kinderen en tieners | Welkom in mijn wereld
+meta_description: Leer coderen in Scratch met de programmeerprojecten voor kinderen en tieners van de Raspberry Pi Foundation. Bouw een 2.5D wereld om mee te verkennen en te communiceren.
 version: 4
 listed: true
 copyedit: true
@@ -9,7 +11,7 @@ last_tested: "2021-03-26"
 steps:
   - title: Je gaat maken
   - title: Jouw idee
-  - title: Bouw en test
+  - title: Bouwen en testen
     completion:
       - engaged
       - internal
