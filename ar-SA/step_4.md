@@ -1,81 +1,81 @@
-## Checklist
+## قائمة تدقيق
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
+هل أطلعت على **project bried**؟ فكر حول مشروعك وانتقل خلال قائمة التدقيق وتحقق من تلك التي يلائم مشروعك.
 
-Does your simulation:
+هل المحاكاة الخاصة بك:
 
 --- task ---
 
-Use different sized sprites to represent the distance of the object from the viewer.
+استخدم كائنات متحركة بأحجام مختلفة لتمثيل مسافة الكائن من المشاهد.
 
 --- /task ---
 
 --- task ---
 
-Use clones to generate copies of sprites.
+استخدم المستنسخات لتوليد نسخ من الكائنات.
 
 --- /task ---
 
 --- task ---
 
-Use My Blocks to keep your code organised and/or allow the use of inputs.
+استخدم لبناتي (My Blocks) للحفاظ على تنظيم التعليمات البرمجية و / أو السماح باستخدام المدخلات.
 
 --- /task ---
 
-Your simulation could also:
+يمكن لمحاكاتك أيضًا:
 
 --- task ---
 
-Have an educational theme, to try and teach the user a skill.
-
---- /task ---
-
---- task ---
-
-Use sounds or music to make the simulation appear more realistic.
-
---- /task ---
-
-
-Reflecting about how you made your simulation will help you in your future projects:
-
---- task ---
-
-How did you get your ideas?
+لديك موضوع تعليمي لمحاولة تعليم المستخدم مهارة ما.
 
 --- /task ---
 
 --- task ---
 
-What cool new thing(s) did you learn?
+استخدم الأصوات أو الموسيقى لجعل المحاكاة تبدو أكثر واقعية.
 
 --- /task ---
 
 
-A famous inventor called Thomas Edison was very used to making mistakes. He said:
-> I have not failed. I've just found 10,000 ways that won't work.
-
-and
-
-> Many of life's failures are people who did not realize how close they were to success when they gave up.
-
-Mistakes and failure are temporary. Keep going until you succeed.
+سيساعدك التفكير في كيفية إجراء المحاكاة في مشاريعك المستقبلية:
 
 --- task ---
 
-What mistakes did you make and how did they help you create your simulation or make it better?
+كيف حصلت على أفكارك؟
 
 --- /task ---
-
-### Now you are the author of a Welcome to my world!
-
-Take a moment to celebrate what you have made.
 
 --- task ---
 
-Where will you take your new powers? What will you make next?
+ما الأشياء الجديدة الرائعة التي تعلمتها؟
 
 --- /task ---
 
-![scratch cat in at party hat](images/reflect.png)
+
+كان المخترع الشهير توماس إديسون معتادًا جدًا على ارتكاب الأخطاء. هو قال:
+> أنا لم أفشل. بل وجدت 10,000 طريقة لا يمكن للمصباح العمل بها.
+
+و
+
+> العديد من حالات الفشل في الحياة هم أشخاص لم يدركوا مدى قربهم من النجاح عندما استسلموا.
+
+الأخطاء والفشل مؤقتة. استمر حتى تنجح.
+
+--- task ---
+
+ما الأخطاء التي ارتكبتها وكيف ساعدتك في إنشاء المحاكاة أو تحسينها؟
+
+--- /task ---
+
+### أنت الآن مؤلف مرحبًا بك في عالمي!
+
+حان الوقت للاحتفال بما صنعته.
+
+--- task ---
+
+أين ستأخذ طاقتك الجديدة؟ ماذا ستفعل بعد ذلك؟
+
+--- /task ---
+
+![القطة ترتدي قبعة الاحتفالات](images/reflect.png)
 
