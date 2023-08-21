@@ -1,29 +1,29 @@
 scroll_x
 
-left
+يسار
 
-costume 2
+زي 2
 
-right
+يمين
 
-move right
+تحرك يمينا
 
-right_1
+يمين_1
 
-right_2
+يمين_2
 
-right_3
+يمين_3
 
-move left
+تحرك يسارا
 
-left_1
+يسار_1
 
-left_2
+يسار_2
 
-left_3
+اليسار_3
 
-move
+يتحرك
 
-direction
+اتجاه
 
-speed
+سرعة
