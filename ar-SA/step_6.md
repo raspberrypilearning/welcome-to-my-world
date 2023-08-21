@@ -1,21 +1,21 @@
-## Share
+## شارك
 
-Now is the time to share your creation with your audience.
+حان الوقت الآن لمشاركة مشروعك مع جمهورك.
 
-If you have a Scratch account, you can share your project through Scratch. Check with an adult first. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
+إذا كان لديك حساب Scratch ، فيمكنك مشاركة مشروعك من خلال منصة Scratch. تحقق مع شخص بالغ أولاً. يمكنك إرسال رابط إلى الأشخاص الذين تعرفهم ، وسيتمكن مجتمع Scratch بأكمله من العثور على مشروعك وتجربته.
 
 [[[share-scratch]]]
 
-Why not invite your friends to create a project? Let them know how much fun you had.
+لماذا لا تدعو أصدقائك لإنشاء مشروع؟ دعهم يعرفون مقدار المتعة التي حظيت بها.
 
-If you have a Scratch account, and have shared your project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Report and ignore any comments that are unhelpful or irrelevant.
+إذا كان لديك حساب Scratch ، وشاركت مشروعك ، تابع التعليقات التي قد يكتبها الآخرون حول مشروعك. التعليقات هي طريقة رائعة للتفكير في عملك. أبلغ عن أي تعليقات غير مفيدة أو غير ذات صلة وتجاهلها.
 
 [[[comments-feedback-scratch]]]
 
 --- task ---
 
-Inspire others with your project by submitting it to our Scratch studio!
+ألهم الآخرين بمشروعك عن طريق إرساله إلى استوديو Scratch الخاص بنا!
 
-To share your 2.5D scene with others who are doing the 'Welcome to my world' project, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+لمشاركة مشهد 2.5D الخاص بك مع الآخرين الذين يقومون بمشروع "مرحبًا بكم في عالمي" ، يرجى إكمال [هذا النموذج](https://form.raspberrypi.org/f/community-project-submissions){: target = "_ blank"}.
 
 --- /task ---
