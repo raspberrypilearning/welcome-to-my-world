@@ -2,7 +2,7 @@
 
 الآن حان وقت إنشاء المحاكاة الخاصة بك. ابدأ بالتفكير في خلفية المحاكاة الخاصة بك. هل ستكون متحركة أم ثابتة؟
 
-![Example world projects.](images/step.png)
+![مثال على المشاريع العالمية.](images/step.png)
 
 **نصيحة**: تذكر أن تختبر مشروعك في كل مرة تضيف شيئا. من السهل جدًا العثور على الأخطاء وإصلاحها قبل إجراء المزيد من التغييرات.
 
@@ -19,7 +19,7 @@ title: تحريك الخلفية
 
 قم بإنشاء كائن عن طريق نسخ الصور في الخلفية، ثم قم بإضافتها إلى الكائن الخاص بك.
 
-![Paint new sprite tool selected.](images/paint-new-sprite.png) ![Copy tool highlighted in the tool bar.](images/copy-backdrop.png) ![Paste tool highlighted in the tool bar.](images/paste-backdrop.png)
+![تم تحديد أداة رسم كائن جديد.](images/paint-new-sprite.png) ![تم تمييز أداة النسخ في شريط الأدوات.](images/copy-backdrop.png) ![تم تمييز أداة النسخ في شريط الأدوات.](images/paste-backdrop.png)
 
 قم بإنشاء `متغير` جديد {:class='block3variables'} يدعى `scroll_x`{:class='block3variables'}.
 
@@ -78,19 +78,19 @@ end
 title: انقل كائنًا باستخدام عناصر التحكم على الشاشة
 ---
 
-قم بإنشاء كائنات متحركة و ضعها على الشاشة.
+قم بإنشاء كائنات متحركة لتوجيهاتك وضعها على الشاشة.
 
-![Scratch cat on the Stage with right and left buttons in the bottom right-hand corner of the screen.](images/scratch-controls.png)
+![القطة على المنصة باستخدام الأزرار اليمنى واليسرى في الزاوية اليمنى السفلية من الشاشة.](images/scratch-controls.png)
 
 يجب أن تحتوي الأزرار على عناصر تحكم لبث اتجاهها عند النقر فوقها.
 
-![Left sprite button.](images/left-sprite.png)
+![زر الكائن الأيسر.](images/left-sprite.png)
 ```blocks3
 when this sprite clicked
 broadcast [left v]
 ```
 
-يجب أن يتحرك الكائن الذي يتم التحكم فيه في الاتجاه المشار إليه. ![Scratch Cat sprite.](images/scratch-cat.png)
+يجب أن يتحرك الكائن الذي يتم التحكم فيه في الاتجاه المشار إليه. ![كائن القط.](images/scratch-cat.png)
 ```blocks3
 when I receive [left v]
 change x by (-10)
@@ -149,7 +149,7 @@ next costume
 title: قم بتغيير طبقة الكائن
 ---
 
-يجب أن تكون الكائنات التي تستخدمها كخلفيات على الطبقة الخلفية. يجب أن تكون الكائنات المتحركة التي تريدها في المقدمة في الطبقة العليا. يمكنك تعيين طبقة الكائن أو استنساخه.
+يجب أن تكون الكائنات التي تستخدمها كخلفيات على الطبقة الخلفية. يجب أن تكون الكائنات المتحركة التي تريدها في المقدمة في الطبقة العليا. يمكنك أعداد طبقة الكائن أو استنساخه.
 
 ```blocks3
 when flag clicked
