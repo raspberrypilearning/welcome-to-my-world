@@ -1,30 +1,30 @@
-## You will make
+## Você vai fazer
 
-You are going to create a 2.5D scene or what is sometimes called a first person view (FPV) scene. Your game will need to meet the **project brief**.
+Você vai criar uma cena 2.5D ou o que às vezes é chamado cena em primeira pessoal (VPP). Você vai precisar atender aos **critérios do projeto**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">2.5D</span> game uses tricks to make a two-dimensional scene have the appearance of being three dimensional.
+O jogo <span style="color: #0faeb0">2.5D</span> usa truques para fazer uma cena bidimensional parecer tridimensional.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">FPV</span> game mimics a real 3D environment, so that you view the virtual world from the perspective of the playing character in the game.
+Um jogo <span style="color: #0faeb0">VPP</span> imita um ambiente 3D real, para você ver o mundo virtual da perspectiva do personagem do jogo.
 </p>
 
-You will:
-+ Make a 2.5D scene
-+ Use `My Blocks`{:class='block3myblocks'} and `clones`{:class='block3events'} to generate the scene
-+ Understand how the size and coordinates of a sprite can affect its perspective
+Você irá:
++ Crie uma cena 2.5D
++ Use `Meus Blocos`{:class='block3myblocks'} e `clones`{:class='block3events'} para gerar a cena
++ Entenda como o tamanho e as coordenadas de um ator podem afetar sua perspectiva
 
 --- no-print ---
 
-### Play ▶️
+### Jogar
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1">
 
-Try and drive the car. You can speed up and slow down using the pedals on the right. You can change the radio station and the volume of the music. You can even push the horn to warn animals that are crossing the road.
+Tente e dirija o carro. Você pode acelerar e desacelerar usando os pedais à direita. Você pode alterar a estação de rádio e o volume da música. Você pode até apertar a buzina para avisar os animais que estão atravessando a rua.
 
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -38,28 +38,28 @@ Try and drive the car. You can speed up and slow down using the pedals on the ri
 
 <div style="border-top: 15px solid #f3524f; background-color: whitesmoke; margin-bottom: 20px; padding: 10px;">
 
-### PROJECT BRIEF: 2.5D simulation
+### RESUMO DO PROJETO: Simulação 2.5D
 <hr style="border-top: 2px solid black;">
 
-You need to create a 2.5D simulation that the user can interact with. The simulation will be from a first person view, so that the user appears to be looking through the screen at the environment you've created.
+Você precisa criar uma simulação 2.5D com a qual o usuário possa interagir. A simulação será feita em primeira pessoa, de modo que o usuário pareça estar olhando através da tela para o ambiente que você criou.
 
-Your simulation should:
-+ Use different sized sprites to represent the distance of the object from the viewer
-+ Use clones to generate copies of sprites
-+ Use `My Blocks`{:class='block3myblocks'} to keep your code organised and/or allow the use of inputs
+Sua simulação deve:
++ Usar atores de tamanhos diferentes para representar a distância do objeto do visualizador
++ Usar clones para gerar cópias dos atores
++ Usar `Meus Blocos`{:class='block3myblocks'} para manter seu código organizado e/ou permitir o uso de entradas
 
-Your simulation could:
-+ Have an educational theme, to try and teach the user a skill
-+ Use sounds or music to make the simulation appear more realistic
+Sua simulação pode:
++ Ter um tema educacional, para tentar ensinar uma habilidade ao usuário
++ Usar sons ou música para fazer a simulação parecer mais realista
 </div>
 
 --- no-print ---
 
-### Get ideas 💭
+### Obtenha ideias
 
 --- task ---
 
-Think about the type of 2.5D scene you would like to create as you investigate these example projects to get more ideas:
+Pense na categoria da cena 2.5D que você gostaria de criar ao olhar esses projetos de exemplo para obter mais ideias:
 
 ****
 <div class="scratch-preview" style="margin-left: 15px;">
