@@ -1,16 +1,16 @@
-## Your idea
+## A sua ideia
 
-Use this step to plan your virtual environment. ![Example world projects.](images/step.png)
+Use esta etapa para planejar seu ambiente virtual ![Exemplos de projetos.](images/step.png)
 
-### What will you make?
+### O que você vai fazer?
 
 --- task ---
 
-Think about the simulation you want to create, and how the user will interact with the project.
+Pense sobre a simulação que você deseja criar e como o usuário irá interagir com o projeto.
 
-It could be:
-- A nature simulation with on-screen controls to move around the scene
-- A room in a house where different sprites, such as a TV, can be clicked to make them work
+Pode ser:
+- Uma simulação da natureza com controles na tela para se movimentar pela cena
+- Um cômodo em uma casa onde diferentes atores, como uma TV, podem ser clicados para fazê-los funcionar
 - A vehicle simulator with a steering wheel, pedals, and a gearstick
 
 
