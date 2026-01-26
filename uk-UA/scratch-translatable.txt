@@ -1,0 +1,29 @@
+scroll_x
+
+left
+
+costume 2
+
+right
+
+move right
+
+right_1
+
+right_2
+
+right_3
+
+move left
+
+left_1
+
+left_2
+
+left_3
+
+move
+
+direction
+
+speed
