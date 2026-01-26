@@ -1,30 +1,28 @@
 ---
-title: Welcome to my world
+title: Bem-vindo ao meu mundo
 hero_image: images/banner.png
-description: Build a 2.5D world to explore and interact with.
-meta_title: Scratch coding projects for kids and teens | My world
-meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Build a 2.5D world in Scratch to explore and interact with.
+description: Crie um mundo 2.5D para explorar e interagir.
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Meu mundo
+meta_description: Aprenda a codificar no Scratch com os projetos de codificação da Fundação Raspberry Pi para crianças e adolescentes. Construa um mundo 2.5D no Scratch para explorar e interagir.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Você vai fazer
   - 
-    title: Your idea
+    title: A sua ideia
   - 
-    title: Build and test
+    title: Construir e testar
     completion:
       - engaged
       - internal
   - 
-    title: Checklist
+    title: Lista de tarefas
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Melhore o seu projeto
   - 
-    title: Share
-  - 
-    title: What next?
+    title: Compartilhar
