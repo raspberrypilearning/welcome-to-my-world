@@ -1,29 +1,29 @@
-scroll_x
+rolagem_x
 
-left
+esquerda
 
-costume 2
+fantasia 2
 
-right
+direita
 
-move right
+mova para a direita
 
-right_1
+direita_1
 
-right_2
+direita_2
 
-right_3
+direita_3
 
-move left
+mova para a esquerda
 
-left_1
+esquerda_1
 
-left_2
+esquerda_2
 
-left_3
+esquerda_3
 
-move
+mover
 
-direction
+direção
 
-speed
+velocidade
