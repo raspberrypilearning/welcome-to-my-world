@@ -12,7 +12,7 @@ Kies een achtergrond die je wilt gebruiken voor je simulatie. De achtergrond kan
 
 --- collapse ---
 ---
-title: Laat een achtergrond bewegen
+title: Scroll a backdrop
 ---
 
 In plaats van de achtergrond te laten bewegen, ga je in feite een sprite laten bewegen, die je hebt gemaakt door een achtergrond te kopiëren.
@@ -56,7 +56,7 @@ Denk aan de sprites die je gaat gebruiken voor je simulatie. Zullen sommigen van
 
 --- collapse ---
 ---
-Title: Beweeg een sprite met een druk op een toets
+title: Move a sprite with key presses
 ---
 
 ```blocks3
@@ -75,7 +75,7 @@ end
 
 --- collapse ---
 ---
-title: Verplaats een sprite met besturingselementen op het scherm
+title: Move a sprite with on-screen controls
 ---
 
 Maak sprites voor je richtingen en plaats ze op het scherm.
@@ -100,7 +100,7 @@ change x by (-10)
 
 --- collapse ---
 ---
-Title: Wijzig een sprite wanneer erop wordt geklikt
+title: Change a sprite when it's clicked
 ---
 
 Je kunt het uiterlijk en de oriëntatie van een sprite veranderen wanneer er op wordt geklikt. Hier zijn enkele codevoorbeelden.
@@ -120,7 +120,7 @@ turn cw (30) degrees
 
 --- collapse ---
 ---
-title: Animeer een sprite met uiterlijken
+title: Animate a sprite with costumes
 ---
 
 Er zijn verschillende manieren om een sprite te animeren met behulp van uiterlijken. Hier zijn een paar voorbeelden.
@@ -146,7 +146,7 @@ next costume
 
 --- collapse ---
 ---
-Title: Verander de laag van een sprite
+title: Change the layer of a sprite
 ---
 
 Sprites die je gebruikt als achtergrond moeten op de achterlaag staan. Sprites die je op de voorgrond wilt hebben, moeten op de bovenste laag staan. Je kunt de laag van een sprite of de kloon instellen.
@@ -169,7 +169,7 @@ Zullen je sprites zichzelf moeten klonen? Zullen ze veel kopieën maken die vers
 
 --- collapse ---
 ---
-Title: Maak klonen van een sprite
+title: Create clones of a sprite
 ---
 Hier zijn een paar manieren om klonen te maken en ze te verwijderen na verschillende gebeurtenissen.
 
@@ -193,7 +193,7 @@ delete this clone
 
 --- collapse ---
 ---
-Title: Maak je klonen willekeurig
+title: Randomise your clones
 ---
 
 Wanneer een kloon wordt gemaakt, kan hij instructies nodig hebben over hoe te bewegen, en dit zou je zelfs per kloon verschillend kunnen instellen. Je kunt `willekeurig getal`{:class='block3operators'} blokken gebruiken om dit te doen.
@@ -215,7 +215,7 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- collapse ---
 ---
-title: Gebeurtenissen om een kloon te maken
+title: Events to create a clone
 ---
 
 Klonen kunnen worden gemaakt met veel verschillende `gebeurtenissen`{:class='block3events'}. De blokken hieronder zullen een kloon van een sprite maken elke keer dat er op wordt geklikt.
@@ -247,7 +247,7 @@ Zal er een muziek- of geluidseffect-aspect in je simulatie zijn? Misschien is er
 
 --- collapse ---
 ---
-Title: De Scratch-muziekextensie
+title: The Scratch music extension
 ---
 
 Zodra je de extensie hebt toegevoegd, zijn er nieuwe blokken beschikbaar.
@@ -280,7 +280,7 @@ Wil je dat je sprites een actie blijven herhalen, totdat aan een voorwaarde is v
 
 --- collapse ---
 ---
-title: Gebruik herhaal tot blokken
+title: Using repeat until blocks
 ---
 
 Hier is een reeks blokken die een sprite in beweging houdt, totdat de `y`{:class='block3motion'} positie `-250` bereikt.
@@ -302,7 +302,7 @@ Denk aan de structuur van je blokken, en de input die nodig zou kunnen zijn. Kun
 
 --- collapse ---
 ---
-title: Gebruik Mijn blokken om code te organiseren
+title: Use My Blocks to organise code
 ---
 
 De eenvoudigste manier om `Mijn blokken`{:class='block3myblocks'} te gebruiken is om je code te helpen organiseren. Hier is een eenvoudig voorbeeld.
@@ -341,7 +341,7 @@ move left
 
 --- collapse ---
 ---
-title: Invoer gebruiken met Mijn blokken
+title: Using inputs with My Blocks
 ---
 
 In `Mijn blokken`{:class='block3myblocks'} kun je tekst en cijfers invoeren.
@@ -372,7 +372,7 @@ Het belangrijkste van de meeste 2.5D scènes is het veranderen van de grootte va
 
 --- collapse ---
 ---
-title: De grootte van de sprite wijzigen ten opzichte van de positie
+title: Changing sprite sizes relative to position
 ---
 
 De volgende blokken maken een sprite kleiner als deze omhoog beweegt, en lijken daarom verder weg.
@@ -402,7 +402,7 @@ wait (0.2) secs
 
 --- collapse ---
 ---
-title: Mijn klonen verschijnen niet
+title: My clones don't appear
 ---
 
 Zijn je klonen verborgen? Zorg ervoor dat wanneer de klonen worden gemaakt, de `verschijn`{:class='block3looks'} optie wordt gebruikt. Zorg er ook voor dat je ze op de `voorgrond`{:class='block3looks'} hebt.
@@ -412,7 +412,7 @@ Zijn je klonen verborgen? Zorg ervoor dat wanneer de klonen worden gemaakt, de `
 
 --- collapse ---
 ---
-title: Mijn sprite beweegt niet goed van het scherm af
+title: My sprite doesn't move off the screen correctly
 ---
 
 Als je wilt dat een sprite van de ene kant van het scherm naar de andere gaat, of verdwijnt wanneer het naar de ene kant van het scherm gaat, dan kun je de positie ervan controleren en wat actie uitvoeren. Controleer waar het centrum van je sprite is, op het uiterlijk, om ervoor te zorgen dat dit goed werkt. Het is het makkelijkst om de sprite naar de zijkant van het scherm te slepen en vervolgens de `x`{:class='block3motion'} en `y`{:class='block3motion'} posities te controleren.
@@ -422,7 +422,7 @@ Als je wilt dat een sprite van de ene kant van het scherm naar de andere gaat, o
 
 --- collapse ---
 ---
-Title: Mijn blokken werken niet
+title: My Blocks are not working
 ---
 
 Heb je gecontroleerd of je je nieuwe blok ergens in je code gebruikt. Je kunt een nieuw blok `definiëren`{:class='block3myblocks'}, maar dan moet je het gebruiken om de code eronder daadwerkelijk uit te voeren.
@@ -431,7 +431,7 @@ Heb je gecontroleerd of je je nieuwe blok ergens in je code gebruikt. Je kunt ee
 
 --- collapse ---
 ---
-Title: Mijn klonen doen niets
+title: My clones aren't doing anything
 ---
 
 Gebruik je het `wanneer ik als kloon start`{:class='block3control'} blok, om de kloon te vertellen wat hij moet doen?
@@ -443,7 +443,7 @@ Heb je voorwaarden die de klonen zouden kunnen tegenhouden? Moeten ze bijvoorbee
 
 --- collapse ---
 ---
-title: Mijn sprites bewegen in de verkeerde richting
+title: My sprites are moving in the wrong direction
 ---
 
 Controleer of je het `verander x met`{:class='block3motion'} blok gebruikt om de sprites naar links en rechts te verplaatsen, en het `verander y met`{:class='block3motion'} blok om ze omhoog en omlaag te bewegen.
