@@ -1,9 +1,9 @@
-## What next?
+## Και τώρα;
 
-You have reached the end of the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) path!
+Έφτασες στο τέλος του μονοπατιού [Περαιτέρω Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch)!
 
-Now you can bring all your ideas to life in Scratch. Try using Scratch to make more cool stuff. If you need a reminder of what you have learnt, you can go to the [Scratch guide](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
+Τώρα, μπορείς να πραγματοποιήσεις όλες τις ιδέες σου στο Scratch. Δοκίμασε να χρησιμοποιήσεις το Scratch για να φτιάξεις κι άλλα ωραία έργα. Αν χρειάζεσαι μια υπενθύμιση για όσα έχεις μάθει, μπορείς να ανατρέξεις στον [οδηγό Scratch](https://projects.raspberrypi.org/en/projects/getting-started-scratch).
 
 [[[scratch-coolest-projects]]]
 
-Or, you can explore our [other Scratch projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) and try them out.
+Ή, μπορείς να εξερευνήσεις τα [άλλα έργα μας στο Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) και να τα δοκιμάσεις.
