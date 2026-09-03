@@ -1,58 +1,58 @@
-## Your idea
+## Η ιδέα σου
 
-Use this step to plan your virtual environment. ![Example world projects.](images/step.png)
+Χρησιμοποίησε αυτό το βήμα για να σχεδιάσεις το εικονικό σου περιβάλλον. ![Παραδείγματα έργων.](images/step.png)
 
-### What will you make?
+### Τι θα φτιάξεις;
 
 --- task ---
 
-Think about the simulation you want to create, and how the user will interact with the project.
+Σκέψου την προσομοίωση που θέλεις να δημιουργήσεις και πώς ο/η χρήστης/τρια θα αλληλεπιδρά με το έργο.
 
-It could be:
-- A nature simulation with on-screen controls to move around the scene
-- A room in a house where different sprites, such as a TV, can be clicked to make them work
-- A vehicle simulator with a steering wheel, pedals, and a gearstick
+Θα μπορούσε να είναι:
+- Μια προσομοίωση φύσης με χειριστήρια στην οθόνη για μετακίνηση στη σκηνή
+- Ένα δωμάτιο σε ένα σπίτι όπου μπορείς να κάνεις κλικ σε διαφορετικά αντικείμενα, όπως μια τηλεόραση, για να λειτουργήσουν
+- Ένας προσομοιωτής οχήματος με τιμόνι, πεντάλ και λεβιέ ταχυτήτων
 
 
 --- /task ---
 
-### Who is it for?
+### Σε ποιον απευθύνεται;
 
 --- task ---
 
-Think about who you will make your simulation for (your **audience**). Is it an educational simulation to teach people? Is it a game for entertainment? Maybe it's a series of puzzles that need to be solved.
+Σκέψου για ποιους θα φτιάξεις την προσομιώσή σου (το **κοινό ** σου). Είναι μια εκπαιδευτική προσομοίωση για να διδάξεις ανθρώπους; Είναι ένα παιχνίδι για ψυχαγωγία; Ίσως είναι μια σειρά από γρίφους που πρέπει να λυθούν.
 
 --- /task ---
 
-### Get started
+### Ξεκίνησε
 
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Άνοιξε ένα [νέο έργο Scratch](http://rpf.io/scratch-new){:target="_ blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 --- collapse ---
 ---
-title: Working offline
+title: Εργασία εκτός σύνδεσης
 ---
 
-To set up Scratch for offline use, visit [our Scratch guide](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
+Για να ρυθμίσεις το Scratch για χρήση εκτός σύνδεσης, δες τον [οδηγό μας για το Scratch](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
 
 --- /collapse ---
 
-Use a notes app or pen and paper, or both to plan ideas for your simulation. Try to jot down as many ideas as you can, and discuss them with a friend. Then pick the idea that you like the most.
+Χρησιμοποίησε μια εφαρμογή για σημειώσεις ή στυλό και χαρτί, ή και τα δύο, για να σχεδιάσεις ιδέες για την προσομοίωσή σου. Προσπάθησε να καταγράψεις όσο το δυνατόν περισσότερες ιδέες και συζήτησέ τες με έναν/μια φίλο/η. Στη συνέχεια επίλεξε την ιδέα που σου αρέσει περισσότερο.
 
 --- /task ---
 
 --- task ---
 
-This simulation is going to need quite a few graphics. How will you get the images you need to build your project? You could:
+Αυτή η προσομοίωση θα χρειαστεί αρκετά γραφικά. Πώς θα βρεις τις εικόνες που χρειάζεσαι για να δημιουργήσεις το έργο σου; Θα μπορούσες να:
 
-1. Use the sprites and backdrops that already exist in Scratch
-2. Use the tools in Scratch to draw your own sprites and backdrops
-3. Download images from websites and then upload them to Scratch
+1. Χρησιμοποιήσεις τα αντικείμενα και τα υπόβαθρα που υπάρχουν ήδη στο Scratch
+2. Χρησιμοποιήσεις τα εργαλεία στο Scratch για να σχεδιάσεις τα δικά σου αντικείμενα και υπόβαθρα
+3. Κατεβάσεις εικόνες από ιστότοπους και στη συνέχεια να τις ανεβάσεις στο Scratch
 
-Here are some ingredients that you might find useful:
+Εδώ είναι μερικά μικρά έργα που μπορεί να σου φανούν χρήσιμα:
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
