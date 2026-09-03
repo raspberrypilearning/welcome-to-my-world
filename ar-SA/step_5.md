@@ -8,8 +8,11 @@
 - قم بتغيير الخلفيات بحيث يمكن أن تتحول المحاكاة إلى مشاهد مختلفة
 
 يحتوي كل مشروع مثال في [مقدمة](.) على رابط **انظر داخل** لكي تفتح المشروع وتنظر إلى الشفرة البرمجية للحصول على أفكار ومعرفة كيفية عملها.
+
+
+**Animal eyes**: [See inside](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/553701588/?autostart=false" frameborder="0"></iframe>
 </div>
 
 ألقِ نظرة على بعض المشاريع التي أنشأها أعضاء المجتمع في استوديو مؤسسة Raspberry Pi Foundation الخاص بـ Welcome to my world Community Projects [شاهد ما بالداخل](https://scratch.mit.edu/studios/30320352){: target = "_ blank"}.
