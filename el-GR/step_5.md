@@ -10,9 +10,9 @@
 Κάθε παράδειγμα έργου στην [Εισαγωγή](.) έχει έναν σύνδεσμο **Δες μέσα** για να ανοίξεις το έργο και να δεις τον κώδικα για να πάρεις ιδέες και να δεις πώς λειτουργούν.
 
 
-**Μάτια ζώων**: [Δες μέσα](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
+**Μάτια ζώων**: [Δες μέσα](https://scratch.mit.edu/projects/1377663147/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/553701588/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1377663147/?autostart=false" frameborder="0"></iframe>
 </div>
 
 Ρίξε μια ματιά σε μερικά έργα που δημιουργήθηκαν από μέλη της κοινότητας στο στούντιο Welcome to my world του Raspberry Pi Foundation. Έργα Κοινότητας [Δες μέσα](https://scratch.mit.edu/studios/30320352){:target="_blank"}.

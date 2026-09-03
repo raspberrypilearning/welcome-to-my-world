@@ -320,7 +320,7 @@ switch costume to [right_3 v]
 change x by (2)
 end
 
-define move left
+define μετακίνηση προς τ' αριστερά
 if <not <touching (edge v) ?>> then
 switch costume to [left_1 v]
 change x by (-2)
@@ -336,7 +336,7 @@ if <key (δεξί βέλος v) pressed> then
 μετακίνηση προς τα δεξιά
 end
 if <key (αριστερό βέλος v) pressed> then
-move left
+μετακίνηση προς τ' αριστερά
 ```
 
 --- /collapse ---
@@ -349,19 +349,19 @@ title: Χρήση εισόδων με 'Οι Εντολές μου'
 `Οι Εντολές μου`{:class='block3myblocks'} δέχονται ως είσοδο και κείμενο και αριθμό.
 
 ```blocks3
-define move (direction) (speed)
-if <(direction) = [αριστερά]> then
-change x by ((-1) * (speed))
+define κίνηση (κατεύθυνση) (ταχύτητα)
+if <(κατεύθυνση) = [αριστερά]> then
+change x by ((-1) * (ταχύτητα))
 end
-if <(direction) = [δεξιά]> then
-change x by ((1) * (speed))
+if <(κατεύθυνση) = [δεξιά]> then
+change x by ((1) * (ταχύτητα))
 
 when flag clicked
 if <(mouse x) < (-200)> then
-move [αριστερά] (speed)
+κίνηση [αριστερά] (ταχύτητα)
 end
 if <(mouse x) > (200)> then
-move [δεξιά] (speed)
+κίνηση [δεξιά] (ταχύτητα)
 ```
 
 --- /collapse ---
