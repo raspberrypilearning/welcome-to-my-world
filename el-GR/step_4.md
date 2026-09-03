@@ -1,81 +1,81 @@
-## Checklist
+## Λίστα ελέγχου
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
+Ανταποκρίθηκες στη **σύνοψη έργου**; Σκέψου το έργο σου, πέρασε από τη λίστα ελέγχου παρακάτω και έλεγξε τα χαρακτηριστικά που διαθέτει το έργο σου.
 
-Does your simulation:
+Η προσομοίωσή σου υλοποιεί:
 
 --- task ---
 
-Use different sized sprites to represent the distance of the object from the viewer.
+Χρησιμοποίησε αντικείμενα διαφορετικού μεγέθους για να αναπαραστήσεις την απόσταση του αντικειμένου από τον θεατή.
 
 --- /task ---
 
 --- task ---
 
-Use clones to generate copies of sprites.
+Χρησιμοποίησε κλώνους για να δημιουργήσεις αντίγραφα των αντικειμένων.
 
 --- /task ---
 
 --- task ---
 
-Use My Blocks to keep your code organised and/or allow the use of inputs.
+Χρησιμοποίησε Οι Εντολές μου για να διατηρήσεις τον κώδικά σου οργανωμένο ή/και να επιτρέψεις τη χρήση δεδομένων εισόδου.
 
 --- /task ---
 
-Your simulation could also:
+Η προσομοίωση σου θα μπορούσε επίσης:
 
 --- task ---
 
-Have an educational theme, to try and teach the user a skill.
-
---- /task ---
-
---- task ---
-
-Use sounds or music to make the simulation appear more realistic.
-
---- /task ---
-
-
-Reflecting about how you made your simulation will help you in your future projects:
-
---- task ---
-
-How did you get your ideas?
+Να έχει ένα εκπαιδευτικό θέμα, για να προσπαθήσει να διδάξει στον χρήστη μια δεξιότητα.
 
 --- /task ---
 
 --- task ---
 
-What cool new thing(s) did you learn?
+Χρησιμοποίησε ήχους ή μουσική για να κάνεις την προσομοίωση να φαίνεται πιο ρεαλιστική.
 
 --- /task ---
 
 
-A famous inventor called Thomas Edison was very used to making mistakes. He said:
-> I have not failed. I've just found 10,000 ways that won't work.
-
-and
-
-> Many of life's failures are people who did not realize how close they were to success when they gave up.
-
-Mistakes and failure are temporary. Keep going until you succeed.
+Το να προβληματιστείς σχετικά με το πώς έφτιαξες την προσομοίωσή σου, θα σε βοηθήσει στα μελλοντικά σου έργα:
 
 --- task ---
 
-What mistakes did you make and how did they help you create your simulation or make it better?
+Πώς σου ήρθαν οι ιδέες;
 
 --- /task ---
-
-### Now you are the author of a Welcome to my world!
-
-Take a moment to celebrate what you have made.
 
 --- task ---
 
-Where will you take your new powers? What will you make next?
+Τι ωραία νέα πράγματα έμαθες;
 
 --- /task ---
 
-![scratch cat in at party hat](images/reflect.png)
+
+Ένας διάσημος εφευρέτης που ονομαζόταν Τόμας Έντισον ήταν πολύ συνηθισμένος στο να κάνει λάθη. Είπε:
+> Δεν έχω αποτύχει. Μόλις βρήκα 10.000 τρόπους που δεν θα λειτουργήσουν.
+
+και
+
+> Πολλοί από αυτούς που απέτυχαν στη ζωή είναι άνθρωποι που δεν κατάλαβαν πόσο κοντά στην επιτυχία βρίσκονταν όταν τα παράτησαν.
+
+Τα λάθη και η αποτυχία είναι προσωρινά. Συνέχισε μέχρι να πετύχεις.
+
+--- task ---
+
+Ποια λάθη έκανες και πώς σε βοήθησαν να δημιουργήσεις την προσομοίωσή σου ή να το κάνεις καλύτερο;
+
+--- /task ---
+
+### Τώρα είσαι ο συγγραφέας ενός βιβλίου "Καλώς ήρθες στον κόσμο μου!"!
+
+Αφιέρωσε μια στιγμή για να απολαύσεις αυτό που έφτιαξες.
+
+--- task ---
+
+Πού θα σε οδηγήσουν οι νέες σου δυνάμεις; Τι θα φτιάξεις μετά;
+
+--- /task ---
+
+![η γάτα Scratch με καπέλο πάρτι](images/reflect.png)
 
