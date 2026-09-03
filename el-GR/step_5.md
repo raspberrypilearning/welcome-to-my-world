@@ -1,18 +1,21 @@
-## Upgrade your project
+## Αναβάθμιση του έργου σου
 
-If you have time, you can upgrade your project. You might already have ideas about how to add more or you might want to go back to the first step and look at other projects again for more inspiration.
+Εάν έχεις χρόνο, μπορείς να αναβαθμίσεις το έργο σου. Μπορεί να έχεις ήδη ιδέες για το πώς να προσθέσεις περισσότερα ή ίσως θέλεις να επιστρέψεις στο πρώτο βήμα και να δεις ξανά άλλα έργα για περισσότερη έμπνευση.
 
-You could:
-- Add more sprites to your project
-- Add extra sound effects or music
-- Change backdrops so that the simulation can switch to different scenes
+Θα μπορούσες να:
+- Προσθέσεις περισσότερα αντικείμενα στο έργο σου
+- Προσθέσεις επιπλέον ηχητικά εφέ ή μουσική
+- Αλλάξεις τα υπόβαθρα έτσι ώστε η προσομοίωση να μπορεί να αλλάζει διαφορετικές σκηνές
 
-Each example project in the [Introduction](.) has a **See inside** link for you to open the project in Scratch and look at the code to get ideas and see how they work.
+Κάθε παράδειγμα έργου στην [Εισαγωγή](.) έχει έναν σύνδεσμο **Δες μέσα** για να ανοίξεις το έργο και να δεις τον κώδικα για να πάρεις ιδέες και να δεις πώς λειτουργούν.
+
+
+**Μάτια ζώων**: [Δες μέσα](https://scratch.mit.edu/projects/553701588/editor){:target="_blank"}
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/553701588/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Take a look at some projects created by community members in the Raspberry Pi Foundation’s studio of Welcome to my world Community Projects [See inside](https://scratch.mit.edu/studios/30320352){:target="_blank"}.
+Ρίξε μια ματιά σε μερικά έργα που δημιουργήθηκαν από μέλη της κοινότητας στο στούντιο Welcome to my world του Raspberry Pi Foundation. Έργα Κοινότητας [Δες μέσα](https://scratch.mit.edu/studios/30320352){:target="_blank"}.
 
 
 --- save ---
