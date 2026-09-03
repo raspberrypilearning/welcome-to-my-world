@@ -1,29 +1,29 @@
-## Build and test
+## Δημιουργία και έλεγχος
 
-Now it's time to make your simulation. Start with thinking about the background to your simulation. Will it scroll, or will it be static?
+Τώρα ήρθε η ώρα να φτιάξεις την προσομοίωσή σου. Αρχικά σκέψου το υπόβαθρο της προσομοίωσής σου. Θα έχει κύλιση ή θα είναι στατικό;
 
-![Example world projects.](images/step.png)
+![Παραδείγματα έργων.](images/step.png)
 
-**Tip**: Remember to test your project each time you add something. It is much easier to find and fix bugs before you make more changes.
+**Συμβουλή: ** Μην ξεχνάς να δοκιμάζεις το έργο σου κάθε φορά που προσθέτεις κάτι. Είναι πολύ πιο εύκολο να βρεις και να διορθώσεις σφάλματα προτού κάνεις περισσότερες αλλαγές.
 
 --- task ---
 
-Choose a backdrop to use for your simulation. The backdrop could remain still, or you could make it scroll.
+Επίλεξε ένα υπόβαθρο για να το χρησιμοποιήσεις για την προσομοίωσή σου. Το υπόβαθρο θα μπορούσε να παραμείνει ακίνητο ή θα μπορούσες να το κάνεις να κυλάει.
 
 --- collapse ---
 ---
-title: Scroll a backdrop
+title: Κύλιση σε ένα υπόβαθρο
 ---
 
-Rather than scrolling the backdrop, in fact, you're going to scroll a sprite, which you have created by copying a backdrop.
+Αντί να κάνεις κύλιση στο υπόβαθρο, στην πραγματικότητα, θα κάνεις κύλιση σε ένα αντικείμενο, το οποίο έχεις δημιουργήσει αντιγράφοντας ένα υπόβαθρο.
 
-Create a new sprite by copying the images from a backdrop, and adding them into your sprite.
+Δημιούργησε ένα νέο αντικείμενο αντιγράφοντας τις εικόνες από ένα υπόβαθρο και πρόσθεσέ τις στο αντικείμενό σου.
 
-![Paint new sprite tool selected.](images/paint-new-sprite.png) ![Copy tool highlighted in the tool bar.](images/copy-backdrop.png) ![Paste tool highlighted in the tool bar.](images/paste-backdrop.png)
+![Επιλέχθηκε το εργαλείο ζωγραφικής νέου αντικεμένου.](images/paint-new-sprite.png) ![Το εργαλείο αντιγραφής επισημαίνεται στη γραμμή εργαλείων.](images/copy-backdrop.png) ![Το εργαλείο επικόλλησης επισημαίνεται στη γραμμή εργαλείων.](images/paste-backdrop.png)
 
-Create a new `variable`{:class='block3variables'} called `scroll_x`{:class='block3variables'}.
+Δημιούργησε μία νέα `μεταβλητή`{:class="block3variables"} με όνομα `κύλιση_x`{:class="block3variables'}.
 
-The following blocks will create a scrolling effect on the sprite when the mouse is moved left and right.
+Τα ακόλουθα μπλοκ θα δημιουργήσουν ένα εφέ κύλισης στο αντικείμενο όταν το ποντίκι μετακινείται αριστερά και δεξιά.
 
 ```blocks3
 when flag clicked
@@ -44,7 +44,7 @@ forever
 go to x: ((scroll_x v) mod (-480)) y: (0)
 ```
 
-**Tip:** Instead of using the mouse position, you could use clicking on a button or pressing a key to change the `scroll_x`{:class='block3variables'} variable.
+**Συμβουλή:** Αντί να χρησιμοποιήσεις τη θέση του ποντικιού, θα μπορούσατε να κάνεις κλικ σε ένα κουμπί ή να πατήσεις ένα πλήκτρο για να αλλάξεις τη μεταβλητή `κύλιση_x`{:class='block3variables'}.
 
 --- /collapse ---
 
@@ -52,11 +52,11 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- task ---
 
-Think about the sprites you will use for your simulation. Will some of them remain still in the scene, will they change costumes, effects, or motion when they are interacted with? Will they scroll across the screen? How will they be controlled if they move?
+Σκέψου τα αντικείμενα που θα χρησιμοποιήσεις για την προσομοίωσή σου. Μερικά από αυτά θα παραμείνουν ακίνητα στη σκηνή κάποιοι από αυτούς, θα αλλάξουν ενδυμασίες, εφέ ή κίνηση όταν αλληλεπιδρούν μαζί τους; Θα κάνουν scroll στην οθόνη; Πώς θα ελέγχονται αν κινηθούν;
 
 --- collapse ---
 ---
-title: Move a sprite with key presses
+title: Μετακίνηση ενός αντικειμένου με πάτημα πλήκτρων
 ---
 
 ```blocks3
@@ -75,22 +75,22 @@ end
 
 --- collapse ---
 ---
-title: Move a sprite with on-screen controls
+title: Μετακίνηση ενός αντικειμένου με χειριστήρια στην οθόνη
 ---
 
-Create sprites for your directions and position them on the screen.
+Δημιούργησε αντικείμενα για τις κατευθύνσεις και τοποθέτησέ τα στην οθόνη.
 
-![Scratch cat on the Stage with right and left buttons in the bottom right-hand corner of the screen.](images/scratch-controls.png)
+![Η γάτα Scratch στη Σκηνή με τα δεξιά και αριστερά κουμπιά στην κάτω δεξιά γωνία της οθόνης.](images/scratch-controls.png)
 
-The buttons should have controls to broadcast their direction, when they're clicked on.
+Τα κουμπιά θα πρέπει να έχουν χειριστήρια για να μεταδίδουν την κατεύθυνσή τους, όταν κάνεις κλικ πάνω τους.
 
-![Left sprite button.](images/left-sprite.png)
+![Αριστερό κουμπί αντικειμένου.](images/left-sprite.png)
 ```blocks3
 when this sprite clicked
 broadcast [left v]
 ```
 
-The sprite being controlled should move in the direction indicated. ![Scratch Cat sprite.](images/scratch-cat.png)
+Το υπό έλεγχο αντικείμενο θα πρέπει να κινείται προς την κατεύθυνση που υποδεικνύεται. ![Το αντικείμενο της γάτας του Scratch.](images/scratch-cat.png)
 ```blocks3
 when I receive [left v]
 change x by (-10)
@@ -100,10 +100,10 @@ change x by (-10)
 
 --- collapse ---
 ---
-title: Change a sprite when it's clicked
+title: Αλλαγή ενός αντικειμένου όταν γίνεται κλικ σε αυτό
 ---
 
-You can change the appearance and orientation of a sprite whenever it is clicked. Here are some code examples.
+Μπορείς να αλλάξεις την εμφάνιση και τον προσανατολισμό ενός αντικειμένου κάθε φορά που κάνεις κλικ σε αυτό. Ακολουθούν ορισμένα παραδείγματα κώδικα.
 
 ```blocks3
 when this sprite clicked
@@ -120,10 +120,10 @@ turn cw (30) degrees
 
 --- collapse ---
 ---
-title: Animate a sprite with costumes
+title: Κίνηση αντικειμένου με ενδυμασίες
 ---
 
-There are several ways to animate a sprite using its costumes. Here are a few examples.
+Υπάρχουν διάφοροι τρόποι για να ζωντανέψεις ένα αντικείμενο χρησιμοποιώντας τις ενδυμασίες του. Ακολουθούν μερικά παραδείγματα.
 
 ```blocks3
 when flag clicked
@@ -146,10 +146,10 @@ next costume
 
 --- collapse ---
 ---
-title: Change the layer of a sprite
+title: Αλλαγή του επιπέδου ενός αντικειμένου
 ---
 
-Sprites that you are using as backdrops need to be on the back layer. Sprites that you want in the foreground need to be on the top layer. You can set the layer of a sprite or its clone.
+Τα αντικείμενα που χρησιμοποιείς ως υπόβαθρα πρέπει να βρίσκονται στο επίπεδο υπόβαθρο. Τα αντικείμενα που θέλεις στο προσκήνιο πρέπει να βρίσκονται στο επίπεδο υπόβαθρο. Μπορείς να ορίσεις το επίπεδο ενός αντικειμένου ή του κλώνου του.
 
 ```blocks3
 when flag clicked
@@ -165,13 +165,13 @@ go to [front v] layer
 
 --- task ---
 
-Will any of your sprites need to clone themselves? Will they produce many copies that perform different actions when they start?
+Θα χρειαστεί κάποιο από τα αντικεέμενά σου να κλωνοποιήσει τον εαυτό του; Θα παράγουν πολλά αντίγραφα που θα εκτελούν διαφορετικές ενέργειες όταν ξεκινήσουν;
 
 --- collapse ---
 ---
-title: Create clones of a sprite
+title: Δημιουργία κλώνου ενός αντικειμένου
 ---
-Here are a few ways to make clones and delete them after different events.
+Ακολουθούν μερικοί τρόποι για να δημιουργήσεις κλώνους και να τους διαγράψεις μετά από διαφορετικά συμβάντα.
 
 ```blocks3
 when flag clicked
@@ -193,10 +193,10 @@ delete this clone
 
 --- collapse ---
 ---
-title: Randomise your clones
+title: Τυχαιοποίησε τους κλώνους σου
 ---
 
-When a clone is created, it may need instructions on how to move, but you might want the different clones to behave slightly differently. You can use `random`{:class='block3operators'} blocks to do this.
+Όταν δημιουργείται ένας κλώνος, μπορεί να χρειάζεται οδηγίες για το πώς να κινηθεί, αλλά ίσως θέλεις οι διαφορετικοί κλώνοι να συμπεριφέρονται ελαφρώς διαφορετικά. Μπορείς να χρησιμοποιήσεις `τυχαία`{:class='block3operators'} μπλοκ για να το κάνεις αυτό.
 
 ```blocks3
 when I start as a clone
@@ -215,17 +215,17 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- collapse ---
 ---
-title: Events to create a clone
+title: Συμβάντα για τη δημιουργία ενός κλώνου
 ---
 
-Clones can be created with many different `events`{:class='block3events'}. The blocks below will create a clone of a sprite every time it is clicked upon.
+Οι κλώνοι μπορούν να δημιουργηθούν με πολλά διαφορετικά `συμβάντα`{:class='block3events'}. Τα παρακάτω μπλοκ θα δημιουργούν ένα κλώνο ενός αντικειμένου κάθε φορά που κάνεις κλικ πάνω του.
 
 ```blocks3
 when this sprite clicked
 create clone of [myself v]
 ```
 
-You can create clones whenever the mouse is clicked as well, and make the clone appear at the mouse-pointer's location. Clones can appear in any location you like, so you might like them to go to a specific sprite or position.
+Μπορείς επίσης να δημιουργείς κλώνους κάθε φορά που κάνεις κλικ στο ποντίκι και να κάνεις τον κλώνο να εμφανίζεται στη θέση του δείκτη του ποντικιού. Οι κλώνοι μπορούν να εμφανιστούν σε οποιαδήποτε τοποθεσία θέλεις, επομένως ίσως θέλεις να πηγαίνουν σε ένα συγκεκριμένο αντικείμενο ή θέση.
 
 ```blocks3
 when flag clicked
@@ -243,22 +243,22 @@ go to x: (mouse x) y: (mouse y)
 
 --- task ---
 
-Will there be a musical or sound effect aspect to your simulation? Maybe there's background noise, or a sprite plays a tune when it is clicked?
+Θα υπάρχει κάποια μουσική ή ηχητικό εφέ στην προσομοίωσή σου; Ίσως να υπάρχει θόρυβος στο παρασκήνιο ή κάποιο αντικείμενο να παίζει μια μελωδία όταν κάνεις κλικ σε αυτό;
 
 --- collapse ---
 ---
-title: The Scratch music extension
+title: Η επέκταση Μουσική του Scratch
 ---
 
-Once you have added the extension, new blocks will be available to you.
+Μόλις προσθέσεις την επέκταση, θα είναι διαθέσιμα νέα μπλοκ.
 
-There are three main elements that can be changed within these blocks.
+Υπάρχουν τρία κύρια στοιχεία που μπορούν να αλλάξουν μέσα σε αυτά τα μπλοκ.
 
-- `beats`{:class='block3custom'} are a unit of time used in music. A beat could be a second long or a quarter of a second long. It is up to you.
+- `οι παλμοί (τα beats)`{:class='block3custom'} είναι μια μονάδα χρόνου που χρησιμοποιείται στη μουσική. Ένα beat θα μπορούσε να έχει διάρκεια ενός δευτερολέπτου ή ενός τετάρτου του δευτερολέπτου. Εξαρτάται από σένα.
 
-- `tempo`{:class='block3custom'} sets how many beats there are in a minute: `60` beats a minute would mean that a beat is `1` second long.
+- `o ρυθμός (tempo)`{:class='block3custom'} ορίζει τον αριθμό των beats σε ένα λεπτό: `60` beats ανά λεπτό θα σήμαιναν ότι ένας beat έχει διάρκεια `1` δευτερόλεπτο.
 
-- `note`{:class='block3custom'} is the pitch of the note being played: `60` is the same as **middle C** on a piano.
+- `νότα`{:class='block3custom'} είναι το ύψος της νότας που παίζεται: `60` είναι το ίδιο με το **μεσαίο Ντο** σε πιάνο.
 
 --- /collapse ---
 
@@ -276,14 +276,14 @@ There are three main elements that can be changed within these blocks.
 
 --- task ---
 
-Do you want your sprites to keep repeating an action, until some condition has been met? You can use `repeat until`{:class='block3control'} blocks to do this.
+Θέλεις τα αντικείμενά σου να επαναλαμβάνουν συνεχώς μια ενέργεια, μέχρι να ικανοποιηθεί κάποια συνθήκη; Μπορείς να χρησιμοποιήσεις μπλοκ `επανάλαβε ώσπου`{:class='block3operators'} για να το κάνεις αυτό.
 
 --- collapse ---
 ---
-title: Using repeat until blocks
+title: Χρήση βρόχων "επανάλαβε ώσπου"
 ---
 
-Here is a set of blocks that will keep a sprite moving, until its `y`{:class='block3motion'} position reaches `-250`.
+Εδώ είναι ένα σύνολο μπλοκ που θα κρατήσουν ένα αντικείμενο σε κίνηση, μέχρι η θέση του `y`{:class='block3motion'} να φτάσει στο `-250`.
 
 ```blocks3
 when flag clicked
@@ -298,14 +298,14 @@ change y by (-10)
 
 --- task ---
 
-Think about the organisation of your blocks, and the inputs that might be needed. Can you use `My Blocks`{:class='block3myblocks'} to **optimise** your project?
+Σκέψου την οργάνωση των μπλοκ σου και τα στοιχεία εισόδου που μπορεί να χρειαστούν. Μπορείς να χρησιμοποιήσεις την κατηγορία `Οι Εντολές μου`{:class="block3myblocks"} για να **βελτιστοποιήσεις** τον κώδικά σου;
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: Χρήση οι Εντολές μου για οργάνωση του κώδικα
 ---
 
-The simplest way to use `My Blocks`{:class='block3myblocks'} is to help organise your code. Here is a simple example.
+Ο απλούστερος λόγος για να χρησιμοποιηθούν `Οι Εντολές μου`{:class="block3myblocks"} είναι για να βοηθηθείς στην οργάνωση του κώδικά σου. Εδώ είναι ένα απλό παράδειγμα.
 
 ```blocks3
 define move right
@@ -341,10 +341,10 @@ move left
 
 --- collapse ---
 ---
-title: Using inputs with My Blocks
+title: Χρήση εισόδων με 'Οι Εντολές μου'
 ---
 
-`My Blocks`{:class='block3myblocks'} take text and number inputs as well.
+`Οι Εντολές μου`{:class='block3myblocks'} δέχονται ως είσοδο και κείμενο και αριθμό.
 
 ```blocks3
 define move (direction) (speed)
@@ -368,14 +368,14 @@ move [right] (speed)
 
 --- task ---
 
-The key to most 2.5D scenes is changing the size of a sprite to give the impression that it is further away.
+Το κλειδί για τις περισσότερες σκηνές 2.5D είναι η αλλαγή του μεγέθους ενός αντικειμένου για να δώσει την εντύπωση ότι βρίσκεται πιο μακριά.
 
 --- collapse ---
 ---
-title: Changing sprite sizes relative to position
+title: Αλλαγή μεγεθών αντικειμένου σε σχέση με τη θέση
 ---
 
-The following blocks will make a sprite smaller as it moves up the screen, and therefore appear further away.
+Τα ακόλουθα μπλοκ θα κάνουν ένα αντικείμενο μικρότερο καθώς κινείται προς τα πάνω στην οθόνη και επομένως θα εμφανίζεται πιο μακριά.
 
 ```blocks3
 when flag clicked
@@ -392,69 +392,69 @@ wait (0.2) secs
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your scene?
+**Δοκιμή:** Δείξε σε κάποιον άλλο το έργο σου και ζήτησε τα σχόλιά του. Θέλεις να κάνεις αλλαγές στο σκηνικό σου;
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Εντοπισμός σφαλμάτων:** Ενδέχεται να βρεις κάποια σφάλματα στο έργο σου που πρέπει να διορθώσεις. Εδώ είναι μερικά συνηθισμένα σφάλματα.
 
 --- collapse ---
 ---
-title: My clones don't appear
+title: Οι κλώνοι μου δεν εμφανίζονται
 ---
 
-Are your clones hidden? Make sure that when the clones are created, the `show`{:class='block3looks'} option is used. Also make sure that you have them on the `front layer`{:class='block3looks'}.
+Είναι κρυμμένοι οι κλώνοι σου; Βεβαιώσου ότι κατά τη δημιουργία των κλώνων, χρησιμοποιείται η επιλογή `εμφανίσου`{:class='block3looks'}. Επίσης, βεβαιώσου ότι τα έχεις στο επίπεδο `προσκήνιο`{:class='block3looks'}.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprite doesn't move off the screen correctly
+title: Το αντικείμενό μου δεν μετακινείται σωστά στην οθόνη
 ---
 
-If you want a sprite to cycle from one side of the screen to another, or vanish when it gets to one side of the screen, then you can check its position and perform some action. You might need to check where the centre of your sprite is, on its costume, to make sure this works properly. It's easisest to drag the sprite to the side of the screen, and then check its `x`{:class='block3motion'} and `y`{:class='block3motion'} positions.
+Αν θέλεις ένα αντικείμενο να μετακινείται από τη μία πλευρά της οθόνης στην άλλη ή να εξαφανίζεται όταν φτάνει στη μία πλευρά της οθόνης, τότε μπορείς να ελέγξεις τη θέση του και να εκτελέσεις κάποια ενέργεια. Ίσως χρειαστεί να ελέγξεις πού βρίσκεται το κέντρο του αντικειμένου σου, στην ενδυμασία του, για να βεβαιωθείς ότι λειτουργεί σωστά. Είναι πιο εύκολο να σύρεις το αντικείμενο στο πλάι της οθόνης και, στη συνέχεια, να ελέγξεις τις θέσεις του `x`{:class='block3motion'} και `y`{:class='block3motion'}.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My Blocks are not working
+title: Οι Εντολές μου δεν λειτουργούν
 ---
 
-Have you checked that you are using your new block somewhere in your code. You can `define`{:class='block3myblocks'} a new block, but then you need to use it for the code beneath it to actually run.
+Έχεις ελέγξει ότι χρησιμοποιείς το νέο σου μπλοκ κάπου στον κώδικά σου. Μπορείς να `ορίσεις`{:class='block3myblocks'} ένα νέο μπλοκ, αλλά στη συνέχεια πρέπει να το χρησιμοποιήσεις για να εκτελεστεί ο κώδικας από κάτω.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My clones aren't doing anything
+title: Οι κλώνοι μου δεν κάνουν τίποτα
 ---
 
-Are you using the `when I start as clone`{:class='block3control'} block, to tell the clone what to do?
+Χρησιμοποιείς το μπλοκ `όταν ξεκινάω ως κλώνος`{:class='block3control'}, για να κατευθύνεις τον κλώνο τι να κάνει;
 
-Do you have any conditions that might stop the clones from working? For instance, are they supposed to move until they touch the edge of the screen? If a clone is created at the edge of the screen, then they won't do anything.
+Υπάρχουν συνθήκες που μπορεί να εμποδίσουν τους κλώνους να λειτουργήσουν; Για παράδειγμα, υποτίθεται ότι πρέπει να κινούνται μέχρι να αγγίξουν την άκρη της οθόνης; Αν δημιουργηθεί ένας κλώνος στην άκρη της οθόνης, τότε δεν θα κάνουν τίποτα.
 
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sprites are moving in the wrong direction
+title: Τα αντικείμενά μου κινούνται προς λάθος κατεύθυνση
 ---
 
-Check that you are using the `change x by`{:class='block3motion'} block to move the sprites left and right, and the `change y by`{:class='block3motion'} block to move them up and down.
+Έλεγξε ότι χρησιμοποιείς το μπλοκ `άλλαξε x κατά`{:class='block3motion'} για να μετακινήσεις τα αντικείμενα αριστερά και δεξιά, και το μπλοκ `άλλαξε y κατά`{:class='block3motion'} για να τα μετακινήσεις πάνω και κάτω.
 
-Check whether you are using positive and negative numbers correctly, to increase or decrease `x`{:class='block3motion'} and `y`{:class='block3motion'}.
+Έλεγξε αν χρησιμοποιείς σωστά θετικούς και αρνητικούς αριθμούς, για να αυξήσεις ή να μειώσεις το `x`{:class='block3motion'} και `y`{:class='block3motion'}.
 
 --- /collapse ---
 
-You might find a bug not listed here. Can you figure out how to fix it?
+Πιθανόν να βρεις ένα σφάλμα που δεν αναφέρεται εδώ. Μπορείς να σκεφτείς πώς θα το λύσεις;
 
-We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
+Μας αρέσει να μαθαίνουμε για τα σφάλματα που εντοπίζετε και πώς τα διορθώνετε. Χρησιμοποίησε την Αποστολή σχολίων στο κάτω μέρος αυτής της σελίδας και πες μας αν εντόπισες κάποιο διαφορετικό σφάλμα στο έργο σου.
 
 --- /task ---
 
