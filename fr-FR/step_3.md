@@ -12,7 +12,7 @@ Choisis un arrière-plan à utiliser pour ta simulation. L'arrière-plan pourrai
 
 --- collapse ---
 ---
-title : Faire défiler un arrière-plan
+title: Scroll a backdrop
 ---
 
 Plutôt que de faire défiler l'arrière-plan, en fait, tu vas faire défiler un sprite, que tu as créé en copiant un arrière-plan.
@@ -56,7 +56,7 @@ Pense aux sprites que tu vas utiliser pour ta simulation. Certains d'entre eux r
 
 --- collapse ---
 ---
-title : Déplacer un sprite en appuyant sur les touches
+title: Move a sprite with key presses
 ---
 
 ```blocks3
@@ -75,7 +75,7 @@ end
 
 --- collapse ---
 ---
-title : Déplacer un sprite avec les commandes à l'écran
+title: Move a sprite with on-screen controls
 ---
 
 Crée des sprites pour tes directions et positionne-les sur l'écran.
@@ -100,7 +100,7 @@ change x by (-10)
 
 --- collapse ---
 ---
-title : Changer un sprite lorsqu'il est cliqué
+title: Change a sprite when it's clicked
 ---
 
 Tu peux modifier l'apparence et l'orientation d'un sprite chaque fois que tu cliques dessus. Voici quelques exemples de code.
@@ -120,7 +120,7 @@ turn cw (30) degrees
 
 --- collapse ---
 ---
-title : Animer un sprite avec des costumes
+title: Animate a sprite with costumes
 ---
 
 Il existe plusieurs manières d'animer un sprite en utilisant ses costumes. Voici quelques exemples .
@@ -146,7 +146,7 @@ next costume
 
 --- collapse ---
 ---
-title : Changer le plan d'un sprite
+title: Change the layer of a sprite
 ---
 
 Les sprites que tu utilises comme arrière-plan doivent se trouver sur le plan arrière. Les sprites que tu veux au premier plan doivent être sur le plan avant. Tu peux définir le plan d'un sprite ou de son clone.
@@ -169,7 +169,7 @@ Certains de tes sprites auront-ils besoin de se cloner ? Vont-ils produire de no
 
 --- collapse ---
 ---
-title: Créer des clones d'un sprite
+title: Create clones of a sprite
 ---
 Voici quelques façons de créer des clones et de les supprimer après différents événements.
 
@@ -193,7 +193,7 @@ delete this clone
 
 --- collapse ---
 ---
-title: Randomise tes clones
+title: Randomise your clones
 ---
 
 Lorsqu'un clone est créé, il peut avoir besoin d'instructions sur la façon de se déplacer, mais tu souhaiteras peut-être que les différents clones se comportent légèrement différemment. Pour cela, tu peux utiliser des blocs ` aléatoires`{:class='block3operators'}.
@@ -215,7 +215,7 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- collapse ---
 ---
-title : Événements pour créer un clone
+title: Events to create a clone
 ---
 
 Les clones peuvent être créés avec de nombreux `événements`{:class='block3events'} différents. Les blocs ci-dessous vont créer un clone d'un sprite à chaque fois qu'on clique dessus.
@@ -247,7 +247,7 @@ Y aura-t-il un aspect musical ou sonore dans ta simulation ? Peut-être y a-t-i
 
 --- collapse ---
 ---
-title: L'extension musicale Scratch
+title: The Scratch music extension
 ---
 
 Une fois que tu as ajouté l'extension, tu pourras accéder de nouveaux blocs.
@@ -280,7 +280,7 @@ Veux-tu que tes sprites continuent à répéter une action jusqu'à ce qu'une co
 
 --- collapse ---
 ---
-title : Utiliser les blocs répéter jusqu'à ce que
+title: Using repeat until blocks
 ---
 
 Voici un ensemble de blocs qui maintiendront un sprite en mouvement, jusqu'à ce que sa position `y`{:class='block3motion'} atteigne `-250`.
@@ -302,7 +302,7 @@ Pense à l'organisation de tes blocs et aux données d'entrée qui pourraient ê
 
 --- collapse ---
 ---
-title: Utiliser Mes blocs pour organiser le code
+title: Use My Blocks to organise code
 ---
 
 La façon la plus simple d'utiliser `Mes Blocs`{:class="block3myblocks"} est d'aider à organiser ton code. Voici un exemple simple.
@@ -341,7 +341,7 @@ move left
 
 --- collapse ---
 ---
-title : Utiliser des données d’entrée avec Mes blocs
+title: Using inputs with My Blocks
 ---
 
 `Mes blocs`{:class='block3myblocks'} acceptent également des données d’entrée de texte et de chiffres.
@@ -372,7 +372,7 @@ Le secret de la plupart des scènes 2.5D est de changer la taille d'un sprite po
 
 --- collapse ---
 ---
-title : Changer la taille des sprites en fonction de la position
+title: Changing sprite sizes relative to position
 ---
 
 Les blocs suivants rendront un sprite plus petit à mesure qu'il se déplace vers le haut de l'écran, et donc le fera apparaître plus loin.
@@ -402,7 +402,7 @@ wait (0.2) secs
 
 --- collapse ---
 ---
-title: Mes clones n'apparaissent pas
+title: My clones don't appear
 ---
 
 Tes clones sont-ils cachés ? Assure-toi que lorsque les clones sont créés, l'option `montrer`{:class='block3looks'} est utilisée. Assure-toi également que tu les as sur l'`avant plan`{:class='block3looks'}.
@@ -412,7 +412,7 @@ Tes clones sont-ils cachés ? Assure-toi que lorsque les clones sont créés, l'
 
 --- collapse ---
 ---
-title : Mon sprite ne sort pas correctement de l'écran
+title: My sprite doesn't move off the screen correctly
 ---
 
 Si tu veux qu'un sprite passe d'un côté à l'autre de l'écran, ou disparaisse lorsqu'il arrive d'un côté de l'écran, tu peux vérifier sa position et effectuer une action. Tu devras peut-être vérifier où se trouve le centre de ton sprite, sur son costume, pour t'assurer que cela fonctionne correctement. Il est plus facile de faire glisser le sprite sur le côté de l'écran, puis de vérifier ses positions `x`{:class='block3motion'} et `y`{:class='block3motion'}.
@@ -422,7 +422,7 @@ Si tu veux qu'un sprite passe d'un côté à l'autre de l'écran, ou disparaisse
 
 --- collapse ---
 ---
-title : Mes blocs ne fonctionnent pas
+title: My Blocks are not working
 ---
 
 As-tu vérifié que tu utilises ton nouveau bloc quelque part dans ton code. Tu peux `définir`{:class='block3myblocks'} un nouveau bloc, mais tu dois ensuite l'utiliser pour que le code en dessous s'exécute réellement.
@@ -431,7 +431,7 @@ As-tu vérifié que tu utilises ton nouveau bloc quelque part dans ton code. Tu 
 
 --- collapse ---
 ---
-title : Mes clones ne font rien
+title: My clones aren't doing anything
 ---
 
 Utilise-tu le bloc `quand je commence comme un clone`{:class='block3control'}, pour dire au clone quoi faire ?
@@ -443,7 +443,7 @@ As-tu des conditions qui pourraient empêcher les clones de fonctionner ? Par e
 
 --- collapse ---
 ---
-title: Mes sprites pointent dans la mauvaise direction
+title: My sprites are moving in the wrong direction
 ---
 
 Vérifie que tu utilises le bloc `ajouter à x`{:class='block3motion'} pour déplacer les sprites vers la gauche et la droite, et le bloc `ajouter à y`{:class='block3motion'} pour les déplacer vers le haut et le bas.
