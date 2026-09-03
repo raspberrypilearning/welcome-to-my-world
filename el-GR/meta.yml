@@ -1,0 +1,22 @@
+---
+title: Καλώς ήρθες στον κόσμο μου
+hero_image: images/banner.png
+description: Δημιούργησε έναν κόσμο 2.5D για να τον εξερευνήσεις και να αλληλεπιδράσεις.
+meta_title: Έργα προγραμματισμού scratch για παιδιά και εφήβους | Ο κόσμος μου
+meta_description: Μάθε να προγραμματίζεις με Scratch με τα έργα κώδικα του Raspberry Pi Foundation για παιδιά και εφήβους. Δημιούργησε έναν κόσμο 2.5D με Scratch για να τον εξερευνήσεις και να αλληλεπιδράσεις.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Θα φτιάξεις
+  - title: Η ιδέα σου
+  - title: Δημιουργία και έλεγχος
+    completion:
+      - engaged
+      - internal
+  - title: Λίστα ελέγχου
+    completion:
+      - external
+  - title: Αναβάθμιση του έργου σου
+  - title: Κοινοποίηση
