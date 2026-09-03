@@ -12,7 +12,7 @@
 
 --- collapse ---
 ---
-title: تحريك الخلفية
+title: Scroll a backdrop
 ---
 
 بدلا من تحريك الخلفية، في الواقع، ستقوم بتحريك الكائن الذي قمت بإنشائه عن طريق نسخ الخلفية.
@@ -56,7 +56,7 @@ go to x: ((scroll_x v) mod (-480)) y: (0)
 
 --- collapse ---
 ---
-title: تحريك كائن بضغطة مفتاح
+title: Move a sprite with key presses
 ---
 
 ```blocks3
@@ -75,7 +75,7 @@ end
 
 --- collapse ---
 ---
-title: انقل كائنًا باستخدام عناصر التحكم على الشاشة
+title: Move a sprite with on-screen controls
 ---
 
 قم بإنشاء كائنات متحركة لتوجيهاتك وضعها على الشاشة.
@@ -100,7 +100,7 @@ change x by (-10)
 
 --- collapse ---
 ---
-title: تغيير الكائن عند النقر فوقه
+title: Change a sprite when it's clicked
 ---
 
 يمكنك تغيير مظهر واتجاه الكائن عند النقر فوقه. فيما يلي بعض الأمثلة على التعليمات البرمجية.
@@ -120,7 +120,7 @@ turn cw (30) degrees
 
 --- collapse ---
 ---
-title: تحريك كائن بأستخدام الازياء
+title: Animate a sprite with costumes
 ---
 
 هناك عدة طرق لتحريك كائن ما باستخدام الأزياء الخاصة به. فيما يلي بعض الأمثلة على التعليمات البرمجية.
@@ -146,7 +146,7 @@ next costume
 
 --- collapse ---
 ---
-title: قم بتغيير طبقة الكائن
+title: Change the layer of a sprite
 ---
 
 يجب أن تكون الكائنات التي تستخدمها كخلفيات على الطبقة الخلفية. يجب أن تكون الكائنات المتحركة التي تريدها في المقدمة في الطبقة العليا. يمكنك أعداد طبقة الكائن أو استنساخه.
@@ -169,7 +169,7 @@ go to [front v] layer
 
 --- collapse ---
 ---
-title: إنشاء نسخ من كائن ما
+title: Create clones of a sprite
 ---
 فيما يلي بعض الطرق لإنشاء نسخ وحذفها بعد أحداث مختلفة.
 
@@ -193,7 +193,7 @@ delete this clone
 
 --- collapse ---
 ---
-title: قم بترتيب النسخ العشوائية الخاصة بك
+title: Randomise your clones
 ---
 
 عندما يتم إنشاء نسخة ، قد تحتاج إلى تعليمات حول كيفية التحرك ، ولكن قد ترغب في أن تتصرف الكائنات المستنسخة المختلفة بشكل مختلف قليلاً. يمكنك استخدام كتلة `random` {: class = 'block3operators'} للقيام بذلك.
@@ -215,7 +215,7 @@ glide (pick random (1) to (10)) secs to (mouse-pointer v)
 
 --- collapse ---
 ---
-title: أحداث لإنشاء نسخة
+title: Events to create a clone
 ---
 
 يمكن إنشاء النسخ باستخدام العديد من الأحداث `events`{: class = 'block3events'}. ستنشئ الكتل البرمجية أدناه نسخة من كائن ما في كل مرة يتم النقر عليها.
@@ -247,7 +247,7 @@ go to x: (mouse x) y: (mouse y)
 
 --- collapse ---
 ---
-title: أضافة سكراتش الموسيقية
+title: The Scratch music extension
 ---
 
 بمجرد إضافة الاضافة (الملحق) ، ستكون كتل جديدة متاحة لك.
@@ -280,7 +280,7 @@ title: أضافة سكراتش الموسيقية
 
 --- collapse ---
 ---
-title: استخدام كتل كرر حتى (repeat until)
+title: Using repeat until blocks
 ---
 
 فيما يلي مجموعة من الكتل التي ستحافظ على حركة الكائن ، حتى يصل موضعه `y`{: class = 'block3motion'} إلى `-250`.
@@ -302,7 +302,7 @@ change y by (-10)
 
 --- collapse ---
 ---
-title: استخدم كتلتي (My Blocks) لتنظيم الشفرة البرمجية
+title: Use My Blocks to organise code
 ---
 
 إن أبسط طريقة لاستخدام `My Blocks`{: class = "block3myblocks"} هي المساعدة في تنظيم الشفرة البرمجية الخاصة بك. اليك مثال بسيط.
@@ -341,7 +341,7 @@ move left
 
 --- collapse ---
 ---
-title: استخدام المدخلات مع My Blocks
+title: Using inputs with My Blocks
 ---
 
 `My Blocks`{: class = 'block3myblocks'} تأخذ مدخلات النص والأرقام أيضًا.
@@ -372,7 +372,7 @@ move [right] (speed)
 
 --- collapse ---
 ---
-title: تغيير أحجام الكائنات بالنسبة للموقع
+title: Changing sprite sizes relative to position
 ---
 
 ستعمل الكتل التالية على تصغير الكائن كلما تحرك للأعلى على الشاشة ، وبالتالي يظهر بعيدًا.
@@ -402,7 +402,7 @@ wait (0.2) secs
 
 --- collapse ---
 ---
-title: كائناتي المستنسخة لا تظهر 
+title: My clones don't appear
 ---
 
 هل كائناتك المستنسخة مختفية؟ تأكد من أنه عند إنشاء النسخ ، يتم استخدام الخيار `show`{: class = 'block3looks'}. تأكد أيضًا من وجودهم في الطبقة الأمامية ``{: class = 'block3looks'}.
@@ -412,7 +412,7 @@ title: كائناتي المستنسخة لا تظهر
 
 --- collapse ---
 ---
-العنوان: لا يتحرك الكائن الخاص بي خارج الشاشة بشكل صحيح
+title: My sprite doesn't move off the screen correctly
 ---
 
 إذا كنت تريد أن يتنقل كائن ما من جانب إلى آخر من الشاشة ، أو يختفي عندما يصل إلى جانب واحد من الشاشة ، فيمكنك التحقق من موضعه وتنفيذ بعض الإجراءات. قد تحتاج إلى التحقق من مكان مركز الكائن الخاص بك ، من خلال زيه ، للتأكد من أن هذا يعمل بشكل صحيح. من الأسهل سحب الكائن إلى جانب الشاشة ، ثم التحقق من وضعي `×`{: class = 'block3motion'} و `y`{: class = 'block3motion'}.
@@ -422,7 +422,7 @@ title: كائناتي المستنسخة لا تظهر
 
 --- collapse ---
 ---
-title: كتلتي لا تعمل
+title: My Blocks are not working
 ---
 
 هل تحققت من أنك تستخدم الكتلة الجديدة في مكان ما في التعليمات البرمجية الخاصة بك. يمكنك `define`{: class = 'block3myblocks'} كتلة جديدة ، ولكن بعد ذلك تحتاج إلى استخدامها للتعليمة البرمجية الموجودة تحتها ليتم تشغيلها بالفعل.
@@ -431,7 +431,7 @@ title: كتلتي لا تعمل
 
 --- collapse ---
 ---
-title: كائناتي المستنسخة لا تفعل أي شيء
+title: My clones aren't doing anything
 ---
 
 هل تستخدم كتلة `when I start as clone`{: class = 'block3control'} ، لإخبار المستنسخ بما يجب فعله؟
@@ -443,7 +443,7 @@ title: كائناتي المستنسخة لا تفعل أي شيء
 
 --- collapse ---
 ---
-title: الكائن الخاص بي يتحرك بالاتجاه الخاطئ
+title: My sprites are moving in the wrong direction
 ---
 
 تأكد من أنك تستخدم كتلة `change x by `{: class = 'block3motion'} لتحريك الكائن يمينًا ويسارًا ، و كتلة `change y by `{: class = 'block3motion'} لتحريكها لأعلى ولأسفل .
