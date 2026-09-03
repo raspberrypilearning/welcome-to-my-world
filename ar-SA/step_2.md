@@ -33,7 +33,7 @@
 
 --- collapse ---
 ---
-title: العمل دون اتصال
+title: Working offline
 ---
 
 لإعداد Scratch للاستخدام دون الاتصال بالانترنت، قم بزيارة [دليل سكراتش Scratch](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"}.
