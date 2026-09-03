@@ -33,7 +33,7 @@ Open een [nieuw Scratch-project](http://rpf.io/scratch-new){:target="_blank"}. S
 
 --- collapse ---
 ---
-title: Offline werken
+title: Working offline
 ---
 
 Ga naar [onze scratch gids](https://learning-admin.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} om Scratch in te stellen voor offline gebruik.
